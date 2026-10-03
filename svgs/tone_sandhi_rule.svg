@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="800" height="320" rx="16" fill="url(#bgGrad2)" filter="url(#shadow2)"/>
+
+  <!-- Title -->
+  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">အရေးကြီးသော အသံပြောင်းစည်းမျဉ်း (Tone Sandhi Rule)</text>
+  <text x="40" y="72" fill="#a6adc8" font-size="13" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif">တတိယသံ (၃ သံ) နှစ်ခု ဆက်တိုက်လာလျှင် ရှေ့အသံကို ဒုတိယသံ (၂ သံ) အဖြစ် ပြောင်းဖတ်ရပါမည်။</text>
+
+  <!-- Formula Box -->
+  <g transform="translate(40, 100)">
+    <!-- Original Box -->
+    <rect x="0" y="0" width="310" height="170" rx="12" fill="#313244" stroke="#89b4fa" stroke-width="2"/>
+    <text x="155" y="32" fill="#89b4fa" font-size="14" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">မူလစာလုံးပေါင်း (Spelling)</text>
+    
+    <!-- Character 1 -->
+    <rect x="25" y="50" width="115" height="100" rx="8" fill="#1e1e2e" stroke="#45475a"/>
+    <text x="82" y="90" fill="#f38ba8" font-size="28" font-weight="bold" text-anchor="middle">你</text>
+    <text x="82" y="112" fill="#cdd6f4" font-size="14" text-anchor="middle">nǐ</text>
+    <text x="82" y="133" fill="#89b4fa" font-size="12" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">(၃ သံ)</text>
+
+    <!-- Plus sign -->
+    <text x="155" y="105" fill="#cdd6f4" font-size="24" font-weight="bold" text-anchor="middle">+</text>
+
+    <!-- Character 2 -->
+    <rect x="170" y="50" width="115" height="100" rx="8" fill="#1e1e2e" stroke="#45475a"/>
+    <text x="227" y="90" fill="#f38ba8" font-size="28" font-weight="bold" text-anchor="middle">好</text>
+    <text x="227" y="112" fill="#cdd6f4" font-size="14" text-anchor="middle">hǎo</text>
+    <text x="227" y="133" fill="#89b4fa" font-size="12" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">(၃ သံ)</text>
+
+    <!-- Arrow -->
+    <g transform="translate(325, 60)">
+      <circle cx="25" cy="25" r="22" fill="#a6e3a1"/>
+      <path d="M 18 25 L 32 25 M 26 18 L 33 25 L 26 32" stroke="#181825" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <!-- Actual Pronunciation Box -->
+    <rect x="390" y="0" width="330" height="170" rx="12" fill="#313244" stroke="#a6e3a1" stroke-width="2"/>
+    <text x="555" y="32" fill="#a6e3a1" font-size="14" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">အမှန်တကယ် အသံထွက်ရမည့်ပုံ (Pronunciation)</text>
+
+    <!-- Real Pronunciation 1 -->
+    <rect x="415" y="50" width="125" height="100" rx="8" fill="#1e1e2e" stroke="#a6e3a1"/>
+    <text x="477" y="90" fill="#a6e3a1" font-size="28" font-weight="bold" text-anchor="middle">你</text>
+    <text x="477" y="112" fill="#a6e3a1" font-size="16" font-weight="bold" text-anchor="middle">ní</text>
+    <text x="477" y="133" fill="#fab387" font-size="12" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">(၂ သံ ပြောင်းဖတ်)</text>
+
+    <!-- Plus -->
+    <text x="555" y="105" fill="#cdd6f4" font-size="20" text-anchor="middle">+</text>
+
+    <!-- Real Pronunciation 2 -->
+    <rect x="575" y="50" width="125" height="100" rx="8" fill="#1e1e2e" stroke="#89b4fa"/>
+    <text x="637" y="90" fill="#cdd6f4" font-size="28" font-weight="bold" text-anchor="middle">好</text>
+    <text x="637" y="112" fill="#cdd6f4" font-size="16" font-weight="bold" text-anchor="middle">hǎo</text>
+    <text x="637" y="133" fill="#89b4fa" font-size="12" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">(၃ သံ မူလအတိုင်း)</text>
+  </g>
+</svg>

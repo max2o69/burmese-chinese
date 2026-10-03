@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL2_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgGradL2_1)" stroke="#313244"/>
+
+  <!-- Title -->
+  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">ယဉ်ကျေးသော အသုံးအနှုန်း: "你" (nǐ) နှင့် "您" (nín) ကွာခြားချက်</text>
+  <text x="40" y="72" fill="#a6adc8" font-size="13" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif">လူကြီးမိဘ၊ ဆရာသမားနှင့် ဧည့်သည်များကို လေးစားသမှုဖြင့် "သင်/ခင်ဗျား" ခေါ်ဆိုရာတွင် "您" ကို သုံးပါသည်။</text>
+
+  <!-- Left: Standard "你" -->
+  <g transform="translate(50, 95)">
+    <rect x="0" y="0" width="320" height="235" rx="12" fill="#313244" stroke="#89b4fa" stroke-width="1.5"/>
+    
+    <rect x="25" y="20" width="75" height="75" rx="8" fill="#1e1e2e" stroke="#89b4fa"/>
+    <text x="62" y="72" fill="#89b4fa" font-size="44" font-weight="bold" text-anchor="middle">你</text>
+
+    <text x="115" y="45" fill="#cdd6f4" font-size="18" font-weight="bold">nǐ (နီ)</text>
+    <text x="115" y="68" fill="#fab387" font-size="13" font-family="'Noto Sans Myanmar', sans-serif">မင်း / နင် / ခင်ဗျား</text>
+    <text x="115" y="88" fill="#a6adc8" font-size="11">ရိုးရိုး အခေါ်အဝေါ် (General)</text>
+
+    <line x1="25" y1="110" x2="295" y2="110" stroke="#45475a"/>
+
+    <text x="25" y="135" fill="#cdd6f4" font-size="13" font-weight="bold" font-family="'Noto Sans Myanmar', sans-serif">📌 သုံးစွဲရမည့် နေရာများ:</text>
+    <text x="35" y="160" fill="#bac2de" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">• ရွယ်တူ သူငယ်ချင်းများ အချင်းချင်း</text>
+    <text x="35" y="185" fill="#bac2de" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">• ကိုယ့်ထက် အသက်ငယ်သူများသို့</text>
+    <text x="35" y="210" fill="#bac2de" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">• ရင်းနှီးကျွမ်းဝင်ပြီးသား လူများ</text>
+  </g>
+
+  <!-- Right: Respectful "您" -->
+  <g transform="translate(430, 95)">
+    <rect x="0" y="0" width="320" height="235" rx="12" fill="#313244" stroke="#f38ba8" stroke-width="2"/>
+
+    <rect x="25" y="20" width="75" height="75" rx="8" fill="#1e1e2e" stroke="#f38ba8"/>
+    <text x="62" y="72" fill="#f38ba8" font-size="44" font-weight="bold" text-anchor="middle">您</text>
+
+    <text x="115" y="45" fill="#cdd6f4" font-size="18" font-weight="bold">nín (နင် / နင်း)</text>
+    <text x="115" y="68" fill="#a6e3a1" font-size="13" font-family="'Noto Sans Myanmar', sans-serif">ဆရာ / လူကြီးမင်း / ရှင်</text>
+    <text x="115" y="88" fill="#f38ba8" font-size="11" font-weight="bold">အလွန်ယဉ်ကျေးသော အခေါ် (Polite)</text>
+
+    <line x1="25" y1="110" x2="295" y2="110" stroke="#45475a"/>
+
+    <!-- Radical Etymology -->
+    <rect x="25" y="125" width="270" height="42" rx="6" fill="#1e1e2e" stroke="#f38ba8" stroke-width="1"/>
+    <text x="35" y="151" fill="#f38ba8" font-size="18" font-weight="bold">你 + 心 (နှလုံးသား) = 您</text>
+
+    <text x="25" y="190" fill="#cdd6f4" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">💡 <strong>မှတ်သားနည်း:</strong> တစ်ဖက်သားကို မိမိ၏ <strong>နှလုံးသား (心)</strong> ထဲတွင် ထား၍ လေးစားတန်ဖိုးထားသော အဓိပ္ပာယ် ဖြစ်ပါသည်။</text>
+    <text x="25" y="212" fill="#bac2de" font-size="11" font-family="'Noto Sans Myanmar', sans-serif">ဆရာသမား: <strong>老师，您早！</strong> (ဆရာ၊ မင်္ဂလာနံနက်ခင်းပါ!)</text>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL2_4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="320" rx="16" fill="url(#bgGradL2_4)" stroke="#313244"/>
+
+  <!-- Title -->
+  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">အသံထွက် လျှို့ဝှက်ချက်: လျှာလိပ်သံ (Retroflex Consonants: zh, ch, sh, r)</text>
+  <text x="40" y="70" fill="#a6adc8" font-size="13" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif">မြန်မာသင်သားများအတွက် အလွန်အရေးကြီးသော လျှာအနေအထား နှိုင်းယှဉ်ချက်</text>
+
+  <!-- Left Card: Flat z, c, s -->
+  <g transform="translate(50, 95)">
+    <rect x="0" y="0" width="320" height="195" rx="12" fill="#313244" stroke="#89b4fa" stroke-width="1.5"/>
+    
+    <text x="25" y="35" fill="#89b4fa" font-size="16" font-weight="bold">၁။ လျှာပြန့်သံ (Flat: z, c, s)</text>
+    <text x="25" y="60" fill="#cdd6f4" font-size="22" font-weight="bold">z • c • s</text>
+
+    <!-- Visual Tongue Box -->
+    <rect x="25" y="75" width="270" height="40" rx="6" fill="#1e1e2e" stroke="#45475a"/>
+    <text x="160" y="100" fill="#a6e3a1" font-size="13" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">လျှာဖျားသည် သွားနောက်ဘက်သို့ ထိသည်</text>
+
+    <text x="25" y="140" fill="#bac2de" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">• z (ဇ/စ), c (ဆ/ဆွ), s (စ/သ)</text>
+    <text x="25" y="165" fill="#fab387" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">ဥပမာ: sì (စစ် - ၄), sān (စန်း - ၃)</text>
+  </g>
+
+  <!-- Right Card: Retroflex zh, ch, sh, r -->
+  <g transform="translate(430, 95)">
+    <rect x="0" y="0" width="320" height="195" rx="12" fill="#313244" stroke="#f38ba8" stroke-width="2"/>
+
+    <text x="25" y="35" fill="#f38ba8" font-size="16" font-weight="bold">၂။ လျှာလိပ်သံ (Curled: zh, ch, sh, r)</text>
+    <text x="25" y="60" fill="#cdd6f4" font-size="22" font-weight="bold">zh • ch • sh • r</text>
+
+    <!-- Visual Tongue Box -->
+    <rect x="25" y="75" width="270" height="40" rx="6" fill="#1e1e2e" stroke="#f38ba8"/>
+    <text x="160" y="100" fill="#f38ba8" font-size="13" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">လျှာထိပ်ကို အာခေါင်မာဘက်သို့ လိပ်ထားရမည်</text>
+
+    <text x="25" y="140" fill="#bac2de" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">• zh (ကျ/ကျြ), ch (ချ/ချြ), sh (ရှ/ရှြ), r (ရ/ရြ)</text>
+    <text x="25" y="165" fill="#a6e3a1" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">ဥပမာ: shí (ရှီ - ၁၀), shēntǐ (ရှန်းထီ - ကျန်းမာရေး)</text>
+  </g>
+</svg>

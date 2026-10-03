@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson 01: မင်္ဂလာပါ (你好) - တရုတ်စကားပြော အခြေခံသင်ခန်းစာ (Studio Neural Audio)</title>
+  <script src="https://www.gstatic.com/antigravity/web/dev/tailwindcss.min.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@300;400;600;700&family=Noto+Sans+SC:wght@400;700&display=swap');
+    body {
+      font-family: 'Noto Sans Myanmar', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+    .chinese-font {
+      font-family: 'Noto Sans SC', 'Microsoft YaHei', sans-serif;
+    }
+  </style>
+</head>
+<body class="bg-slate-900 text-slate-100 min-h-screen p-4 md:p-8">
+  <div class="max-w-4xl mx-auto space-y-8">
+    
+    <!-- Hero / Header Section -->
+    <header class="bg-gradient-to-r from-red-950 via-slate-800 to-indigo-950 border border-slate-700 rounded-2xl p-6 md:p-8 shadow-xl">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4">
+        <div>
+          <span class="inline-block px-3 py-1 bg-red-600/30 text-red-300 border border-red-500/40 rounded-full text-xs font-semibold mb-3">
+            အခြေခံ တရုတ်စကားပြော သင်ခန်းစာ (၁) • Studio Neural Voice (Xiaoxiao &amp; Yunxi)
+          </span>
+          <h1 class="text-3xl md:text-4xl font-extrabold text-white tracking-wide">
+            <span class="chinese-font text-red-400">第一课：你好！</span>
+            <span class="block text-2xl md:text-3xl font-bold text-amber-300 mt-1">သင်ခန်းစာ (၁) : မင်္ဂလာပါ</span>
+          </h1>
+          <p class="text-slate-300 text-sm md:text-base mt-2">
+            မြန်မာနိုင်ငံသားများအတွက် အခြေခံအကျဆုံး နှုတ်ဆက်စကားများနှင့် မဖြစ်မနေ သိထားသင့်သော တရုတ်ဘာသာစကား သဘောတရားများ
+          </p>
+        </div>
+        <div class="bg-slate-800/80 p-4 rounded-xl border border-slate-700 text-center min-w-[150px]">
+          <span class="text-xs text-slate-400">ဝေါဟာရ အသစ်</span>
+          <div class="text-2xl font-bold text-amber-400">၁၀ လုံး</div>
+          <span class="text-xs text-emerald-400 mt-1 block">🎙️ Neural MP3 ပါဝင်သည်</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Audio Badge Helper -->
+    <div class="bg-emerald-950/40 border border-emerald-700/50 rounded-xl p-4 flex items-center gap-3">
+      <div class="p-2.5 bg-emerald-600 rounded-lg text-white text-lg">
+        🎙️
+      </div>
+      <div>
+        <h4 class="text-sm font-bold text-emerald-300">Studio Neural အသံစနစ် တပ်ဆင်ထားပါသည်</h4>
+        <p class="text-xs text-emerald-200/80 mt-0.5">
+          အောက်ပါ <strong>[🔊 နားထောင်မည်]</strong> ခလုတ်များကို နှိပ်ပါက စက်ရုပ်အသံမဟုတ်ဘဲ သဘာဝကျကျ အသံထွက်ပေးသော တရုတ်အသံသွင်း (Xiaoxiao &amp; Yunxi Neural MP3) ဖြင့် တိုက်ရိုက် နားဆင်နိုင်ပါသည်။
+        </p>
+      </div>
+    </div>
+
+    <!-- Section 1: 4 Tones Diagram (SVG) -->
+    <section class="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 shadow-md space-y-4">
+      <div class="border-b border-slate-700 pb-3">
+        <h2 class="text-xl font-bold text-amber-300 flex items-center gap-2">
+          <span>🎵</span> ၁။ တရုတ်အသံလှိုင်း (၄) မျိုး နှင့် မြန်မာအသံထွက် နှိုင်းယှဉ်ချက်
+        </h2>
+        <p class="text-sm text-slate-300 mt-1">
+          မြန်မာဘာသာတွင် အသံနိမ့်၊ အသံမြင့်၊ သက်သံများ ရှိသကဲ့သို့ တရုတ်ဘာသာတွင်လည်း အဓိက အသံလှိုင်း ၄ မျိုးရှိပါသည်။
+        </p>
+      </div>
+
+      <!-- SVG Chart -->
+      <div class="rounded-xl overflow-hidden border border-slate-700 bg-slate-950 p-2">
+        <img src="svgs/tones_pitch_chart.svg" alt="Chinese 4 Tones Chart vs Burmese" class="w-full h-auto rounded-lg">
+      </div>
+
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-3 text-sm">
+        <div class="bg-slate-900/80 p-3 rounded-lg border border-pink-500/30 text-center">
+          <div class="text-pink-400 font-bold">၁ သံ (55)</div>
+          <div class="text-lg font-bold text-white chinese-font">mā (မား~)</div>
+          <div class="text-xs text-slate-400 mt-1">မြင့်မားညီညာသံ (အသံမပြုတ်ကျစေရ)</div>
+          <button onclick="playAudio('audio/lesson_01/tone_1_ma.mp3', 'mā')" class="mt-2 text-xs bg-pink-950 hover:bg-pink-900 text-pink-300 py-1.5 px-3 rounded-lg border border-pink-700/50 flex items-center justify-center gap-1 mx-auto">
+            🔊 နားထောင်
+          </button>
+        </div>
+        <div class="bg-slate-900/80 p-3 rounded-lg border border-emerald-500/30 text-center">
+          <div class="text-emerald-400 font-bold">၂ သံ (35)</div>
+          <div class="text-lg font-bold text-white chinese-font">má (မာ?)</div>
+          <div class="text-xs text-slate-400 mt-1">အောက်မှ အထက်သို့ တက်သံ (အမေးသံ)</div>
+          <button onclick="playAudio('audio/lesson_01/tone_2_ma.mp3', 'má')" class="mt-2 text-xs bg-emerald-950 hover:bg-emerald-900 text-emerald-300 py-1.5 px-3 rounded-lg border border-emerald-700/50 flex items-center justify-center gap-1 mx-auto">
+            🔊 နားထောင်
+          </button>
+        </div>
+        <div class="bg-slate-900/80 p-3 rounded-lg border border-sky-500/30 text-center">
+          <div class="text-sky-400 font-bold">၃ သံ (214)</div>
+          <div class="text-lg font-bold text-white chinese-font">mǎ (မာ့..ဟား)</div>
+          <div class="text-xs text-slate-400 mt-1">နိမ့်ဆင်းပြီးမှ အပေါ်ပြန်တက်သံ</div>
+          <button onclick="playAudio('audio/lesson_01/tone_3_ma.mp3', 'mǎ')" class="mt-2 text-xs bg-sky-950 hover:bg-sky-900 text-sky-300 py-1.5 px-3 rounded-lg border border-sky-700/50 flex items-center justify-center gap-1 mx-auto">
+            🔊 နားထောင်
+          </button>
+        </div>
+        <div class="bg-slate-900/80 p-3 rounded-lg border border-amber-500/30 text-center">
+          <div class="text-amber-400 font-bold">၄ သံ (51)</div>
+          <div class="text-lg font-bold text-white chinese-font">mà (မတ်!)</div>
+          <div class="text-xs text-slate-400 mt-1">ထိပ်ဆုံးမှ အောက်သို့ ပြတ်ကျဖိသံ</div>
+          <button onclick="playAudio('audio/lesson_01/tone_4_ma.mp3', 'mà')" class="mt-2 text-xs bg-amber-950 hover:bg-amber-900 text-amber-300 py-1.5 px-3 rounded-lg border border-amber-700/50 flex items-center justify-center gap-1 mx-auto">
+            🔊 နားထောင်
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2: Core Sentences (အဓိကဝါကျများ) -->
+    <section class="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 shadow-md space-y-4">
+      <div class="border-b border-slate-700 pb-3">
+        <h2 class="text-xl font-bold text-amber-300 flex items-center gap-2">
+          <span>💬</span> ၂။ သင်ခန်းစာ (၁) အခြေခံ ဝါကျကြီး (၄) ခု (Key Sentences)
+        </h2>
+        <p class="text-sm text-slate-300 mt-1">နေ့စဉ်လူမှုဘဝတွင် နှုတ်ဆက်ရာ၌ အသုံးအများဆုံး ဝါကျများ</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Sentence 1 -->
+        <div class="bg-slate-900 border border-slate-700/80 rounded-xl p-4 flex flex-col justify-between hover:border-red-500/50 transition">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono text-slate-500">SENTENCE 001</span>
+              <button onclick="playAudio('audio/lesson_01/sentence_01_nihao.mp3', '你好')" class="text-xs bg-slate-800 hover:bg-slate-700 text-amber-300 px-2.5 py-1 rounded-md border border-slate-600 flex items-center gap-1">
+                🔊 အသံနားထောင်မည်
+              </button>
+            </div>
+            <div class="text-2xl font-bold text-red-400 chinese-font mt-2">你好！</div>
+            <div class="text-emerald-400 font-mono text-sm">nǐ hǎo (အသံပြောင်း: ní hǎo)</div>
+            <div class="text-amber-200 text-sm font-semibold mt-1">မြန်မာအသံထွက်: <span class="text-white">နီ ဟောင်</span></div>
+            <div class="text-slate-300 text-sm mt-1 border-t border-slate-800 pt-2">
+              👉 <strong>အဓိပ္ပာယ်:</strong> မင်္ဂလာပါ / နေကောင်းလား
+            </div>
+          </div>
+        </div>
+
+        <!-- Sentence 2 -->
+        <div class="bg-slate-900 border border-slate-700/80 rounded-xl p-4 flex flex-col justify-between hover:border-red-500/50 transition">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono text-slate-500">SENTENCE 002</span>
+              <button onclick="playAudio('audio/lesson_01/sentence_02_nihaoma.mp3', '你好吗')" class="text-xs bg-slate-800 hover:bg-slate-700 text-amber-300 px-2.5 py-1 rounded-md border border-slate-600 flex items-center gap-1">
+                🔊 အသံနားထောင်မည်
+              </button>
+            </div>
+            <div class="text-2xl font-bold text-red-400 chinese-font mt-2">你好吗？</div>
+            <div class="text-emerald-400 font-mono text-sm">nǐ hǎo ma?</div>
+            <div class="text-amber-200 text-sm font-semibold mt-1">မြန်မာအသံထွက်: <span class="text-white">နီ ဟောင် မာ</span></div>
+            <div class="text-slate-300 text-sm mt-1 border-t border-slate-800 pt-2">
+              👉 <strong>အဓိပ္ပာယ်:</strong> နေကောင်းရဲ့လားခင်ဗျာ/ရှင့်?
+            </div>
+          </div>
+        </div>
+
+        <!-- Sentence 3 -->
+        <div class="bg-slate-900 border border-slate-700/80 rounded-xl p-4 flex flex-col justify-between hover:border-red-500/50 transition">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono text-slate-500">SENTENCE 003</span>
+              <button onclick="playAudio('audio/lesson_01/sentence_03_wohenhao.mp3', '我很好')" class="text-xs bg-slate-800 hover:bg-slate-700 text-amber-300 px-2.5 py-1 rounded-md border border-slate-600 flex items-center gap-1">
+                🔊 အသံနားထောင်မည်
+              </button>
+            </div>
+            <div class="text-2xl font-bold text-red-400 chinese-font mt-2">（我）很好。</div>
+            <div class="text-emerald-400 font-mono text-sm">(wǒ) hěn hǎo.</div>
+            <div class="text-amber-200 text-sm font-semibold mt-1">မြန်မာအသံထွက်: <span class="text-white">(ဝေါ်) ဟန် ဟောင်</span></div>
+            <div class="text-slate-300 text-sm mt-1 border-t border-slate-800 pt-2">
+              👉 <strong>အဓိပ္ပာယ်:</strong> (ကျွန်တော်/ကျွန်မ) နေကောင်းပါတယ် / အဆင်ပြေပါတယ်။
+            </div>
+          </div>
+        </div>
+
+        <!-- Sentence 4 -->
+        <div class="bg-slate-900 border border-slate-700/80 rounded-xl p-4 flex flex-col justify-between hover:border-red-500/50 transition">
+          <div>
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-mono text-slate-500">SENTENCE 004</span>
+              <button onclick="playAudio('audio/lesson_01/sentence_04_woyehenhao.mp3', '我也很好')" class="text-xs bg-slate-800 hover:bg-slate-700 text-amber-300 px-2.5 py-1 rounded-md border border-slate-600 flex items-center gap-1">
+                🔊 အသံနားထောင်မည်
+              </button>
+            </div>
+            <div class="text-2xl font-bold text-red-400 chinese-font mt-2">我也很好。</div>
+            <div class="text-emerald-400 font-mono text-sm">wǒ yě hěn hǎo.</div>
+            <div class="text-amber-200 text-sm font-semibold mt-1">မြန်မာအသံထွက်: <span class="text-white">ဝေါ် ရယ် ဟန် ဟောင်</span></div>
+            <div class="text-slate-300 text-sm mt-1 border-t border-slate-800 pt-2">
+              👉 <strong>အဓိပ္ပာယ်:</strong> ကျွန်တော်/ကျွန်မလည်းပဲ နေကောင်းပါတယ်ခင်ဗျာ/ရှင့်။
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Dialogues (စကားပြော လေ့ကျင့်ခန်း) -->
+    <section class="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 shadow-md space-y-6">
+      <div class="border-b border-slate-700 pb-3">
+        <h2 class="text-xl font-bold text-amber-300 flex items-center gap-2">
+          <span>🗣️</span> ၃။ လက်တွေ့ စကားပြောခန်းများ (Conversations with Real Cast Voices)
+        </h2>
+        <p class="text-sm text-slate-300 mt-1">အမျိုးသားဇာတ်ကောင် (David, Liu Jing) နှင့် အမျိုးသမီးဇာတ်ကောင် (Mary, Wang Lan) သီးသန့် အသံများဖြင့် လေ့ကျင့်နိုင်ပါသည်</p>
+      </div>
+
+      <!-- Dialogue 1 -->
+      <div class="bg-slate-950/70 border border-slate-700 rounded-xl p-5 space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <span class="text-sm font-bold text-amber-400">စကားပြောခန်း (၁) : လမ်းကြုံဆုံတွေ့စဉ် နှုတ်ဆက်ခြင်း</span>
+          <button onclick="playAudio('audio/lesson_01/d1_full.mp3')" class="text-xs bg-red-900/60 hover:bg-red-800 text-red-200 px-3 py-1 rounded-full border border-red-700">
+            ▶️ အခန်း (၁) တစ်ခုလုံး နားထောင်မည်
+          </button>
+        </div>
+
+        <!-- Speaker A: David (Male) -->
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-full bg-blue-600/30 border border-blue-500/50 flex items-center justify-center font-bold text-blue-300 text-xs shrink-0">
+            大卫
+          </div>
+          <div class="bg-slate-900 p-3 rounded-lg rounded-tl-none border border-slate-700/80 flex-1 flex items-center justify-between">
+            <div>
+              <div class="text-base font-bold text-white chinese-font">玛丽，你好！</div>
+              <div class="text-emerald-400 text-xs font-mono">Mǎlì, nǐ hǎo!</div>
+              <div class="text-slate-300 text-xs mt-1">မာရီ၊ မင်္ဂလာပါ! (မာရီ၊ နေကောင်းလား!)</div>
+            </div>
+            <button onclick="playAudio('audio/lesson_01/d1_line1_dawei.mp3')" class="p-2 rounded bg-slate-800 hover:bg-slate-700 text-xs border border-slate-600">
+              🔊
+            </button>
+          </div>
+        </div>
+
+        <!-- Speaker B: Mary (Female) -->
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-full bg-purple-600/30 border border-purple-500/50 flex items-center justify-center font-bold text-purple-300 text-xs shrink-0">
+            玛丽
+          </div>
+          <div class="bg-slate-900 p-3 rounded-lg rounded-tl-none border border-slate-700/80 flex-1 flex items-center justify-between">
+            <div>
+              <div class="text-base font-bold text-white chinese-font">你好，大卫！</div>
+              <div class="text-emerald-400 text-xs font-mono">Nǐ hǎo, Dàwèi!</div>
+              <div class="text-slate-300 text-xs mt-1">မင်္ဂလာပါ ဒါဝိဒ်!</div>
+            </div>
+            <button onclick="playAudio('audio/lesson_01/d1_line2_mali.mp3')" class="p-2 rounded bg-slate-800 hover:bg-slate-700 text-xs border border-slate-600">
+              🔊
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dialogue 2 -->
+      <div class="bg-slate-950/70 border border-slate-700 rounded-xl p-5 space-y-4">
+        <div class="flex items-center justify-between border-b border-slate-800 pb-2">
+          <span class="text-sm font-bold text-amber-400">စကားပြောခန်း (၂) : နေကောင်းကျန်းမာကြောင်း မေးမြန်းခြင်း</span>
+          <button onclick="playAudio('audio/lesson_01/d2_full.mp3')" class="text-xs bg-red-900/60 hover:bg-red-800 text-red-200 px-3 py-1 rounded-full border border-red-700">
+            ▶️ အခန်း (၂) တစ်ခုလုံး နားထောင်မည်
+          </button>
+        </div>
+
+        <!-- Speaker A: Wang Lan (Female) -->
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-full bg-pink-600/30 border border-pink-500/50 flex items-center justify-center font-bold text-pink-300 text-xs shrink-0">
+            王兰
+          </div>
+          <div class="bg-slate-900 p-3 rounded-lg rounded-tl-none border border-slate-700/80 flex-1 flex items-center justify-between">
+            <div>
+              <div class="text-base font-bold text-white chinese-font">你好吗？</div>
+              <div class="text-emerald-400 text-xs font-mono">Nǐ hǎo ma?</div>
+              <div class="text-slate-300 text-xs mt-1">နေကောင်းရဲ့လားခင်ဗျာ/ရှင့်?</div>
+            </div>
+            <button onclick="playAudio('audio/lesson_01/d2_line1_wanglan.mp3')" class="p-2 rounded bg-slate-800 hover:bg-slate-700 text-xs border border-slate-600">
+              🔊
+            </button>
+          </div>
+        </div>
+
+        <!-- Speaker B: Liu Jing (Male) -->
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-full bg-emerald-600/30 border border-emerald-500/50 flex items-center justify-center font-bold text-emerald-300 text-xs shrink-0">
+            刘京
+          </div>
+          <div class="bg-slate-900 p-3 rounded-lg rounded-tl-none border border-slate-700/80 flex-1 flex items-center justify-between">
+            <div>
+              <div class="text-base font-bold text-white chinese-font">我很好。你好吗？</div>
+              <div class="text-emerald-400 text-xs font-mono">Wǒ hěn hǎo. Nǐ hǎo ma?</div>
+              <div class="text-slate-300 text-xs mt-1">ကျွန်တော် နေကောင်းပါတယ်။ မင်းရော နေကောင်းရဲ့လား?</div>
+            </div>
+            <button onclick="playAudio('audio/lesson_01/d2_line2_liujing.mp3')" class="p-2 rounded bg-slate-800 hover:bg-slate-700 text-xs border border-slate-600">
+              🔊
+            </button>
+          </div>
+        </div>
+
+        <!-- Speaker A: Wang Lan (Female) -->
+        <div class="flex items-start gap-3">
+          <div class="w-10 h-10 rounded-full bg-pink-600/30 border border-pink-500/50 flex items-center justify-center font-bold text-pink-300 text-xs shrink-0">
+            王兰
+          </div>
+          <div class="bg-slate-900 p-3 rounded-lg rounded-tl-none border border-slate-700/80 flex-1 flex items-center justify-between">
+            <div>
+              <div class="text-base font-bold text-white chinese-font">我也很好。</div>
+              <div class="text-emerald-400 text-xs font-mono">Wǒ yě hěn hǎo.</div>
+              <div class="text-slate-300 text-xs mt-1">ကျွန်မလည်း နေကောင်းပါတယ်ရှင်။</div>
+            </div>
+            <button onclick="playAudio('audio/lesson_01/d2_line3_wanglan.mp3')" class="p-2 rounded bg-slate-800 hover:bg-slate-700 text-xs border border-slate-600">
+              🔊
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 4: Grammar & Linguistic Clinic (SVGs) -->
+    <section class="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 shadow-md space-y-6">
+      <div class="border-b border-slate-700 pb-3">
+        <h2 class="text-xl font-bold text-amber-300 flex items-center gap-2">
+          <span>🧠</span> ၄။ မြန်မာစာသင်သားများအတွက် အထူးသဒ္ဒါရှင်းလင်းချက် (Grammar Clinic)
+        </h2>
+        <p class="text-sm text-slate-300 mt-1">တရုတ်စာနှင့် မြန်မာစာ ကွဲပြားချက်များနှင့် သတိထားရမည့် အချက်များ</p>
+      </div>
+
+      <!-- Point 1: Tone Sandhi Rule -->
+      <div class="space-y-2">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-red-400"></span> အချက် (၁) : ၃ သံ နှစ်လုံးဆင့်ပါက ရှေ့စကားလုံးကို ၂ သံ ပြောင်းဖတ်ရခြင်း
+        </h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          တရုတ်စာတွင် <strong>၃ သံ (တတိယသံ)</strong> နှလုံး ဆက်တိုက်လာပါက အသံထွက်ရ လွယ်ကူစေရန်အတွက် <strong>ရှေ့စာလုံးကို ၂ သံ (ဒုတိယသံ) သို့ ပြောင်း၍ အသံထွက်ရပါသည်</strong>။ စာလုံးပေါင်းရာတွင် ၃ သံ အတိုင်း ပေါင်းသော်လည်း ဖတ်သည့်အခါ ၂ သံ ပြောင်းဖတ်ရခြင်း ဖြစ်ပါသည်။
+        </p>
+        <div class="rounded-xl overflow-hidden border border-slate-700 bg-slate-950 p-2">
+          <img src="svgs/tone_sandhi_rule.svg" alt="Tone Sandhi Rule" class="w-full h-auto rounded-lg">
+        </div>
+      </div>
+
+      <!-- Point 2: SVO vs SOV -->
+      <div class="space-y-2 pt-4 border-t border-slate-700">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span> အချက် (၂) : ဝါကျတည်ဆောက်ပုံ ကွာခြားချက် (တရုတ် SVO vs မြန်မာ SOV)
+        </h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          မြန်မာဘာသာတွင် "ကြိယာ (Verb)" သည် ဝါကျ၏ အဆုံး၌ လာလေ့ရှိသော်လည်း (ဥပမာ - ကျွန်တော် ထမင်း <u>စားသည်</u>)၊ တရုတ်ဘာသာတွင် ကြိယာသည် ကံ (Object) ၏ အရှေ့တွင် လာပါသည် (我 <u>吃</u> 饭)။
+        </p>
+        <div class="rounded-xl overflow-hidden border border-slate-700 bg-slate-950 p-2">
+          <img src="svgs/svo_vs_sov_structure.svg" alt="SVO vs SOV Structure" class="w-full h-auto rounded-lg">
+        </div>
+      </div>
+
+      <!-- Point 3: Character Radicals -->
+      <div class="space-y-2 pt-4 border-t border-slate-700">
+        <h3 class="text-base font-bold text-white flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-sky-400"></span> အချက် (၃) : စာလုံး အမှတ်အသားများ မှတ်သားနည်း (Hanzi Radicals)
+        </h3>
+        <p class="text-sm text-slate-300 leading-relaxed">
+          တရုတ်စာလုံးများသည် သဘာဝရုပ်ပုံများကို အခြေခံထားသော အစိတ်အပိုင်းငယ်များဖြင့် ပေါင်းစပ်ဖွဲ့စည်းထားခြင်း ဖြစ်သောကြောင့် အစိတ်အပိုင်းများကို သိရှိပါက အလွယ်တကူ မှတ်မိနိုင်ပါသည်။
+        </p>
+        <div class="rounded-xl overflow-hidden border border-slate-700 bg-slate-950 p-2">
+          <img src="svgs/hanzi_radicals_ni_hao.svg" alt="Hanzi Radicals Ni Hao" class="w-full h-auto rounded-lg">
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 5: Full Vocabulary Table (စကားလုံး အသစ်များ) -->
+    <section class="bg-slate-800/90 border border-slate-700 rounded-2xl p-6 shadow-md space-y-4">
+      <div class="border-b border-slate-700 pb-3 flex items-center justify-between">
+        <div>
+          <h2 class="text-xl font-bold text-amber-300 flex items-center gap-2">
+            <span>📚</span> ၅။ သင်ခန်းစာ (၁) ဝေါဟာရ စာရင်းအပြည့်အစုံ (Vocabulary)
+          </h2>
+          <p class="text-sm text-slate-300 mt-1">အလွတ်ကျက်မှတ်ရမည့် အခြေခံ စကားလုံးများ</p>
+        </div>
+      </div>
+
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse text-sm">
+          <thead>
+            <tr class="border-b border-slate-700 bg-slate-900/60 text-slate-400">
+              <th class="p-3">#</th>
+              <th class="p-3">တရုတ်စာလုံး</th>
+              <th class="p-3">ဖျင်းယင်း</th>
+              <th class="p-3">မြန်မာအသံထွက်</th>
+              <th class="p-3">မြန်မာအဓိပ္ပာယ်</th>
+              <th class="p-3 text-center">အသံ</th>
+            </tr>
+          </thead>
+          <tbody class="divide-y divide-slate-800">
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">1</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">你</td>
+              <td class="p-3 text-emerald-400 font-mono">nǐ</td>
+              <td class="p-3 text-amber-200">နီ</td>
+              <td class="p-3 text-slate-200">မင်း / ခင်ဗျား / နင် / ရှင် (You)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_01_ni.mp3', '你')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">2</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">好</td>
+              <td class="p-3 text-emerald-400 font-mono">hǎo</td>
+              <td class="p-3 text-amber-200">ဟောင်</td>
+              <td class="p-3 text-slate-200">ကောင်းသော / ကောင်းမွန်သည် (Good)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_02_hao.mp3', '好')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">3</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">吗</td>
+              <td class="p-3 text-emerald-400 font-mono">ma</td>
+              <td class="p-3 text-amber-200">မာ</td>
+              <td class="p-3 text-slate-200">...လား / ပါသလား (အမေးစကားလုံး)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_03_ma.mp3', '吗')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">4</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">我</td>
+              <td class="p-3 text-emerald-400 font-mono">wǒ</td>
+              <td class="p-3 text-amber-200">ဝေါ်</td>
+              <td class="p-3 text-slate-200">ကျွန်တော် / ကျွန်မ / ငါ (I, me)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_04_wo.mp3', '我')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">5</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">很</td>
+              <td class="p-3 text-emerald-400 font-mono">hěn</td>
+              <td class="p-3 text-amber-200">ဟန်</td>
+              <td class="p-3 text-slate-200">အရမ်း / အလွန် (Very)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_05_hen.mp3', '很')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">6</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">也</td>
+              <td class="p-3 text-emerald-400 font-mono">yě</td>
+              <td class="p-3 text-amber-200">ရယ်</td>
+              <td class="p-3 text-slate-200">လည်းပဲ (Also, too)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_06_ye.mp3', '也')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">7</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">你们</td>
+              <td class="p-3 text-emerald-400 font-mono">nǐmen</td>
+              <td class="p-3 text-amber-200">နီမန်</td>
+              <td class="p-3 text-slate-200">မင်းတို့ / ခင်ဗျားတို့ / နင်တို့ (You plural)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_07_nimen.mp3', '你们')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">8</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">他们</td>
+              <td class="p-3 text-emerald-400 font-mono">tāmen</td>
+              <td class="p-3 text-amber-200">ထာမန်</td>
+              <td class="p-3 text-slate-200">သူတို့ (They, them)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_08_tamen.mp3', '他们')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">9</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">来</td>
+              <td class="p-3 text-emerald-400 font-mono">lái</td>
+              <td class="p-3 text-amber-200">လိုင်</td>
+              <td class="p-3 text-slate-200">လာသည် (To come)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_09_lai.mp3', '来')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+            <tr class="hover:bg-slate-700/40">
+              <td class="p-3 text-slate-500">10</td>
+              <td class="p-3 font-bold text-red-400 text-lg chinese-font">不</td>
+              <td class="p-3 text-emerald-400 font-mono">bù</td>
+              <td class="p-3 text-amber-200">ပု / ပူ့</td>
+              <td class="p-3 text-slate-200">မဟုတ် / မ...ဘူး (No, not)</td>
+              <td class="p-3 text-center"><button onclick="playAudio('audio/lesson_01/vocab_10_bu.mp3', '不')" class="px-2 py-1 bg-slate-800 hover:bg-slate-700 rounded text-xs border border-slate-600">🔊</button></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center text-xs text-slate-500 py-6">
+      Conversational Chinese 301 Adapted for Burmese Speakers • Microsoft Edge Neural TTS Audio (Xiaoxiao &amp; Yunxi)
+    </footer>
+
+  </div>
+
+  <script>
+    let currentAudio = null;
+
+    function playAudio(path, fallbackText) {
+      if (currentAudio) {
+        currentAudio.pause();
+        currentAudio.currentTime = 0;
+      }
+      
+      const audio = new Audio(path);
+      currentAudio = audio;
+      
+      const playPromise = audio.play();
+      if (playPromise !== undefined) {
+        playPromise.catch(error => {
+          console.warn("Local MP3 play failed, using Web Speech fallback:", error);
+          if ('speechSynthesis' in window && fallbackText) {
+            window.speechSynthesis.cancel();
+            const u = new SpeechSynthesisUtterance(fallbackText);
+            u.lang = 'zh-CN';
+            u.rate = 0.85;
+            window.speechSynthesis.speak(u);
+          }
+        });
+      }
+    }
+  </script>
+</body>
+</html>

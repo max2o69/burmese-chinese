@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 320" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL2_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="320" rx="16" fill="url(#bgGradL2_2)" stroke="#313244"/>
+
+  <!-- Title -->
+  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">သဒ္ဒါစည်းမျဉ်း: "都" (dōu - အားလုံး) ၏ နေရာချထားပုံ</text>
+  <text x="40" y="72" fill="#a6adc8" font-size="13" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif">"都" သည် ကြိယာဝိသေသနဖြစ်သောကြောင့် အများဆိုင်ကတ္တား၏ နောက်နှင့် ကြိယာ/နာမဝိသေသန၏ အရှေ့တွင် အမြဲထားရပါသည်။</text>
+
+  <!-- Formula Box -->
+  <g transform="translate(40, 95)">
+    <rect x="0" y="0" width="720" height="195" rx="12" fill="#313244" stroke="#45475a"/>
+
+    <!-- Step 1: Formula Blocks -->
+    <g transform="translate(30, 25)">
+      <!-- Subject Plural -->
+      <rect x="0" y="0" width="180" height="55" rx="8" fill="#1e1e2e" stroke="#89b4fa" stroke-width="2"/>
+      <text x="90" y="26" fill="#89b4fa" font-size="16" font-weight="bold" text-anchor="middle">我们 / 他们</text>
+      <text x="90" y="44" fill="#a6adc8" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">အများဆိုင်ကတ္တား (Subject)</text>
+
+      <text x="205" y="35" fill="#cdd6f4" font-size="22" font-weight="bold" text-anchor="middle">+</text>
+
+      <!-- Dou -->
+      <rect x="230" y="0" width="130" height="55" rx="8" fill="#1e1e2e" stroke="#f9e2af" stroke-width="2.5"/>
+      <text x="295" y="26" fill="#f9e2af" font-size="18" font-weight="bold" text-anchor="middle">都 (dōu)</text>
+      <text x="295" y="44" fill="#fab387" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">အားလုံး (All/Both)</text>
+
+      <text x="385" y="35" fill="#cdd6f4" font-size="22" font-weight="bold" text-anchor="middle">+</text>
+
+      <!-- Predicate -->
+      <rect x="410" y="0" width="250" height="55" rx="8" fill="#1e1e2e" stroke="#a6e3a1" stroke-width="2"/>
+      <text x="535" y="26" fill="#a6e3a1" font-size="16" font-weight="bold" text-anchor="middle">很好 / 来 / 忙</text>
+      <text x="535" y="44" fill="#a6adc8" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">နာမဝိသေသန / ကြိယာ (Predicate)</text>
+    </g>
+
+    <!-- Example Sentences -->
+    <g transform="translate(30, 105)">
+      <rect x="0" y="0" width="660" height="65" rx="8" fill="#181825" stroke="#45475a"/>
+      
+      <text x="20" y="28" fill="#cdd6f4" font-size="15" font-weight="bold">ဥပမာ (၁): 我们 都 很好。 <tspan fill="#a6adc8" font-size="13" font-weight="normal">(Wǒmen dōu hěn hǎo.)</tspan></text>
+      <text x="20" y="50" fill="#a6e3a1" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">👉 မြန်မာအဓိပ္ပာယ်: ကျွန်တော်တို့ <tspan fill="#f9e2af" font-weight="bold">အားလုံး</tspan> နေကောင်းကြပါတယ်။</text>
+
+      <!-- Small Badge -->
+      <rect x="520" y="16" width="120" height="32" rx="6" fill="#a6e3a1" fill-opacity="0.1" stroke="#a6e3a1" stroke-width="1"/>
+      <text x="580" y="37" fill="#a6e3a1" font-size="12" font-weight="bold" text-anchor="middle">အသုံးများ ဝါကျ ✓</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL2_3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="360" rx="16" fill="url(#bgGradL2_3)" stroke="#313244"/>
+
+  <!-- Title -->
+  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">တရုတ်ဂဏန်းများ (၁ မှ ၁၀ အထိ) - Chinese Numbers (1 to 10)</text>
+  <text x="40" y="70" fill="#a6adc8" font-size="13" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif">တရုတ်စာလုံး၊ ဖျင်းယင်း၊ မြန်မာအသံထွက်နှင့် မြန်မာဂဏန်း နှိုင်းယှဉ်ချက်</text>
+
+  <!-- Number Cards Grid (Row 1: 1-5, Row 2: 6-10) -->
+  <!-- Row 1: 1 - 5 -->
+  <g transform="translate(40, 95)">
+    <!-- 1 -->
+    <rect x="0" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#89b4fa" stroke-width="1.5"/>
+    <text x="65" y="38" fill="#89b4fa" font-size="32" font-weight="bold" text-anchor="middle">一</text>
+    <text x="65" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">yī (ယီ)</text>
+    <text x="65" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၁ (တစ်)</text>
+
+    <!-- 2 -->
+    <rect x="148" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#a6e3a1" stroke-width="1.5"/>
+    <text x="213" y="38" fill="#a6e3a1" font-size="32" font-weight="bold" text-anchor="middle">二</text>
+    <text x="213" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">èr (အာ့)</text>
+    <text x="213" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၂ (နှစ်)</text>
+
+    <!-- 3 -->
+    <rect x="296" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#fab387" stroke-width="1.5"/>
+    <text x="361" y="38" fill="#fab387" font-size="32" font-weight="bold" text-anchor="middle">三</text>
+    <text x="361" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">sān (စန်း)</text>
+    <text x="361" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၃ (သုံး)</text>
+
+    <!-- 4 -->
+    <rect x="444" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#f38ba8" stroke-width="1.5"/>
+    <text x="509" y="38" fill="#f38ba8" font-size="32" font-weight="bold" text-anchor="middle">四</text>
+    <text x="509" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">sì (စစ်)</text>
+    <text x="509" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၄ (လေး)</text>
+
+    <!-- 5 -->
+    <rect x="592" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#cba6f7" stroke-width="1.5"/>
+    <text x="657" y="38" fill="#cba6f7" font-size="32" font-weight="bold" text-anchor="middle">五</text>
+    <text x="657" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">wǔ (ဝူ)</text>
+    <text x="657" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၅ (ငါး)</text>
+  </g>
+
+  <!-- Row 2: 6 - 10 -->
+  <g transform="translate(40, 220)">
+    <!-- 6 -->
+    <rect x="0" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#89dceb" stroke-width="1.5"/>
+    <text x="65" y="38" fill="#89dceb" font-size="32" font-weight="bold" text-anchor="middle">六</text>
+    <text x="65" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">liù (လျို)</text>
+    <text x="65" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၆ (ခြောက်)</text>
+
+    <!-- 7 -->
+    <rect x="148" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#a6e3a1" stroke-width="1.5"/>
+    <text x="213" y="38" fill="#a6e3a1" font-size="32" font-weight="bold" text-anchor="middle">七</text>
+    <text x="213" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">qī (ချီး)</text>
+    <text x="213" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၇ (ခုနစ်)</text>
+
+    <!-- 8 -->
+    <rect x="296" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#fab387" stroke-width="1.5"/>
+    <text x="361" y="38" fill="#fab387" font-size="32" font-weight="bold" text-anchor="middle">八</text>
+    <text x="361" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">bā (ပါး)</text>
+    <text x="361" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၈ (ရှစ်)</text>
+
+    <!-- 9 -->
+    <rect x="444" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#f38ba8" stroke-width="1.5"/>
+    <text x="509" y="38" fill="#f38ba8" font-size="32" font-weight="bold" text-anchor="middle">九</text>
+    <text x="509" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">jiǔ (ကျို)</text>
+    <text x="509" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၉ (ကိုး)</text>
+
+    <!-- 10 -->
+    <rect x="592" y="0" width="130" height="105" rx="8" fill="#313244" stroke="#cba6f7" stroke-width="1.5"/>
+    <text x="657" y="38" fill="#cba6f7" font-size="32" font-weight="bold" text-anchor="middle">十</text>
+    <text x="657" y="60" fill="#cdd6f4" font-size="14" font-weight="bold" text-anchor="middle">shí (ရှီ)</text>
+    <text x="657" y="85" fill="#f9e2af" font-size="16" font-weight="bold" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">၁၀ (တစ်ဆယ်)</text>
+  </g>
+</svg>

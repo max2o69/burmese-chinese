@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1e2e"/>
+      <stop offset="100%" stop-color="#181825"/>
+    </linearGradient>
+    <filter id="shadow3" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <rect width="820" height="400" rx="16" fill="url(#bgGrad3)" filter="url(#shadow3)"/>
+
+  <!-- Title -->
+  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">ဝါကျတည်ဆောက်ပုံ နှိုင်းယှဉ်ချက် (Chinese SVO vs Burmese SOV)</text>
+  <text x="40" y="72" fill="#a6adc8" font-size="13" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif">တရုတ်ဘာသာတွင် ကြိယာ (Verb) သည် ကံ (Object) ၏ ရှေ့တွင် လာပါသည်။ မြန်မာဘာသာတွင်မူ ကြိယာသည် အဆုံးတွင် လာပါသည်။</text>
+
+  <!-- Comparison Example 1 -->
+  <g transform="translate(40, 95)">
+    <!-- Box container -->
+    <rect x="0" y="0" width="740" height="125" rx="12" fill="#313244" stroke="#45475a"/>
+
+    <!-- Row 1: Chinese -->
+    <text x="25" y="38" fill="#f5c2e7" font-size="14" font-weight="bold" font-family="'Noto Sans Myanmar', sans-serif">တရုတ် (S-V-O)</text>
+    
+    <rect x="160" y="16" width="160" height="40" rx="6" fill="#1e1e2e" stroke="#89b4fa" stroke-width="2"/>
+    <text x="240" y="35" fill="#89b4fa" font-size="15" font-weight="bold" text-anchor="middle">我 wǒ</text>
+    <text x="240" y="50" fill="#a6adc8" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">(ကတ္တား - S)</text>
+
+    <rect x="350" y="16" width="160" height="40" rx="6" fill="#1e1e2e" stroke="#a6e3a1" stroke-width="2"/>
+    <text x="430" y="35" fill="#a6e3a1" font-size="15" font-weight="bold" text-anchor="middle">吃 chī</text>
+    <text x="430" y="50" fill="#a6adc8" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">(ကြိယာ - V)</text>
+
+    <rect x="540" y="16" width="160" height="40" rx="6" fill="#1e1e2e" stroke="#fab387" stroke-width="2"/>
+    <text x="620" y="35" fill="#fab387" font-size="15" font-weight="bold" text-anchor="middle">饭 fàn</text>
+    <text x="620" y="50" fill="#a6adc8" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">(ကံ - O)</text>
+
+    <!-- Cross arrow indicator -->
+    <line x1="430" y1="62" x2="620" y2="78" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <line x1="620" y1="62" x2="430" y2="78" stroke="#f9e2af" stroke-width="1.5" stroke-dasharray="3,3"/>
+
+    <!-- Row 2: Burmese -->
+    <text x="25" y="100" fill="#f9e2af" font-size="14" font-weight="bold" font-family="'Noto Sans Myanmar', sans-serif">မြန်မာ (S-O-V)</text>
+    
+    <rect x="160" y="75" width="160" height="38" rx="6" fill="#181825" stroke="#89b4fa"/>
+    <text x="240" y="99" fill="#cdd6f4" font-size="13" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">ကျွန်တော် (S)</text>
+
+    <rect x="350" y="75" width="160" height="38" rx="6" fill="#181825" stroke="#fab387"/>
+    <text x="430" y="99" fill="#fab387" font-size="13" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">ထမင်း (O)</text>
+
+    <rect x="540" y="75" width="160" height="38" rx="6" fill="#181825" stroke="#a6e3a1"/>
+    <text x="620" y="99" fill="#a6e3a1" font-size="13" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">စားတယ် (V)</text>
+  </g>
+
+  <!-- Comparison Example 2: Lesson 1 "Are you coming?" (你来吗？ vs မင်း လာမလား？) -->
+  <g transform="translate(40, 235)">
+    <rect x="0" y="0" width="740" height="135" rx="12" fill="#313244" stroke="#45475a"/>
+
+    <text x="25" y="32" fill="#89dceb" font-size="14" font-weight="bold" font-family="'Noto Sans Myanmar', sans-serif">သင်ခန်းစာ (၁) အမေးဝါကျပုံစံ (Question with 吗 / မလား)</text>
+    <text x="25" y="52" fill="#bac2de" font-size="12" font-family="'Noto Sans Myanmar', sans-serif">ရိုးရိုးဝါကျနောက်တွင် 吗 (ma) ထည့်ရုံဖြင့် အမေးဝါကျ ဖြစ်သွားပါသည်။</text>
+
+    <!-- Visual Formula -->
+    <rect x="40" y="68" width="180" height="50" rx="8" fill="#1e1e2e" stroke="#89b4fa"/>
+    <text x="130" y="92" fill="#cdd6f4" font-size="16" font-weight="bold" text-anchor="middle">你 来 nǐ lái</text>
+    <text x="130" y="108" fill="#a6adc8" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">မင်း လာတယ်</text>
+
+    <text x="245" y="98" fill="#f38ba8" font-size="24" font-weight="bold" text-anchor="middle">+</text>
+
+    <rect x="270" y="68" width="120" height="50" rx="8" fill="#1e1e2e" stroke="#f38ba8"/>
+    <text x="330" y="92" fill="#f38ba8" font-size="18" font-weight="bold" text-anchor="middle">吗 ma</text>
+    <text x="330" y="108" fill="#fab387" font-size="11" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">...လား / ပါသလား</text>
+
+    <text x="415" y="98" fill="#a6e3a1" font-size="24" font-weight="bold" text-anchor="middle">=</text>
+
+    <rect x="440" y="68" width="260" height="50" rx="8" fill="#1e1e2e" stroke="#a6e3a1" stroke-width="2"/>
+    <text x="570" y="92" fill="#a6e3a1" font-size="18" font-weight="bold" text-anchor="middle">你来吗？ Nǐ lái ma?</text>
+    <text x="570" y="108" fill="#cdd6f4" font-size="12" text-anchor="middle" font-family="'Noto Sans Myanmar', sans-serif">မင်း လာမလား？</text>
+  </g>
+</svg>
