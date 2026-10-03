@@ -12,7 +12,7 @@
   <rect width="800" height="350" rx="16" fill="url(#bgGrad4)" filter="url(#shadow4)"/>
 
   <!-- Title -->
-  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">တရုတ်စာလုံးများ ဖွဲ့စည်းပုံ မှတ်သားနည်း (Hanzi Etymology & Radicals)</text>
+  <text x="40" y="45" fill="#f5e0dc" font-size="20" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif" font-weight="bold">တရုတ်စာလုံးများ ဖွဲ့စည်းပုံ မှတ်သားနည်း (Hanzi Etymology &amp; Radicals)</text>
   <text x="40" y="72" fill="#a6adc8" font-size="13" font-family="'Segoe UI', 'Noto Sans Myanmar', sans-serif">တရုတ်စာလုံးများသည် အစိတ်အပိုင်းငယ်များ (အခြေခံမူလ ရုပ်ပုံစာလုံးများ) ဖြင့် ပေါင်းစပ်ဖွဲ့စည်းထားပါသည်။</text>
 
   <!-- Left: Character "你" (You) -->
