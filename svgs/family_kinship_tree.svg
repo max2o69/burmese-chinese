@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="parentGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#4338ca"/>
+    </linearGradient>
+    <linearGradient id="elderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <linearGradient id="youngerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <linearGradient id="meGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="920" height="500" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(60, 25)">
+    <text x="400" y="26" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">
+      တရုတ်မိသားစု ဆွေမျိုးတော်စပ်ပုံ ဇယား (Family Kinship Chart)
+    </text>
+    <text x="400" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      မြန်မာဘာသာကဲ့သို့ပင် အကြီး/အငယ် နှင့် ကျား/မ အတိအကျ ခွဲခြားခေါ်ဝေါ်သော စနစ်ဖြစ်ပါသည်
+    </text>
+  </g>
+
+  <!-- Connective Lines -->
+  <!-- Parents connection -->
+  <path d="M 330 140 L 590 140" stroke="#475569" stroke-width="3"/>
+  <path d="M 460 140 L 460 215" stroke="#475569" stroke-width="3"/>
+  <!-- Children horizontal bus -->
+  <path d="M 140 215 L 780 215" stroke="#475569" stroke-width="3"/>
+  <path d="M 140 215 L 140 245" stroke="#475569" stroke-width="3"/>
+  <path d="M 300 215 L 300 245" stroke="#475569" stroke-width="3"/>
+  <path d="M 460 215 L 460 245" stroke="#475569" stroke-width="3"/>
+  <path d="M 620 215 L 620 245" stroke="#475569" stroke-width="3"/>
+  <path d="M 780 215 L 780 245" stroke="#475569" stroke-width="3"/>
+
+  <!-- Row 1: Parents -->
+  <!-- Father (爸爸) -->
+  <g transform="translate(250, 90)">
+    <rect width="160" height="95" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="160" height="30" rx="10" fill="url(#parentGrad)"/>
+    <text x="80" y="21" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ဖခင် (Father)</text>
+    <text x="80" y="58" fill="#f8fafc" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">爸爸</text>
+    <text x="80" y="78" fill="#a5b4fc" font-family="monospace" font-size="13" text-anchor="middle">bàba</text>
+    <text x="80" y="91" fill="#cbd5e1" font-family="sans-serif" font-size="11" text-anchor="middle">အဖေ</text>
+  </g>
+
+  <!-- Mother (妈妈) -->
+  <g transform="translate(510, 90)">
+    <rect width="160" height="95" rx="12" fill="#1e293b" stroke="#6366f1" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="160" height="30" rx="10" fill="url(#parentGrad)"/>
+    <text x="80" y="21" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">မိခင် (Mother)</text>
+    <text x="80" y="58" fill="#f8fafc" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">妈妈</text>
+    <text x="80" y="78" fill="#a5b4fc" font-family="monospace" font-size="13" text-anchor="middle">māma</text>
+    <text x="80" y="91" fill="#cbd5e1" font-family="sans-serif" font-size="11" text-anchor="middle">အမေ</text>
+  </g>
+
+  <!-- Row 2: Siblings -->
+  <!-- 哥哥 (Elder Brother) -->
+  <g transform="translate(60, 245)">
+    <rect width="150" height="135" rx="12" fill="#1e293b" stroke="#0284c7" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="150" height="30" rx="10" fill="url(#elderGrad)"/>
+    <text x="75" y="21" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">အစ်ကို (Older Bro)</text>
+    <text x="75" y="66" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle">哥哥</text>
+    <text x="75" y="90" fill="#38bdf8" font-family="monospace" font-size="14" text-anchor="middle">gēge</text>
+    <rect x="15" y="98" width="120" height="1" fill="#334155"/>
+    <text x="75" y="118" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">အစ်ကို</text>
+  </g>
+
+  <!-- 姐姐 (Elder Sister) -->
+  <g transform="translate(225, 245)">
+    <rect width="150" height="135" rx="12" fill="#1e293b" stroke="#0284c7" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="150" height="30" rx="10" fill="url(#elderGrad)"/>
+    <text x="75" y="21" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">အစ်မ (Older Sis)</text>
+    <text x="75" y="66" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle">姐姐</text>
+    <text x="75" y="90" fill="#38bdf8" font-family="monospace" font-size="14" text-anchor="middle">jiějie</text>
+    <rect x="15" y="98" width="120" height="1" fill="#334155"/>
+    <text x="75" y="118" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">အစ်မ</text>
+  </g>
+
+  <!-- 我 (Me) -->
+  <g transform="translate(390, 245)">
+    <rect width="140" height="135" rx="12" fill="#1e293b" stroke="#f59e0b" stroke-width="2.5" filter="url(#shadow)"/>
+    <rect width="140" height="30" rx="10" fill="url(#meGrad)"/>
+    <text x="70" y="21" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">ကိုယ်တိုင် (Self)</text>
+    <text x="70" y="68" fill="#fef08a" font-family="sans-serif" font-size="26" font-weight="bold" text-anchor="middle">我</text>
+    <text x="70" y="92" fill="#f59e0b" font-family="monospace" font-size="15" font-weight="bold" text-anchor="middle">wǒ</text>
+    <rect x="15" y="98" width="110" height="1" fill="#334155"/>
+    <text x="70" y="118" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">ကျွန်တော်/ကျွန်မ</text>
+  </g>
+
+  <!-- 弟弟 (Younger Brother) -->
+  <g transform="translate(545, 245)">
+    <rect width="150" height="135" rx="12" fill="#1e293b" stroke="#059669" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="150" height="30" rx="10" fill="url(#youngerGrad)"/>
+    <text x="75" y="21" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ညီ/မောင် (Younger Bro)</text>
+    <text x="75" y="66" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle">弟弟</text>
+    <text x="75" y="90" fill="#34d399" font-family="monospace" font-size="14" text-anchor="middle">dìdi</text>
+    <rect x="15" y="98" width="120" height="1" fill="#334155"/>
+    <text x="75" y="118" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">ညီ / မောင်</text>
+  </g>
+
+  <!-- 妹妹 (Younger Sister) -->
+  <g transform="translate(710, 245)">
+    <rect width="150" height="135" rx="12" fill="#1e293b" stroke="#059669" stroke-width="2" filter="url(#shadow)"/>
+    <rect width="150" height="30" rx="10" fill="url(#youngerGrad)"/>
+    <text x="75" y="21" fill="#ffffff" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">ညီမ/နှမ (Younger Sis)</text>
+    <text x="75" y="66" fill="#f8fafc" font-family="sans-serif" font-size="22" font-weight="bold" text-anchor="middle">妹妹</text>
+    <text x="75" y="90" fill="#34d399" font-family="monospace" font-size="14" text-anchor="middle">mèimei</text>
+    <rect x="15" y="98" width="120" height="1" fill="#334155"/>
+    <text x="75" y="118" fill="#e2e8f0" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">ညီမ / နှမ</text>
+  </g>
+
+  <!-- Bottom Tip -->
+  <g transform="translate(60, 420)">
+    <rect width="800" height="48" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="400" y="28" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      💡 မှတ်ချက်: ညီအစ်ကို မောင်နှမ အားလုံးကို စုပေါင်း၍ <tspan fill="#38bdf8" font-weight="bold">“兄弟姐妹” (xiōngdì jiěmèi)</tspan> ဟု ခေါ်ဝေါ်ပါသည်။
+    </text>
+  </g>
+</svg>

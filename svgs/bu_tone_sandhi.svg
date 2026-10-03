@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#be123c"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="480" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(50, 30)">
+    <rect width="800" height="60" rx="12" fill="#1e293b" stroke="#475569" stroke-width="1.5" filter="url(#shadow)"/>
+    <text x="400" y="32" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="20" font-weight="bold" text-anchor="middle">
+      “不” (bù) ၏ အသံပြောင်းလဲခြင်း စည်းမျဉ်း (Tone Sandhi Rule)
+    </text>
+    <text x="400" y="52" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      မူလအသံမှာ စတုတ္ထသံ (၄ သံ - bù) ဖြစ်ပြီး နောက်စကားလုံး၏ အသံလှိုင်းပေါ်မူတည်၍ အသံပြောင်းပါသည်
+    </text>
+  </g>
+
+  <!-- Left Card: Rule 1 (Changes to 2nd Tone bú) -->
+  <g transform="translate(50, 115)">
+    <rect width="385" height="325" rx="14" fill="#0f172a" stroke="#f43f5e" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Header -->
+    <rect width="385" height="48" rx="12" fill="url(#roseGrad)"/>
+    <text x="192" y="30" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+      ★ စည်းမျဉ်း (၁): ၄ သံ အရှေ့တွင် ၂ သံ (bú) ပြောင်းဖတ်ခြင်း
+    </text>
+
+    <!-- Formula Box -->
+    <rect x="25" y="65" width="335" height="60" rx="10" fill="#1e293b" stroke="#f43f5e" stroke-width="1"/>
+    <text x="192" y="93" fill="#fb7185" font-family="monospace" font-size="20" font-weight="bold" text-anchor="middle">
+      不 (bù) + [၄ သံ စကားလုံး]  →  bú
+    </text>
+    <text x="192" y="113" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle">
+      စတုတ္ထသံ ၂ လုံး ဆင့်ဖတ်ရခက်သောကြောင့် အသံပြေပြစ်စေရန် ပြောင်းလဲခြင်းဖြစ်သည်
+    </text>
+
+    <!-- Examples -->
+    <g transform="translate(25, 140)">
+      <!-- Example 1 -->
+      <rect x="0" y="0" width="335" height="50" rx="8" fill="#1e293b"/>
+      <text x="15" y="30" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="bold">不太</text>
+      <text x="75" y="30" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">bú tài</text>
+      <text x="175" y="30" fill="#cbd5e1" font-family="sans-serif" font-size="13">သိပ်မ...ဘူး (太 = ၄ သံ)</text>
+
+      <!-- Example 2 -->
+      <rect x="0" y="58" width="335" height="50" rx="8" fill="#1e293b"/>
+      <text x="15" y="88" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="bold">不累</text>
+      <text x="75" y="88" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">bú lèi</text>
+      <text x="175" y="88" fill="#cbd5e1" font-family="sans-serif" font-size="13">မပင်ပန်းဘူး (累 = ၄ သံ)</text>
+
+      <!-- Example 3 -->
+      <rect x="0" y="116" width="335" height="50" rx="8" fill="#1e293b"/>
+      <text x="15" y="146" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="bold">不谢</text>
+      <text x="75" y="146" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">bú xiè</text>
+      <text x="175" y="146" fill="#cbd5e1" font-family="sans-serif" font-size="13">ရပါတယ် (谢 = ၄ သံ)</text>
+    </g>
+  </g>
+
+  <!-- Right Card: Rule 2 (Stays 4th Tone bù) -->
+  <g transform="translate(465, 115)">
+    <rect width="385" height="325" rx="14" fill="#0f172a" stroke="#10b981" stroke-width="2" filter="url(#shadow)"/>
+    
+    <!-- Header -->
+    <rect width="385" height="48" rx="12" fill="url(#emeraldGrad)"/>
+    <text x="192" y="30" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="bold" text-anchor="middle">
+      ★ စည်းမျဉ်း (၂): ၁၊ ၂၊ ၃ သံရှေ့တွင် မူလအတိုင်း ၄ သံ (bù)
+    </text>
+
+    <!-- Formula Box -->
+    <rect x="25" y="65" width="335" height="60" rx="10" fill="#1e293b" stroke="#10b981" stroke-width="1"/>
+    <text x="192" y="93" fill="#34d399" font-family="monospace" font-size="20" font-weight="bold" text-anchor="middle">
+      不 (bù) + [၁၊ ၂၊ ၃ သံ]  →  bù
+    </text>
+    <text x="192" y="113" fill="#cbd5e1" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle">
+      အခြားအသံများရှေ့တွင်မူ မူရင်းအတိုင်း ဖိချသံ (၄ သံ) ဖြင့်သာ အသံထွက်ပါသည်
+    </text>
+
+    <!-- Examples -->
+    <g transform="translate(25, 140)">
+      <!-- Example 1 -->
+      <rect x="0" y="0" width="335" height="50" rx="8" fill="#1e293b"/>
+      <text x="15" y="30" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="bold">不忙</text>
+      <text x="75" y="30" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">bù máng</text>
+      <text x="175" y="30" fill="#cbd5e1" font-family="sans-serif" font-size="13">အလုပ်မများဘူး (忙 = ၂ သံ)</text>
+
+      <!-- Example 2 -->
+      <rect x="0" y="58" width="335" height="50" rx="8" fill="#1e293b"/>
+      <text x="15" y="88" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="bold">不好</text>
+      <text x="75" y="88" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">bù hǎo</text>
+      <text x="175" y="88" fill="#cbd5e1" font-family="sans-serif" font-size="13">မကောင်းဘူး (好 = ၃ သံ)</text>
+
+      <!-- Example 3 -->
+      <rect x="0" y="116" width="335" height="50" rx="8" fill="#1e293b"/>
+      <text x="15" y="146" fill="#ffffff" font-family="sans-serif" font-size="17" font-weight="bold">不来</text>
+      <text x="75" y="146" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">bù lái</text>
+      <text x="175" y="146" fill="#cbd5e1" font-family="sans-serif" font-size="13">မလာဘူး (来 = ၂ သံ)</text>
+    </g>
+  </g>
+</svg>
