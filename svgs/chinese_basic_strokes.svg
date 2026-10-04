@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="920" height="620" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(60, 25)">
+    <text x="400" y="26" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်စာ အခြေခံ မျဉ်းဆွဲနည်း (၈) မျိုး (The 8 Basic Strokes)
+    </text>
+    <text x="400" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      တရုတ်စာလုံး ထောင်သောင်းချီကို ဤအခြေခံ မျဉ်းတို (၈) မျိုးဖြင့်သာ ပေါင်းစပ်ဖွဲ့စည်းထားပါသည်
+    </text>
+  </g>
+
+  <!-- 8 Stroke Cards (2 rows of 4) -->
+
+  <!-- Row 1 -->
+  <!-- 1. 横 (héng) -->
+  <g transform="translate(50, 95)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၁။ 横 (héng)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <!-- Red guideline -->
+    <line x1="45" y1="90" x2="140" y2="90" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+    <polygon points="140,84 148,90 140,96" fill="#ef4444"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">ဝိုက်မျဉ်း (ဘယ်မှ ညာ)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">ဟန် (Left to Right)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 一, 二, 十</text>
+  </g>
+
+  <!-- 2. 竖 (shù) -->
+  <g transform="translate(260, 95)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၂။ 竖 (shù)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <line x1="92" y1="58" x2="92" y2="120" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+    <polygon points="86,120 92,128 98,120" fill="#ef4444"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">ဒေါင်လိုက်မျဉ်း (ထက်မှ အောက်)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">ရှု့ (Top to Bottom)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 十, 中, 工</text>
+  </g>
+
+  <!-- 3. 撇 (piě) -->
+  <g transform="translate(470, 95)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၃။ 撇 (piě)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <path d="M 125 60 Q 95 90 55 120" stroke="#ef4444" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <polygon points="50,118 53,124 59,121" fill="#ef4444"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">ဘယ်ဆင်းမျဉ်း (ကွေးဆင်း)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">ဖျယ် (Slash Left)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 八, 人, 什</text>
+  </g>
+
+  <!-- 4. 捺 (nà) -->
+  <g transform="translate(680, 95)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၄။ 捺 (nà)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <path d="M 55 62 Q 95 90 135 120" stroke="#ef4444" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <polygon points="135,115 141,122 133,125" fill="#ef4444"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">ညာဆင်းမျဉ်း (ဖိချဆွဲ)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">နတ် (Slash Right)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 人, 大, 天</text>
+  </g>
+
+  <!-- Row 2 -->
+  <!-- 5. 点 (diǎn) -->
+  <g transform="translate(50, 345)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၅။ 点 (diǎn)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <path d="M 75 75 Q 95 85 110 105" stroke="#ef4444" stroke-width="8" fill="none" stroke-linecap="round"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">အစက်မျဉ်း (အထက်မှ အောက်)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">တျန် (Dot)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 六, 下, 太</text>
+  </g>
+
+  <!-- 6. 提 (tí) -->
+  <g transform="translate(260, 345)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၆။ 提 (tí)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <line x1="55" y1="110" x2="130" y2="70" stroke="#ef4444" stroke-width="7" stroke-linecap="round"/>
+    <polygon points="125,66 135,68 131,76" fill="#ef4444"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">ပင့်မျဉ်း (အောက်မှ အထက်)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">ထီ (Rising Up)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 我, 地, 冷</text>
+  </g>
+
+  <!-- 7. 折 (zhé) -->
+  <g transform="translate(470, 345)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၇။ 折 (zhé)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <path d="M 55 75 L 125 75 L 125 115" stroke="#ef4444" stroke-width="7" fill="none" stroke-linejoin="miter" stroke-linecap="round"/>
+    <polygon points="119,115 125,123 131,115" fill="#ef4444"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">ကွေး/ချိုးမျဉ်း (ထောင့်ချိုး)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">ကျယ် (Turning)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 口, 日, 四</text>
+  </g>
+
+  <!-- 8. 钩 (gōu) -->
+  <g transform="translate(680, 345)">
+    <rect width="185" height="225" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect width="185" height="34" rx="10" fill="#0369a1"/>
+    <text x="92" y="23" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၈။ 钩 (gōu)</text>
+    
+    <!-- Stroke Drawing Box -->
+    <rect x="25" y="48" width="135" height="85" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+    <path d="M 95 62 L 95 118 L 72 100" stroke="#ef4444" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <polygon points="76,96 68,97 72,105" fill="#ef4444"/>
+
+    <text x="92" y="156" fill="#f8fafc" font-size="13" font-weight="bold" text-anchor="middle">ချိတ်ကွေးမျဉ်း (ချိတ်ကောက်)</text>
+    <text x="92" y="174" fill="#38bdf8" font-family="monospace" font-size="12" text-anchor="middle">ကိုး (Hook)</text>
+    <text x="92" y="200" fill="#facc15" font-size="13" font-weight="bold" text-anchor="middle">ဥပမာ: 小, 你, 了</text>
+  </g>
+
+  <!-- Bottom Tip -->
+  <g transform="translate(50, 582)">
+    <text x="410" y="16" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle">
+      💡 စကားလုံးတစ်လုံးချင်းစီကို စတင်ရေးသားရာတွင် မျဉ်းဆွဲသည့် ဦးတည်ချက် (Direction) အတိုင်းသာ ဆွဲရပါသည်
+    </text>
+  </g>
+</svg>

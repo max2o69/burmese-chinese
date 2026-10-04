@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="940" height="560" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(60, 25)">
+    <text x="410" y="26" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်ဗျည်းအက္ခရာ ၂၁ လုံး အသံထွက်နည်းစနစ် (Pinyin Initials Articulation)
+    </text>
+    <text x="410" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      နှုတ်ခမ်း၊ လျှာ၊ သွား အနေအထားနှင့် လေမှုတ်သံ/လေမမှုတ်သံ ခွဲခြားလေ့လာခြင်း
+    </text>
+  </g>
+
+  <!-- 6 Phonetic Family Boxes -->
+  <g transform="translate(45, 85)">
+    
+    <!-- 1. Labials (b, p, m, f) -->
+    <g transform="translate(0, 0)">
+      <rect width="415" height="130" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect width="415" height="32" rx="10" fill="#0284c7"/>
+      <text x="207" y="21" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၁။ နှုတ်ခမ်းသံများ (Labials / 唇音)</text>
+      <text x="20" y="58" fill="#facc15" font-size="18" font-weight="bold" font-family="monospace">b [p]  •  p [pʰ]  •  m [m]  •  f [f]</text>
+      <text x="20" y="82" fill="#cbd5e1" font-size="12">b/p/m: နှုတ်ခမ်းနှစ်ခု ထိပိတ်ပြီး အသံထွက်သည်။ (b = လေမမှုတ်၊ p = လေမှုတ်)</text>
+      <text x="20" y="104" fill="#94a3b8" font-size="12">f: အပေါ်သွားနှင့် အောက်နှုတ်ခမ်း ထိပြီး လေတိုးသံ ပြုလုပ်သည်။</text>
+    </g>
+
+    <!-- 2. Alveolars (d, t, n, l) -->
+    <g transform="translate(435, 0)">
+      <rect width="415" height="130" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect width="415" height="32" rx="10" fill="#0284c7"/>
+      <text x="207" y="21" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၂။ လျှာထိပ်သွားရင်းသံများ (Alveolar / 舌尖中音)</text>
+      <text x="20" y="58" fill="#facc15" font-size="18" font-weight="bold" font-family="monospace">d [t]  •  t [tʰ]  •  n [n]  •  l [l]</text>
+      <text x="20" y="82" fill="#cbd5e1" font-size="12">လျှာထိပ်ကို အပေါ်သွားဖုံးရင်းတွင် ကပ်၍ လေပိတ်ပြီး အသံထုတ်သည်။</text>
+      <text x="20" y="104" fill="#94a3b8" font-size="12">d = တ (လေမမှုတ်) vs t = ထ (လေပြင်းပြင်းမှုတ်)</text>
+    </g>
+
+    <!-- 3. Velars (g, k, h) -->
+    <g transform="translate(0, 145)">
+      <rect width="415" height="130" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect width="415" height="32" rx="10" fill="#0284c7"/>
+      <text x="207" y="21" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၃။ လျှာရင်းသံများ (Velar / 舌根音)</text>
+      <text x="20" y="58" fill="#facc15" font-size="18" font-weight="bold" font-family="monospace">g [k]  •  k [kʰ]  •  h [x]</text>
+      <text x="20" y="82" fill="#cbd5e1" font-size="12">လျှာရင်းကို အာခေါင်ပျော့ဘက်သို့ မြှင့်တင်၍ အသံထုတ်သည်။</text>
+      <text x="20" y="104" fill="#94a3b8" font-size="12">g = က (လေမမှုတ်) vs k = ခ (လေမှုတ်) vs h = ဟ (လေတိုးသံ)</text>
+    </g>
+
+    <!-- 4. Palatals (j, q, x) -->
+    <g transform="translate(435, 145)">
+      <rect width="415" height="130" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect width="415" height="32" rx="10" fill="#0284c7"/>
+      <text x="207" y="21" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၄။ လျှာမျက်နှာပြင်သံများ (Palatal / 舌面前音)</text>
+      <text x="20" y="58" fill="#facc15" font-size="18" font-weight="bold" font-family="monospace">j [tɕ]  •  q [tɕʰ]  •  x [ɕ]</text>
+      <text x="20" y="82" fill="#cbd5e1" font-size="12">လျှာမျက်နှာပြင်ပြားကို အာခေါင်မာတွင် ကပ်၍ အသံထုတ်သည်။</text>
+      <text x="20" y="104" fill="#94a3b8" font-size="12">j = ကျီး (လေမမှုတ်) vs q = ချီး (လေမှုတ်) vs x = ရှီး (လေတိုး)</text>
+    </g>
+
+    <!-- 5. Dental Sibilants (z, c, s) -->
+    <g transform="translate(0, 290)">
+      <rect width="415" height="130" rx="12" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect width="415" height="32" rx="10" fill="#0284c7"/>
+      <text x="207" y="21" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၅။ လျှာပြားသွားရင်းသံများ (Dental / 舌尖前音)</text>
+      <text x="20" y="58" fill="#facc15" font-size="18" font-weight="bold" font-family="monospace">z [ts]  •  c [tsʰ]  •  s [s]</text>
+      <text x="20" y="82" fill="#cbd5e1" font-size="12">လျှာထိပ်ကို ရှေ့သွားအနောက်ဘက်တွင် ဖြန့်ပြားကပ်ထားသည်။</text>
+      <text x="20" y="104" fill="#94a3b8" font-size="12">z = ဇီး (လေမမှုတ်) vs c = ဆီး (လေမှုတ်) vs s = စီး (လေတိုး)</text>
+    </g>
+
+    <!-- 6. Retroflex (zh, ch, sh, r) -->
+    <g transform="translate(435, 290)">
+      <rect width="415" height="130" rx="12" fill="#1e293b" stroke="#f43f5e" stroke-width="1.5" filter="url(#shadow)"/>
+      <rect width="415" height="32" rx="10" fill="#e11d48"/>
+      <text x="207" y="21" fill="#ffffff" font-size="13" font-weight="bold" text-anchor="middle">၆။ လျှာလိပ်သံများ (Retroflex / 舌尖后音 - အရေးကြီး)</text>
+      <text x="20" y="58" fill="#facc15" font-size="18" font-weight="bold" font-family="monospace">zh [tʂ]  •  ch [tʂʰ]  •  sh [ʂ]  •  r [ʐ]</text>
+      <text x="20" y="82" fill="#cbd5e1" font-size="12">လျှာထိပ်ကို အာခေါင်မာဘက်သို့ အပေါ်သို့ လိပ်တင်ထားရမည်။</text>
+      <text x="20" y="104" fill="#fecdd3" font-size="12">မြန်မာစာတွင် မရှိသောကြောင့် အထူးသတိထား လေ့ကျင့်ရပါမည်။</text>
+    </g>
+  </g>
+
+  <!-- Bottom Tip: Tissue Paper Test -->
+  <g transform="translate(45, 515)">
+    <text x="425" y="16" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+      💨 စက္ကူပါး စမ်းသပ်နည်း: စက္ကူပါးကို နှုတ်ခမ်းရှေ့ထား၍ b/d/g/j/z ရွတ်ပါက မလှုပ်ဘဲ၊ p/t/k/q/c ရွတ်ပါက လေပြင်းကြောင့် လွင့်ပျံသွားရပါမည်!
+    </text>
+  </g>
+</svg>

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 580" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="940" height="580" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(60, 25)">
+    <text x="410" y="26" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်စာလုံး ရေးသားမှု အစီအစဉ် စည်းမျဉ်း (၇) ချက် (Stroke Order Rules)
+    </text>
+    <text x="410" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      မည်သည့် တရုတ်စာလုံးမဆို ဤစံသတ်မှတ်ထားသော စည်းမျဉ်း ၇ ချက်အတိုင်းသာ အစဉ်လိုက် ရေးဆွဲရပါသည်
+    </text>
+  </g>
+
+  <!-- 7 Rule Rows -->
+  <g transform="translate(45, 90)">
+    
+    <!-- Rule 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="850" height="56" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="8" height="56" rx="4" fill="#38bdf8"/>
+      <text x="25" y="34" fill="#38bdf8" font-size="14" font-weight="bold">၁။ 先横后竖</text>
+      <text x="145" y="34" fill="#cbd5e1" font-size="13">အလျားလိုက်မျဉ်းကို အရင်ဆွဲ၊ ပြီးမှ ဒေါင်လိုက်မျဉ်းဆွဲပါ</text>
+      <!-- Example Box -->
+      <rect x="620" y="8" width="215" height="40" rx="8" fill="#0f172a" stroke="#475569"/>
+      <text x="727" y="33" fill="#facc15" font-size="15" font-weight="bold" text-anchor="middle">一  ➔  十 (shí = ၁၀)</text>
+    </g>
+
+    <!-- Rule 2 -->
+    <g transform="translate(0, 64)">
+      <rect width="850" height="56" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="8" height="56" rx="4" fill="#38bdf8"/>
+      <text x="25" y="34" fill="#38bdf8" font-size="14" font-weight="bold">၂။ 先撇后捺</text>
+      <text x="145" y="34" fill="#cbd5e1" font-size="13">ဘယ်ဘက်ဆင်းမျဉ်းကို အရင်ဆွဲ၊ ပြီးမှ ညာဘက်ဆင်းမျဉ်းဆွဲပါ</text>
+      <rect x="620" y="8" width="215" height="40" rx="8" fill="#0f172a" stroke="#475569"/>
+      <text x="727" y="33" fill="#facc15" font-size="15" font-weight="bold" text-anchor="middle">丿  ➔  人 / 八 (လူ / ၈)</text>
+    </g>
+
+    <!-- Rule 3 -->
+    <g transform="translate(0, 128)">
+      <rect width="850" height="56" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="8" height="56" rx="4" fill="#38bdf8"/>
+      <text x="25" y="34" fill="#38bdf8" font-size="14" font-weight="bold">၃။ 从上到下</text>
+      <text x="145" y="34" fill="#cbd5e1" font-size="13">အပေါ်ပိုင်းကို အရင်ဆွဲ၊ ပြီးမှ အောက်ပိုင်းသို့ ဆွဲပါ</text>
+      <rect x="620" y="8" width="215" height="40" rx="8" fill="#0f172a" stroke="#475569"/>
+      <text x="727" y="33" fill="#facc15" font-size="15" font-weight="bold" text-anchor="middle">一 ➔ 二 ➔ 三 (sān = ၃)</text>
+    </g>
+
+    <!-- Rule 4 -->
+    <g transform="translate(0, 192)">
+      <rect width="850" height="56" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="8" height="56" rx="4" fill="#38bdf8"/>
+      <text x="25" y="34" fill="#38bdf8" font-size="14" font-weight="bold">၄။ 从左到右</text>
+      <text x="145" y="34" fill="#cbd5e1" font-size="13">ဘယ်ဘက်ခြမ်းကို အရင်ဆွဲ၊ ပြီးမှ ညာဘက်ခြမ်းသို့ ဆွဲပါ</text>
+      <rect x="620" y="8" width="215" height="40" rx="8" fill="#0f172a" stroke="#475569"/>
+      <text x="727" y="33" fill="#facc15" font-size="15" font-weight="bold" text-anchor="middle">亻 ➔ 尔 ➔ 你 (nǐ = မင်း)</text>
+    </g>
+
+    <!-- Rule 5 -->
+    <g transform="translate(0, 256)">
+      <rect width="850" height="56" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="8" height="56" rx="4" fill="#38bdf8"/>
+      <text x="25" y="34" fill="#38bdf8" font-size="14" font-weight="bold">၅။ 从外到内</text>
+      <text x="145" y="34" fill="#cbd5e1" font-size="13">အပြင်ဘက်ဘောင်ကို အရင်ဆွဲ၊ ပြီးမှ အတွင်းပိုင်းသို့ ဖြည့်ပါ</text>
+      <rect x="620" y="8" width="215" height="40" rx="8" fill="#0f172a" stroke="#475569"/>
+      <text x="727" y="33" fill="#facc15" font-size="15" font-weight="bold" text-anchor="middle">冂 ➔ 二 ➔ 月 (yuè = လ)</text>
+    </g>
+
+    <!-- Rule 6 -->
+    <g transform="translate(0, 320)">
+      <rect width="850" height="56" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="8" height="56" rx="4" fill="#38bdf8"/>
+      <text x="25" y="34" fill="#38bdf8" font-size="14" font-weight="bold">၆။ 先进后关</text>
+      <text x="145" y="34" fill="#cbd5e1" font-size="13">လူဝင်ပြီးမှ တံခါးပိတ်ပါ (အတွင်းရေးပြီးမှ အောက်ဘောင်ပိတ်ပါ)</text>
+      <rect x="620" y="8" width="215" height="40" rx="8" fill="#0f172a" stroke="#475569"/>
+      <text x="727" y="33" fill="#facc15" font-size="15" font-weight="bold" text-anchor="middle">冂 ➔ 口 ➔ 回 / 国</text>
+    </g>
+
+    <!-- Rule 7 -->
+    <g transform="translate(0, 384)">
+      <rect width="850" height="56" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1" filter="url(#shadow)"/>
+      <rect x="0" y="0" width="8" height="56" rx="4" fill="#38bdf8"/>
+      <text x="25" y="34" fill="#38bdf8" font-size="14" font-weight="bold">၇။ 先中间后两边</text>
+      <text x="145" y="34" fill="#cbd5e1" font-size="13">အလယ်ဗဟိုကို အရင်ဆွဲ၊ ပြီးမှ ဘေးနှစ်ဖက်သို့ ဆွဲပါ</text>
+      <rect x="620" y="8" width="215" height="40" rx="8" fill="#0f172a" stroke="#475569"/>
+      <text x="727" y="33" fill="#facc15" font-size="15" font-weight="bold" text-anchor="middle">亅 ➔ 八 ➔ 小 / 水</text>
+    </g>
+  </g>
+
+  <!-- Bottom Summary Note -->
+  <g transform="translate(45, 545)">
+    <text x="425" y="14" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" text-anchor="middle">
+      💡 မှတ်ဉာဏ်နည်းလမ်း: "အလျားအရင်၊ ဒေါင်လိုက်နောက်၊ ဘယ်အရင်၊ ညာနောက်၊ အပေါ်အရင်၊ အောက်နောက်၊ အလယ်အရင်၊ ဘေးနောက်"
+    </text>
+  </g>
+</svg>

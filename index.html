@@ -39,20 +39,48 @@
         <!-- Stats Bar -->
         <div class="pt-2 flex flex-wrap gap-4 text-xs font-semibold">
           <div class="bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-700/80 text-emerald-400 flex items-center gap-1.5">
-            <span>🎙️</span> ၁၀၂ ပုဒ် Studio Neural Audio
+            <span>🎙️</span> ၁၄၅ ပုဒ် Studio Neural Audio
           </div>
           <div class="bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-700/80 text-amber-300 flex items-center gap-1.5">
-            <span>🎨</span> ၁၁ ခု Custom Vector SVGs
+            <span>🎨</span> ၁၄ ခု Custom Vector SVGs
           </div>
           <div class="bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-700/80 text-indigo-300 flex items-center gap-1.5">
             <span>📱</span> Offline &amp; Mobile Ready
           </div>
           <div class="bg-slate-900/80 px-3 py-1.5 rounded-lg border border-slate-700/80 text-sky-400 flex items-center gap-1.5">
-            <span>📚</span> ၃ ခန်း ပြည့်စုံစွာ ပြီးစီး
+            <span>📚</span> ၃ ခန်း + အခြေခံအုတ်မြစ်
           </div>
         </div>
       </div>
     </header>
+
+    <!-- Special Featured Card: Foundations (Pinyin & Hanzi) -->
+    <section class="bg-gradient-to-r from-amber-950/70 via-slate-900 to-sky-950/70 border border-amber-500/40 rounded-3xl p-6 md:p-8 shadow-xl hover:border-amber-400 transition">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
+        <div class="space-y-3">
+          <div class="inline-flex items-center gap-2 px-3 py-1 bg-amber-500/20 text-amber-300 border border-amber-500/30 rounded-full text-xs font-semibold">
+            <span>⭐ အထူးလမ်းညွှန်</span> မဖြစ်မနေ သိရှိထားရမည့် အခြေခံအုတ်မြစ် (Foundations)
+          </div>
+          <h2 class="text-2xl md:text-3xl font-extrabold text-white">
+            <span class="chinese-font text-amber-400">汉语拼音与汉字笔画</span>
+            <span class="block text-xl md:text-2xl font-bold text-sky-300 mt-1">
+              Pinyin အသံထွက်နည်းစနစ် (b, p, m, f) နှင့် တရုတ်စာလုံးရေးနည်း
+            </span>
+          </h2>
+          <p class="text-slate-300 text-sm leading-relaxed max-w-2xl">
+            ဗျည်းအက္ခရာ ၂၁ လုံး၏ နှုတ်ခမ်း/လျှာ အနေအထား၊ လေမှုတ်သံ စက္ကူပါးစမ်းသပ်နည်း၊ တရုတ်စာလုံး အခြေခံမျဉ်း ၈ မျိုး (横 竖 撇 捺 点 提 折 钩) နှင့် မျဉ်းဆွဲအစီအစဉ် စည်းမျဉ်း ၇ ချက်။
+          </p>
+        </div>
+        <div class="flex flex-col sm:flex-row gap-3 w-full md:w-auto">
+          <a href="Foundations_Pinyin_and_Hanzi.html" class="py-3 px-6 rounded-xl bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-sm text-center shadow-lg transition flex items-center justify-center gap-2">
+            <span>🚀 အခြေခံအုတ်မြစ် လေ့လာမည်</span>
+          </a>
+          <a href="Foundations_Pinyin_and_Hanzi.md" target="_blank" class="py-3 px-4 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 border border-slate-700 font-semibold text-sm text-center">
+            📝 စာအုပ်
+          </a>
+        </div>
+      </div>
+    </section>
 
     <!-- Lessons Grid -->
     <main class="space-y-6">
@@ -196,14 +224,14 @@
         <button onclick="playSample('audio/lesson_01/sentence_01_nihao.mp3')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 border border-slate-700 flex items-center gap-1.5">
           🔊 你好 (မင်္ဂလာပါ - Xiaoxiao)
         </button>
-        <button onclick="playSample('audio/lesson_02/sentence_05_nizao.mp3')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 border border-slate-700 flex items-center gap-1.5">
-          🔊 你早 (မင်္ဂလာနံနက်ခင်းပါ)
+        <button onclick="playSample('audio/foundations/contrast_b_p.mp3')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-amber-300 border border-slate-700 flex items-center gap-1.5">
+          🔊 bā vs pā (လေမမှုတ် vs လေမှုတ်)
+        </button>
+        <button onclick="playSample('audio/foundations/stroke_heng.mp3')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-sky-300 border border-slate-700 flex items-center gap-1.5">
+          🔊 横 (héng - ဝိုက်မျဉ်း)
         </button>
         <button onclick="playSample('audio/lesson_03/s1_ni_gongzuo_mang_ma.mp3')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 border border-slate-700 flex items-center gap-1.5">
           🔊 你工作忙吗 (မင်း အလုပ်များလား)
-        </button>
-        <button onclick="playSample('audio/lesson_01/sentence_03_wohenhao.mp3')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 border border-slate-700 flex items-center gap-1.5">
-          🔊 我很好 (နေကောင်းပါတယ် - Yunxi ကျား)
         </button>
         <button onclick="playSample('audio/lesson_02/num_08_ba.mp3')" class="px-3 py-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-xs text-slate-200 border border-slate-700 flex items-center gap-1.5">
           🔊 八 (ရှစ် - 8)
