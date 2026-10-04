@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="cardShadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="540" rx="16" fill="url(#bgGrad2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(40, 24)">
+    <text x="380" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်ဘာသာ မေးခွန်းဖွဲ့စည်းပုံ စနစ်ကြီး ၂ မျိုး (Question Structures)
+    </text>
+    <text x="380" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      “吗” ပါသော မေးခွန်း နှင့် အမေးနာမ်စား (什么 / 谁 / 哪儿) သုံး မေးခွန်းများ
+    </text>
+  </g>
+
+  <!-- Two Main Systems Grid -->
+  <g transform="translate(40, 85)">
+    <!-- System 1: General Questions with 吗 -->
+    <g transform="translate(0, 0)">
+      <rect width="365" height="260" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#cardShadow2)"/>
+      <rect width="365" height="34" rx="12" fill="#0284c7"/>
+      <text x="182" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">၁။ “吗” ပါသော အမေးဝါကျ (Yes/No Questions)</text>
+      
+      <!-- Pattern Formula -->
+      <g transform="translate(20, 48)">
+        <rect width="325" height="42" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+        <text x="162" y="26" fill="#facc15" font-family="monospace" font-size="15" font-weight="bold" text-anchor="middle">
+          [ရိုးရိုးဝါကျ] + 吗 (ma) ？
+        </text>
+      </g>
+
+      <!-- Examples -->
+      <g transform="translate(20, 102)" font-family="sans-serif">
+        <text x="0" y="20" fill="#38bdf8" font-size="13" font-weight="bold">• 她是老师吗？ (Tā shì lǎoshī ma?)</text>
+        <text x="15" y="38" fill="#cbd5e1" font-size="11.5">သူမ ဆရာမလား။</text>
+
+        <text x="0" y="66" fill="#38bdf8" font-size="13" font-weight="bold">• 你工作忙吗？ (Nǐ gōngzuò máng ma?)</text>
+        <text x="15" y="84" fill="#cbd5e1" font-size="11.5">မင်း အလုပ်ရှုပ်လား။</text>
+
+        <text x="0" y="112" fill="#22c55e" font-size="12" font-weight="bold">👉 ဖြေဆိုနည်း: 是 (ဟုတ်တယ်) / 不是 (မဟုတ်ဘူး)</text>
+        <text x="15" y="130" fill="#94a3b8" font-size="11">သို့မဟုတ် အတိအကျ ပြန်ဖြေနိုင်ပါသည်</text>
+      </g>
+    </g>
+
+    <!-- System 2: Specific Questions with Question Words -->
+    <g transform="translate(395, 0)">
+      <rect width="365" height="260" rx="14" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" filter="url(#cardShadow2)"/>
+      <rect width="365" height="34" rx="12" fill="#d97706"/>
+      <text x="182" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">၂။ အမေးစကားလုံးသုံး မေးခွန်း (Wh- Questions)</text>
+      
+      <!-- Pattern Formula -->
+      <g transform="translate(20, 48)">
+        <rect width="325" height="42" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+        <text x="162" y="26" fill="#facc15" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">
+          အမေးစကားလုံးကို အဖြေနေရာတွင် အစားထိုးပါ
+        </text>
+      </g>
+
+      <!-- Examples -->
+      <g transform="translate(20, 102)" font-family="sans-serif">
+        <text x="0" y="20" fill="#f59e0b" font-size="13" font-weight="bold">• 你叫什么名字？ (ဘာနာမည်လဲ)</text>
+        <text x="15" y="38" fill="#cbd5e1" font-size="11.5">အဖြေ: 我叫王兰。 (အစီအစဉ် မပြောင်းပါ)</text>
+
+        <text x="0" y="66" fill="#f59e0b" font-size="13" font-weight="bold">• 她姓什么？ (သူမ ဘာမျိုးရိုးလဲ)</text>
+        <text x="15" y="84" fill="#cbd5e1" font-size="11.5">အဖြေ: 她姓王。 (ဘာလဲ = ဝမ်)</text>
+
+        <text x="0" y="112" fill="#ef4444" font-size="12" font-weight="bold">⚠️ သတိပြုရန်: “吗” ကို ထပ်မထည့်ရပါ!</text>
+        <text x="15" y="130" fill="#94a3b8" font-size="11">❌ 你叫什么名字吗 (လုံးဝ မှားယွင်းပါသည်)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Tone Sandhi Rule: bu + 4th tone -> bu2 -->
+  <g transform="translate(40, 365)">
+    <rect width="760" height="145" rx="14" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5" filter="url(#cardShadow2)"/>
+    <text x="30" y="32" fill="#a78bfa" font-family="sans-serif" font-size="16" font-weight="bold">
+      🎵 အသံပြောင်းလဲမှု စည်းမျဉ်း (Tone Sandhi): “不 (bù)” နောက်တွင် ၄ ခုမြောက်အသံ လိုက်လာလျှင်
+    </text>
+
+    <g transform="translate(30, 48)">
+      <rect width="700" height="80" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="25" y="32" fill="#f8fafc" font-family="monospace" font-size="18" font-weight="bold">
+        bù (၄ သံ) + shì (၄ သံ) ➔ <tspan fill="#38bdf8">bú shì (၂ သံ + ၄ သံ) 不是</tspan>
+      </text>
+      <text x="25" y="60" fill="#cbd5e1" font-family="sans-serif" font-size="12.5">
+        “不” (အငြင်း) ၏ မူလအသံမှာ ၄ သံ ဖြစ်သော်လည်း၊ နောက်စာလုံးသည် ၄ သံ (ကျသံ) ဖြစ်ပါက “不” ကို ၂ သံ (တက်သံ bú) သို့ ပြောင်းဖတ်ရပါသည်: 
+        <tspan fill="#facc15" font-weight="bold">不是 (bú shì), 不太 (bú tài)</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

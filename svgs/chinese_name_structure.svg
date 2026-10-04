@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="520" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(40, 24)">
+    <text x="380" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်နာမည် ဖွဲ့စည်းပုံနှင့် ခေါ်ဝေါ်ဆက်ဆံပုံ ယဉ်ကျေးမှု (Chinese Naming &amp; Etiquette)
+    </text>
+    <text x="380" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      မျိုးရိုးအမည် (姓) အရင်လာပြီး၊ ကိုယ်ပိုင်နာမည် (名) နောက်မှလာသည့် အရှေ့တိုင်း အစဉ်အလာ
+    </text>
+  </g>
+
+  <!-- Main Comparison Grid -->
+  <g transform="translate(40, 85)">
+    <!-- Chinese Name Order Card -->
+    <g transform="translate(0, 0)">
+      <rect width="365" height="230" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#cardShadow)"/>
+      <rect width="365" height="34" rx="12" fill="#0284c7"/>
+      <text x="182" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">🇨🇳 တရုတ်နာမည် အစီအစဉ် (Family First)</text>
+      
+      <!-- Visual Boxes -->
+      <g transform="translate(30, 52)">
+        <rect width="140" height="80" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+        <text x="70" y="40" fill="#facc15" font-family="'Noto Sans SC', sans-serif" font-size="26" font-weight="bold" text-anchor="middle">王 (Wáng)</text>
+        <text x="70" y="62" fill="#cbd5e1" font-family="sans-serif" font-size="12" text-anchor="middle">姓 (မျိုးရိုးအမည်)</text>
+
+        <rect x="160" width="140" height="80" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+        <text x="230" y="40" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="26" font-weight="bold" text-anchor="middle">兰 (Lán)</text>
+        <text x="230" y="62" fill="#cbd5e1" font-family="sans-serif" font-size="12" text-anchor="middle">名 (ပေးထားသောအမည်)</text>
+      </g>
+
+      <!-- Explanation -->
+      <text x="182" y="165" fill="#e2e8f0" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="bold">王兰 (Wáng Lán) = မျိုးရိုး 'ဝမ်' + အမည် 'လန်'</text>
+      <text x="182" y="190" fill="#94a3b8" font-family="sans-serif" font-size="11.5" text-anchor="middle">မိသားစုဂုဏ်သိက္ခာကို ရှေ့တန်းတင်သောကြောင့် မျိုးရိုးအရင်လာပါသည်</text>
+      <text x="182" y="210" fill="#64748b" font-family="sans-serif" font-size="11" text-anchor="middle">ဥပမာ: 张老师 (ဆရာကျန်း), 王大夫 (ဒေါက်တာဝမ်)</text>
+    </g>
+
+    <!-- Western Name Order Card -->
+    <g transform="translate(395, 0)">
+      <rect width="365" height="230" rx="14" fill="#1e293b" stroke="#64748b" stroke-width="1.5" filter="url(#cardShadow)"/>
+      <rect width="365" height="34" rx="12" fill="#475569"/>
+      <text x="182" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">🌍 အနောက်တိုင်း အစီအစဉ် (Individual First)</text>
+      
+      <!-- Visual Boxes -->
+      <g transform="translate(30, 52)">
+        <rect width="140" height="80" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="2"/>
+        <text x="70" y="40" fill="#38bdf8" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Mary</text>
+        <text x="70" y="62" fill="#cbd5e1" font-family="sans-serif" font-size="12" text-anchor="middle">First Name (အမည်)</text>
+
+        <rect x="160" width="140" height="80" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="2"/>
+        <text x="230" y="40" fill="#facc15" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">Smith</text>
+        <text x="230" y="62" fill="#cbd5e1" font-family="sans-serif" font-size="12" text-anchor="middle">Last Name (မျိုးရိုး)</text>
+      </g>
+
+      <!-- Explanation -->
+      <text x="182" y="165" fill="#e2e8f0" font-family="sans-serif" font-size="13" text-anchor="middle" font-weight="bold">Mary Smith = အမည် 'မေရီ' + မျိုးရိုး 'စမစ်'</text>
+      <text x="182" y="190" fill="#94a3b8" font-family="sans-serif" font-size="11.5" text-anchor="middle">လူတစ်ဦးချင်းစီ၏ အမည်ကို ဦးစွာဖော်ပြလေ့ရှိပါသည်</text>
+      <text x="182" y="210" fill="#64748b" font-family="sans-serif" font-size="11" text-anchor="middle">တရုတ်စာလေ့လာရာတွင် အစဉ်အလာ ပြောင်းပြန်ဖြစ်ကြောင်း သတိပြုပါ</text>
+    </g>
+  </g>
+
+  <!-- Bottom Etiquette Rule: Nin Guixing vs Wo Xing -->
+  <g transform="translate(40, 340)">
+    <rect width="760" height="150" rx="14" fill="#0f172a" stroke="#e11d48" stroke-width="1.5" filter="url(#cardShadow)"/>
+    
+    <text x="30" y="32" fill="#f43f5e" font-family="sans-serif" font-size="16" font-weight="bold">
+      ⚠️ အရေးကြီးဆုံး ယဉ်ကျေးမှု စည်းမျဉ်း: “您贵姓？” (မေးမြန်းခြင်း) နှင့် “我姓……” (ဖြေဆိုခြင်း)
+    </text>
+
+    <!-- Question side -->
+    <g transform="translate(30, 48)">
+      <rect width="335" height="82" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="20" y="28" fill="#38bdf8" font-family="monospace" font-size="15" font-weight="bold">မေးလျှင်: “您贵姓？” (Nín guìxìng?)</text>
+      <text x="20" y="50" fill="#94a3b8" font-family="sans-serif" font-size="12">“貴 (guì)” = မြင့်မြတ်သောအဖိုးတန်။</text>
+      <text x="20" y="68" fill="#cbd5e1" font-family="sans-serif" font-size="12">တစ်ဖက်သားကို ရိုသေလေးစားစွာ မေးမြန်းခြင်းဖြစ်သည်</text>
+    </g>
+
+    <!-- Answer side -->
+    <g transform="translate(395, 48)">
+      <rect width="335" height="82" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="20" y="28" fill="#22c55e" font-family="monospace" font-size="15" font-weight="bold">ဖြေလျှင်: “我姓王。” (Wǒ xìng Wáng.)</text>
+      <text x="20" y="50" fill="#f87171" font-family="sans-serif" font-size="12">❌ “我贵姓王” ဟု လုံးဝ မပြောရပါ!</text>
+      <text x="20" y="68" fill="#cbd5e1" font-family="sans-serif" font-size="12">မိမိကိုယ်ကို ရိုးရိုးနှိမ့်ချပြီး “我姓……” ဟုသာ ဖြေရပါသည်</text>
+    </g>
+  </g>
+</svg>
