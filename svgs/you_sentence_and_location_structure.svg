@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 620" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL7_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL7_2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadowL7_2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="860" height="620" rx="18" fill="url(#bgGradL7_2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 24)">
+    <text x="390" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      "有" ဝါကျနှင့် "在" နေရာပြ ကြိယာဝိသေသန ဝါကျတည်ဆောက်ပုံ ("Yǒu" &amp; Preposition "Zài")
+    </text>
+    <text x="390" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      ပိုင်ဆိုင်မှု/တည်ရှိမှုပြ စည်းမျဉ်း (မရှိလျှင် ❌ 不有 မသုံးရ၊ ✓ 没有 သာသုံးရသည်) • မြန်မာ-တရုတ် ဝါကျဖွဲ့စည်းပုံ တူညီချက်
+    </text>
+  </g>
+
+  <!-- Section 1: "有"字句 (Possession & Existence) - အပေါ်ပိုင်း -->
+  <g transform="translate(40, 85)">
+    <rect width="780" height="250" rx="14" fill="url(#cardGradL7_2)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL7_2)"/>
+    
+    <text x="24" y="28" fill="#10b981" font-family="sans-serif" font-size="14" font-weight="bold">
+      📦 ၁။ "有"字句 ဝါကျတည်ဆောက်ပုံ (ရှိသည် / မရှိပါ / ရှိသလား)
+    </text>
+
+    <!-- Formula A: Affirmative -->
+    <g transform="translate(20, 42)">
+      <rect width="740" height="58" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+      <text x="16" y="24" fill="#6ee7b7" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold">
+        ၁။ ဟုတ်ဝန်ခံဝါကျ : 主语 (Subject) + 有 (yǒu - ရှိသည်) + 宾语 (Object)
+      </text>
+      <text x="16" y="44" fill="#ecfdf5" font-family="sans-serif" font-size="12">
+        ဥပမာ : 我家 <tspan fill="#facc15" font-weight="bold">有</tspan> 四口人。 (ငါ့အိမ်မှာ ၄ ယောက် ရှိတယ်) | 我 <tspan fill="#facc15" font-weight="bold">有</tspan> 汉语书。 (ငါ့မှာ တရုတ်စာအုပ် ရှိတယ်)
+      </text>
+    </g>
+
+    <!-- Formula B: Negative (CRITICAL WARNING) -->
+    <g transform="translate(20, 108)">
+      <rect width="740" height="66" rx="8" fill="#450a0a" stroke="#dc2626" stroke-width="1.2"/>
+      <text x="16" y="24" fill="#f87171" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold">
+        ၂။ ငြင်းပယ်ဝါကျ : 主语 (Subject) + 没有 / 没 (méiyǒu - မရှိ) + 宾语
+      </text>
+      <text x="16" y="44" fill="#fee2e2" font-family="sans-serif" font-size="12">
+        ဥပမာ : 他们 <tspan fill="#f87171" font-weight="bold">没有</tspan> 孩子。 (သူတို့မှာ ကလေး မရှိဘူး) | 他 <tspan fill="#f87171" font-weight="bold">没有</tspan> 哥哥。 (သူ့မှာ အစ်ကို မရှိဘူး)
+      </text>
+      <text x="16" y="58" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold">
+        ⚠️ အထူးသတိပြုရန် : "有" အတွက် "不" ဖြင့် ဘယ်တော့မှ မငြင်းရပါ! [ ❌ 不有 -> ✓ 没有 ]
+      </text>
+    </g>
+
+    <!-- Formula C: Question -->
+    <g transform="translate(20, 182)">
+      <rect width="740" height="54" rx="8" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+      <text x="16" y="22" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold">
+        ၃။ အမေးဝါကျ : 主语 + 有 + 宾语 + 吗？ (သို့မဟုတ်) 主语 + 有没有 + 宾语？
+      </text>
+      <text x="16" y="42" fill="#e0f2fe" font-family="sans-serif" font-size="12">
+        ဥပမာ : 他们有孩子吗？ ➔ <tspan fill="#f87171" font-weight="bold">没有。</tspan> (ကလေး မရှိပါ) | 你有没有弟弟？ (မင်းမှာ ညီ ရှိသလား)
+      </text>
+    </g>
+  </g>
+
+  <!-- Section 2: Prepositional Location Structure (介词结构: 在 + 处所 + 动词) - အောက်ပိုင်း -->
+  <g transform="translate(40, 350)">
+    <rect width="780" height="245" rx="14" fill="url(#cardGradL7_2)" stroke="#a855f7" stroke-width="1.2" filter="url(#shadowL7_2)"/>
+    
+    <text x="24" y="28" fill="#c084fc" font-family="sans-serif" font-size="14" font-weight="bold">
+      📍 ၂။ နေရာပြ စကားစု ဝါကျတည်ဆောက်ပုံ (介词结构 : 在 + 处所 + 动词)
+    </text>
+
+    <!-- Word Order Comparison Banner -->
+    <g transform="translate(20, 42)">
+      <!-- Chinese Pattern Box -->
+      <g transform="translate(0, 0)">
+        <rect width="235" height="74" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+        <text x="117" y="22" fill="#a5b4fc" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">🇨🇳 တရုတ်ဝါကျ တည်ဆောက်ပုံ</text>
+        <text x="117" y="44" fill="#f8fafc" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" text-anchor="middle">
+          她 + <tspan fill="#38bdf8">在大学</tspan> + <tspan fill="#4ade80">工作</tspan>
+        </text>
+        <text x="117" y="62" fill="#c7d2fe" font-family="monospace" font-size="10" text-anchor="middle">
+          Subject + [在+Place] + Action
+        </text>
+      </g>
+
+      <!-- Equals Sign -->
+      <text x="250" y="45" fill="#facc15" font-family="sans-serif" font-size="22" font-weight="bold">=</text>
+
+      <!-- Burmese Pattern Box (IDENTICAL!) -->
+      <g transform="translate(270, 0)">
+        <rect width="235" height="74" rx="8" fill="#042f2e" stroke="#14b8a6" stroke-width="1"/>
+        <text x="117" y="22" fill="#5eead4" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">🇲🇲 မြန်မာဝါကျ တည်ဆောက်ပုံ (ထပ်တူကျ)</text>
+        <text x="117" y="44" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">
+          သူမသည် + <tspan fill="#38bdf8">တက္ကသိုလ်တွင်</tspan> + <tspan fill="#4ade80">အလုပ်လုပ်သည်</tspan>
+        </text>
+        <text x="117" y="62" fill="#ccfbf1" font-family="sans-serif" font-size="10" text-anchor="middle">
+          ကတ္တား + [နေရာပြပုဒ်] + ကြိယာ
+        </text>
+      </g>
+
+      <!-- Contrast vs English -->
+      <g transform="translate(520, 0)">
+        <rect width="220" height="74" rx="8" fill="#18181b" stroke="#71717a" stroke-width="1"/>
+        <text x="110" y="22" fill="#a1a1aa" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">🇬🇧 အင်္ဂလိပ်ဝါကျ (ပြောင်းပြန်)</text>
+        <text x="110" y="44" fill="#e4e4e7" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+          She + <tspan fill="#4ade80">works</tspan> + <tspan fill="#38bdf8">at university</tspan>
+        </text>
+        <text x="110" y="62" fill="#a1a1aa" font-family="sans-serif" font-size="10" text-anchor="middle">
+          Subject + Action + Place
+        </text>
+      </g>
+    </g>
+
+    <!-- 4 Common Prepositional Pairs in Lesson 7 -->
+    <g transform="translate(20, 128)">
+      <rect width="740" height="100" rx="8" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="16" y="22" fill="#f1f5f9" font-family="sans-serif" font-size="12" font-weight="bold">
+        💡 သင်ခန်းစာ (၇) တွင် တွေ့ရမည့် နေရာပြ စကားစု တွဲလုံးများ :
+      </text>
+
+      <g transform="translate(16, 32)">
+        <!-- Item 1 -->
+        <g transform="translate(0, 0)">
+          <rect width="168" height="54" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+          <text x="84" y="22" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">在银行工作</text>
+          <text x="84" y="42" fill="#94a3b8" font-family="sans-serif" font-size="10" text-anchor="middle">ဘဏ်မှာ အလုပ်လုပ်သည်</text>
+        </g>
+
+        <!-- Item 2 -->
+        <g transform="translate(180, 0)">
+          <rect width="168" height="54" rx="6" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
+          <text x="84" y="22" fill="#c084fc" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">在大学工作</text>
+          <text x="84" y="42" fill="#94a3b8" font-family="sans-serif" font-size="10" text-anchor="middle">တက္ကသိုလ်မှာ လုပ်သည်</text>
+        </g>
+
+        <!-- Item 3 -->
+        <g transform="translate(360, 0)">
+          <rect width="168" height="54" rx="6" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+          <text x="84" y="22" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">在教室上课</text>
+          <text x="84" y="42" fill="#94a3b8" font-family="sans-serif" font-size="10" text-anchor="middle">အခန်းထဲမှာ စာသင်သည်</text>
+        </g>
+
+        <!-- Item 4 -->
+        <g transform="translate(540, 0)">
+          <rect width="168" height="54" rx="6" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+          <text x="84" y="22" fill="#fbbf24" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">在宿舍休息</text>
+          <text x="84" y="42" fill="#94a3b8" font-family="sans-serif" font-size="10" text-anchor="middle">အဆောင်မှာ အနားယူသည်</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
