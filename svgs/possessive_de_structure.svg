@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadowL5" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="520" rx="16" fill="url(#bgGradL5)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(40, 24)">
+    <text x="380" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      ပိုင်ဆိုင်မှုပြ “的” (de) သုံးစွဲပုံနှင့် ဖြုတ်ပယ်ခြင်း စည်းမျဉ်း (The Attributive Particle "的")
+    </text>
+    <text x="380" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      “ပိုင်ဆိုင်သူ + 的 + ပိုင်ဆိုင်ခံပစ္စည်း” နှင့် မိသားစုဆွေမျိုးများတွင် “的” ချန်လှပ်ရသည့် စည်းမျဉ်း
+    </text>
+  </g>
+
+  <!-- Two Main Columns Grid -->
+  <g transform="translate(40, 85)">
+    <!-- Column 1: General Possession with 的 -->
+    <g transform="translate(0, 0)">
+      <rect width="365" height="260" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadowL5)"/>
+      <rect width="365" height="34" rx="12" fill="#0284c7"/>
+      <text x="182" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">၁။ “的” ထည့်သွင်းရသော ပုံစံ (With "的")</text>
+      
+      <!-- Formula -->
+      <g transform="translate(20, 50)">
+        <rect width="325" height="42" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+        <text x="162" y="26" fill="#facc15" font-family="monospace" font-size="15" font-weight="bold" text-anchor="middle">
+          ပိုင်ဆိုင်သူ + 的 (de) + ပစ္စည်း/လူ
+        </text>
+      </g>
+
+      <!-- Examples -->
+      <g transform="translate(25, 110)" font-family="sans-serif">
+        <text x="0" y="20" fill="#38bdf8" font-size="13" font-weight="bold">• 张老师的学生 (Zhāng lǎoshī de xuésheng)</text>
+        <text x="15" y="38" fill="#cbd5e1" font-size="11.5">ဆရာကျန်း၏ ကျောင်းသား</text>
+
+        <text x="0" y="66" fill="#38bdf8" font-size="13" font-weight="bold">• 他的书 (tā de shū) • 妈妈的朋友</text>
+        <text x="15" y="84" fill="#cbd5e1" font-size="11.5">သူ့၏ စာအုပ် • အမေ့၏ မိတ်ဆွေ</text>
+
+        <text x="0" y="112" fill="#22c55e" font-size="12" font-weight="bold">👉 အဓိပ္ပာယ်: မြန်မာလို “၏ / ရဲ့ / သော” နှင့် တူညီသည်</text>
+        <text x="15" y="130" fill="#94a3b8" font-size="11">အထွေထွေ ပိုင်ဆိုင်မှုများတွင် မဖြစ်မနေ “的” သုံးရပါသည်</text>
+      </g>
+    </g>
+
+    <!-- Column 2: Close Kinship Omits 的 -->
+    <g transform="translate(395, 0)">
+      <rect width="365" height="260" rx="14" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadowL5)"/>
+      <rect width="365" height="34" rx="12" fill="#d97706"/>
+      <text x="182" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">၂။ “的” ဖြုတ်ပယ်ရသော ပုံစံ (Omitting "的")</text>
+      
+      <!-- Formula -->
+      <g transform="translate(20, 50)">
+        <rect width="325" height="42" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+        <text x="162" y="26" fill="#facc15" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">
+          နာမ်စား + [ရင်းနှီးသောဆွေမျိုး / အဖွဲ့အစည်း]
+        </text>
+      </g>
+
+      <!-- Examples -->
+      <g transform="translate(25, 110)" font-family="sans-serif">
+        <text x="0" y="20" fill="#f59e0b" font-size="13" font-weight="bold">• 我哥哥 (wǒ gēge) — [我 的 哥哥 မဟုတ်]</text>
+        <text x="15" y="38" fill="#cbd5e1" font-size="11.5">ငါ့အစ်ကို (ရင်းနှီးသော မိသားစုဝင်များ)</text>
+
+        <text x="0" y="66" fill="#f59e0b" font-size="13" font-weight="bold">• 我爸爸 (ငါ့အဖေ) • 我们学校 (ငါတို့ကျောင်း)</text>
+        <text x="15" y="84" fill="#cbd5e1" font-size="11.5">အဖွဲ့အစည်းနှင့် စုပေါင်းနေရာများတွင်လည်း ဖြုတ်ပါသည်</text>
+
+        <text x="0" y="112" fill="#ef4444" font-size="12" font-weight="bold">⚠️ တရုတ်စကားပြော သဘာဝ:</text>
+        <text x="15" y="130" fill="#94a3b8" font-size="11">မိသားစုဝင်များတွင် “的” ထည့်ပါက စိမ်းကားသောအသံ ပေါက်သွားတတ်သည်</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Polite Etiquette Card: Nin shi...? vs Ni shi shei? -->
+  <g transform="translate(40, 365)">
+    <rect width="760" height="130" rx="14" fill="#0f172a" stroke="#10b981" stroke-width="1.5" filter="url(#shadowL5)"/>
+    <text x="30" y="30" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="bold">
+      🤝 ယဉ်ကျေးစွာ မိတ်ဆက်စကားပြောခြင်း: “您是……？” (လူကြီးမင်းက...?)
+    </text>
+
+    <g transform="translate(30, 44)">
+      <rect width="700" height="70" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="25" y="28" fill="#f8fafc" font-family="monospace" font-size="15" font-weight="bold">
+        တံခါးလာခေါက်သူ သို့မဟုတ် မသိသေးသောဧည့်သည်အား: <tspan fill="#38bdf8">“您是……？”</tspan> ဟု မေးပါ
+      </text>
+      <text x="25" y="52" fill="#cbd5e1" font-family="sans-serif" font-size="12">
+        <tspan fill="#ef4444" font-weight="bold">❌ “你是谁？” (မင်း ဘယ်သူလဲ)</tspan> ဟု မျက်နှာချင်းဆိုင် တိုက်ရိုက်မေးခြင်းသည် ရိုင်းစိုင်းပါသည်။ သဘာဝကျပြီး ယဉ်ကျေးစွာ <tspan fill="#facc15" font-weight="bold">“您是……？”</tspan> ဟုသာ မေးမြန်းရပါသည်!
+      </text>
+    </g>
+  </g>
+</svg>

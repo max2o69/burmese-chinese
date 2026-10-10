@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 520" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL5_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <filter id="shadowL5_2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="840" height="520" rx="16" fill="url(#bgGradL5_2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Title Badge -->
+  <g transform="translate(40, 24)">
+    <text x="380" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      နေရာပြ ကြိယာများနှင့် “一下儿” သဒ္ဒါသုံးစွဲပုံ (Location Verbs &amp; "yíxiàr")
+    </text>
+    <text x="380" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      去 (သွား), 在 (ရှိ), 回 (ပြန်) နှင့် ကြိယာကို ပေါ့ပါးယဉ်ကျေးစေသော “一下儿”
+    </text>
+  </g>
+
+  <!-- Three Location Verbs Comparison Grid -->
+  <g transform="translate(40, 85)">
+    <!-- Verb 1: 去 (qù) -->
+    <g transform="translate(0, 0)">
+      <rect width="240" height="235" rx="14" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5" filter="url(#shadowL5_2)"/>
+      <rect width="240" height="34" rx="12" fill="#0284c7"/>
+      <text x="120" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">去 (qù) = သွားသည်</text>
+      
+      <g transform="translate(15, 50)" font-family="sans-serif">
+        <text x="0" y="20" fill="#facc15" font-size="14" font-weight="bold">• 去北京大学</text>
+        <text x="10" y="38" fill="#cbd5e1" font-size="11.5">ပီကင်းတက္ကသိုလ်သို့ သွားသည်</text>
+
+        <text x="0" y="66" fill="#facc15" font-size="14" font-weight="bold">• 去商店 (qù shāngdiàn)</text>
+        <text x="10" y="84" fill="#cbd5e1" font-size="11.5">စတိုးဆိုင်သို့ သွားသည်</text>
+
+        <text x="0" y="112" fill="#facc15" font-size="14" font-weight="bold">• 去教室 (qù jiàoshì)</text>
+        <text x="10" y="130" fill="#cbd5e1" font-size="11.5">စာသင်ခန်းသို့ သွားသည်</text>
+
+        <text x="0" y="158" fill="#38bdf8" font-size="11" font-weight="bold">👉 မေးခွန်း: 你去哪儿？</text>
+        <text x="10" y="174" fill="#94a3b8" font-size="10.5">မင်း ဘယ်သွားမလို့လဲ</text>
+      </g>
+    </g>
+
+    <!-- Verb 2: 在 (zài) -->
+    <g transform="translate(260, 0)">
+      <rect width="240" height="235" rx="14" fill="#1e293b" stroke="#10b981" stroke-width="1.5" filter="url(#shadowL5_2)"/>
+      <rect width="240" height="34" rx="12" fill="#059669"/>
+      <text x="120" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">在 (zài) = ရှိသည်</text>
+      
+      <g transform="translate(15, 50)" font-family="sans-serif">
+        <text x="0" y="20" fill="#34d399" font-size="14" font-weight="bold">• 在家 (zài jiā)</text>
+        <text x="10" y="38" fill="#cbd5e1" font-size="11.5">အိမ်မှာ ရှိသည်</text>
+
+        <text x="0" y="66" fill="#34d399" font-size="14" font-weight="bold">• 在宿舍 (zài sùshè)</text>
+        <text x="10" y="84" fill="#cbd5e1" font-size="11.5">အဆောင်မှာ ရှိသည်</text>
+
+        <text x="0" y="112" fill="#34d399" font-size="14" font-weight="bold">• 在酒吧 (zài jiǔbā)</text>
+        <text x="10" y="130" fill="#cbd5e1" font-size="11.5">ဘားဆိုင်မှာ ရှိသည်</text>
+
+        <text x="0" y="158" fill="#34d399" font-size="11" font-weight="bold">👉 မေးခွန်း: 张老师在家吗？</text>
+        <text x="10" y="174" fill="#94a3b8" font-size="10.5">ဆရာကျန်း အိမ်မှာရှိလား</text>
+      </g>
+    </g>
+
+    <!-- Verb 3: 回 (huí) -->
+    <g transform="translate(520, 0)">
+      <rect width="240" height="235" rx="14" fill="#1e293b" stroke="#f59e0b" stroke-width="1.5" filter="url(#shadowL5_2)"/>
+      <rect width="240" height="34" rx="12" fill="#d97706"/>
+      <text x="120" y="22" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold" text-anchor="middle">回 (huí) = ပြန်သည်</text>
+      
+      <g transform="translate(15, 50)" font-family="sans-serif">
+        <text x="0" y="20" fill="#fbbf24" font-size="14" font-weight="bold">• 回家 (huí jiā)</text>
+        <text x="10" y="38" fill="#cbd5e1" font-size="11.5">အိမ်ပြန်သည်</text>
+
+        <text x="0" y="66" fill="#fbbf24" font-size="14" font-weight="bold">• 回宿舍 (huí sùshè)</text>
+        <text x="10" y="84" fill="#cbd5e1" font-size="11.5">အဆောင်ပြန်သည်</text>
+
+        <text x="0" y="112" fill="#fbbf24" font-size="14" font-weight="bold">• 回国 (huí guó)</text>
+        <text x="10" y="130" fill="#cbd5e1" font-size="11.5">မိခင်နိုင်ငံသို့ ပြန်သည်</text>
+
+        <text x="0" y="158" fill="#fbbf24" font-size="11" font-weight="bold">👉 အဖြေ: 我回家。</text>
+        <text x="10" y="174" fill="#94a3b8" font-size="10.5">ကျွန်တော် အိမ်ပြန်ပါမည်</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Grammar Softener: Verb + 一下儿 (yíxiàr) -->
+  <g transform="translate(40, 345)">
+    <rect width="760" height="150" rx="14" fill="#0f172a" stroke="#8b5cf6" stroke-width="1.5" filter="url(#shadowL5_2)"/>
+    <text x="30" y="30" fill="#a78bfa" font-family="sans-serif" font-size="16" font-weight="bold">
+      ✨ ကြိယာနောက်တွင် “一下儿” (yíxiàr) ကပ်သုံးခြင်း: ယဉ်ကျေးပေါ့ပါးသော အသံ
+    </text>
+
+    <g transform="translate(30, 46)">
+      <rect width="700" height="85" rx="10" fill="#1e293b" stroke="#334155"/>
+      <text x="25" y="30" fill="#f8fafc" font-family="monospace" font-size="16" font-weight="bold">
+        [ကြိယာ Verb] + <tspan fill="#38bdf8">一下儿 (yíxiàr)</tspan> ➔ အချိန်တိုအတွင်း ခဏလုပ်ခြင်း / ပေါ့ပါးစွာပြုလုပ်ခြင်း
+      </text>
+      <g transform="translate(25, 42)" font-family="sans-serif" font-size="12">
+        <text x="0" y="18" fill="#facc15" font-weight="bold">• 我介绍一下儿 (မိတ်ဆက်ပေးပါရစေ)</text>
+        <text x="230" y="18" fill="#34d399" font-weight="bold">• 你看一下儿 (ခဏကြည့်ပါ)</text>
+        <text x="440" y="18" fill="#38bdf8" font-weight="bold">• 休息一下儿 (ခဏနားပါ)</text>
+        <text x="0" y="36" fill="#94a3b8">တရုတ်စကားပြောရာတွင် ကြိယာကို တောင့်တင်းမနေစေဘဲ အလွန်ယဉ်ကျေးသော သံစဉ်ဖြစ်စေပါသည်</text>
+      </g>
+    </g>
+  </g>
+</svg>
