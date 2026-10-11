@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad19_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#134e4a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad19_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow19_2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="540" fill="url(#bgGrad19_2)"/>
+
+  <!-- Top Title Header -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="840" height="65" rx="16" fill="url(#cardGrad19_2)" stroke="#14b8a6" stroke-opacity="0.4" filter="url(#shadow19_2)"/>
+    <circle cx="45" cy="32" r="20" fill="#0d9488" fill-opacity="0.2"/>
+    <text x="45" y="39" font-size="22" text-anchor="middle" fill="#2dd4bf">🧩</text>
+    <text x="80" y="30" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="19" fill="#f8fafc">
+      第十九课 核心语法：动量补语 与 "从/在+人+这儿/那儿"
+    </text>
+    <text x="80" y="52" font-family="'Myanmar Text', sans-serif" font-size="12.5" fill="#94a3b8">
+      အကြိမ်အရေအတွက်ပြ အဖြည့်ပုဒ် (Frequency Complements) နှင့် လူပုဒ်အား နေရာအဖြစ် ပြောင်းလဲခြင်း စည်းမျဉ်း
+    </text>
+  </g>
+
+  <!-- Left Column: "从/在" + Person + 这儿/那儿 -->
+  <g transform="translate(60, 125)" filter="url(#shadow19_2)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad19_2)" stroke="#f59e0b" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#fbbf24">
+      📍 1. "从 / 在" + 人 + 这儿 / 那儿
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">နေရာပြ</text>
+
+    <!-- Formula -->
+    <g transform="translate(18, 60)">
+      <rect width="369" height="55" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.4"/>
+      <text x="184" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#fbbf24" text-anchor="middle">
+        从 / 在 + [ 指人名词 / 代词 ] + 这儿 / 那儿
+      </text>
+      <text x="184" y="44" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+        လူပုဒ်သည် နေရာမဟုတ်သောကြောင့် "这儿/那儿" ထည့်မှသာ နေရာပြပုဒ် ဖြစ်သည်
+      </text>
+    </g>
+
+    <!-- Contrast Box -->
+    <g transform="translate(18, 127)">
+      <!-- Right -->
+      <rect width="369" height="60" rx="6" fill="#064e3b" fill-opacity="0.4" stroke="#059669"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#34d399">
+        ✓ 我从朋友那儿去饭店。
+      </text>
+      <text x="14" y="44" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#a7f3d0">
+        ကျွန်တော် သူငယ်ချင်းဆီကနေ ဟိုတယ်ကို သွားပါ့မယ် (မှန်ကန်)
+      </text>
+
+      <!-- Wrong -->
+      <rect y="70" width="369" height="50" rx="6" fill="#4c0519" fill-opacity="0.4" stroke="#e11d48"/>
+      <text x="14" y="94" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#f87171">
+        ✗ 我从朋友去饭店。(မှားယွင်းသည်)
+      </text>
+      <text x="14" y="110" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#fca5a5">
+        "从朋友" လူနာမ်သက်သက်သည် နေရာမဟုတ်၍ သဒ္ဒါမှားသည်
+      </text>
+
+      <!-- Extra Examples -->
+      <rect y="130" width="369" height="68" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="152" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#e2e8f0">
+        • 他从我这儿去书店。(သူ ငါ့ဆီကနေ စာအုပ်ဆိုင်သွားတယ်)
+      </text>
+      <text x="14" y="174" font-family="system-ui, sans-serif" font-weight="600" font-size="12" fill="#e2e8f0">
+        • 我的笔在他那儿。(ငါ့ဘောပင် သူ့ဆီမှာ ရှိနေတယ်)
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Column: Frequency Complement & Absolute Negation -->
+  <g transform="translate(495, 125)" filter="url(#shadow19_2)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad19_2)" stroke="#2dd4bf" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#2dd4bf">
+      🔢 2. 动量补语 与 全盘否定
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">次数 / 强调</text>
+
+    <!-- Frequency Complement -->
+    <g transform="translate(18, 60)">
+      <rect width="369" height="70" rx="8" fill="#0f172a" stroke="#2dd4bf" stroke-opacity="0.4"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#5eead4">
+        Verb + Number + 次 (အကြိမ်အရေအတွက်)
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="12" fill="#f8fafc">
+        我以前来过两次。(အရင်က ၂ ကြိမ် လာဖူးခဲ့သည်)
+      </text>
+      <text x="14" y="62" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+        我找过他两次 (သူ့ကို ၂ ခါ ရှာခဲ့ဖူးသည်)
+      </text>
+    </g>
+
+    <!-- Brief Action: 一下儿 -->
+    <g transform="translate(18, 142)">
+      <rect width="369" height="65" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#7dd3fc">
+        Verb + 一下儿 (ခဏတဖြုတ် / ပေါ့ပေါ့ပါးပါး)
+      </text>
+      <text x="14" y="42" font-family="system-ui, sans-serif" font-size="12" fill="#f8fafc">
+        给你们介绍一下儿 / 帮我拿一下儿
+      </text>
+      <text x="14" y="58" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+        မိတ်ဆက်ပေးပါရစေ / ခဏလောက် ကိုင်ပေးပါ
+      </text>
+    </g>
+
+    <!-- Absolute Negation -->
+    <g transform="translate(18, 220)">
+      <rect width="369" height="135" rx="8" fill="#0f172a" stroke="#a855f7" stroke-opacity="0.4"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="13" fill="#c084fc">
+        🚫 全盘否定 (Absolute Negation):
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#e9d5ff">
+        一 + 量词 + 也 / 都 + 不 / 没 + Verb
+      </text>
+      <text x="14" y="66" font-family="system-ui, sans-serif" font-size="12" fill="#f8fafc">
+        • 一点儿也不累。(နည်းနည်းလေးမှ မပင်ပန်းပါ)
+      </text>
+      <text x="14" y="86" font-family="system-ui, sans-serif" font-size="12" fill="#f8fafc">
+        • 一句汉语也不会说。(တစ်ခွန်းမှ မပြောတတ်ပါ)
+      </text>
+      <text x="14" y="106" font-family="system-ui, sans-serif" font-size="12" fill="#f8fafc">
+        • 一天也没休息。(တစ်ရက်မှ မနားခဲ့ပါ)
+      </text>
+      <text x="14" y="124" font-family="system-ui, sans-serif" font-size="11" fill="#a855f7">
+        • 一分钱也没带。(တစ်ပြားမှ မယူလာခဲ့ပါ)
+      </text>
+    </g>
+  </g>
+</svg>

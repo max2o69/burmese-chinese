@@ -1,0 +1,147 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad19" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <linearGradient id="cardGrad19" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow19" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="540" fill="url(#bgGrad19)"/>
+
+  <!-- Top Title Header -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="840" height="65" rx="16" fill="url(#cardGrad19)" stroke="#10b981" stroke-opacity="0.4" filter="url(#shadow19)"/>
+    <circle cx="45" cy="32" r="20" fill="#059669" fill-opacity="0.2"/>
+    <text x="45" y="39" font-size="22" text-anchor="middle" fill="#34d399">🏨</text>
+    <text x="80" y="30" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="19" fill="#f8fafc">
+      第十九课：欢迎宴请与客套礼节 (Welcome Reception &amp; Etiquette)
+    </text>
+    <text x="80" y="52" font-family="'Myanmar Text', sans-serif" font-size="12.5" fill="#94a3b8">
+      ပေကျင်းဟိုတယ်တွင် ဧည့်ခံညစာ ဖိတ်ကျွေးခြင်း • ယဉ်ကျေးပျူငှာစွာ တုံ့ပြန်ပြောဆိုနည်းများ • တွေ့ဆုံနှုတ်ဆက်ခြင်း ယဉ်ကျေးမှု
+    </text>
+  </g>
+
+  <!-- Left Card: Beijing Hotel Banquet (ပေကျင်းဟိုတယ် ညစာဖိတ်ကျွေးခြင်း) -->
+  <g transform="translate(60, 125)" filter="url(#shadow19)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad19)" stroke="#10b981" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#34d399">
+      🍽️ 北京饭店宴请 (Dinner Invitation)
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">晚宴宴请</text>
+
+    <!-- Key Invitation Line -->
+    <g transform="translate(18, 62)">
+      <rect width="369" height="75" rx="8" fill="#0f172a" stroke="#10b981" stroke-opacity="0.5"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#6ee7b7">
+        我们在北京饭店请您吃晚饭。
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="12" fill="#a7f3d0">
+        Wǒmen zài Běijīng Fàndiàn qǐng nín chī wǎnfàn.
+      </text>
+      <text x="14" y="64" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#94a3b8">
+        ပေကျင်းဟိုတယ်မှာ လူကြီးမင်းကို ညစာ ဖိတ်ကျွေးပါရစေ။
+      </text>
+    </g>
+
+    <!-- Polite Responses -->
+    <g transform="translate(18, 150)">
+      <!-- Polite response 1 -->
+      <rect width="369" height="65" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#38bdf8">
+        您太客气了，真不好意思。
+      </text>
+      <text x="14" y="40" font-family="system-ui, sans-serif" font-size="11" fill="#94a3b8">
+        Nín tài kèqi le, zhēn bù hǎoyìsi.
+      </text>
+      <text x="14" y="56" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#cbd5e1">
+        လူကြီးမင်း အရမ်းအားနာစရာ ကောင်းလိုက်တာ၊ တကယ် အားနာမိပါတယ်။
+      </text>
+    </g>
+
+    <!-- Taxi from friend's place -->
+    <g transform="translate(18, 230)">
+      <rect width="369" height="125" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.4"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#fbbf24">
+        🚖 我可以打车从朋友那儿去。
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" fill="#fde68a">
+        Wǒ kěyǐ dǎ chē cóng péngyou nàr qù.
+      </text>
+      <text x="14" y="64" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#94a3b8">
+        ကျွန်တော် သူငယ်ချင်းဆီကနေ တက္ကစီငှားပြီး သွားလို့ ရပါတယ်။
+      </text>
+      <rect x="14" y="76" width="341" height="38" rx="6" fill="#1e293b"/>
+      <text x="24" y="94" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#38bdf8">
+        💡 关键搭配: 打车 (တက္ကစီငှားစီးသည်) + 从 [人]+那儿 (တစ်စုံတစ်ယောက်ဆီမှ)
+      </text>
+      <text x="24" y="108" font-family="'Myanmar Text', sans-serif" font-size="10.5" fill="#94a3b8">
+        လူပုဒ်နောက်တွင် "那儿" ထည့်မှသာ နေရာပြပုဒ် ဖြစ်လာသည်
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Card: Welcoming Phrases & Social Courtesies (ဧည့်ကြို ယဉ်ကျေးမှု ဝေါဟာရများ) -->
+  <g transform="translate(495, 125)" filter="url(#shadow19)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad19)" stroke="#38bdf8" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#38bdf8">
+      🤝 核心社交礼仪 (Core Courtesies)
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">客气用语</text>
+
+    <!-- Phrase 1: 别客气 -->
+    <g transform="translate(18, 62)">
+      <rect width="369" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="15" fill="#f8fafc">别客气！(Bié kèqi!)</text>
+      <text x="14" y="48" font-family="'Myanmar Text', sans-serif" font-size="12" fill="#38bdf8">
+        အားမနာပါနဲ့ / ရပါတယ် (ကျေးဇူးတင်စကားကို ပြန်လည်တုံ့ပြန်ခြင်း)
+      </text>
+    </g>
+
+    <!-- Phrase 2: 一点儿也不累，很顺利 -->
+    <g transform="translate(18, 134)">
+      <rect width="369" height="70" rx="8" fill="#0f172a" stroke="#10b981" stroke-opacity="0.4"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#a7f3d0">
+        一点儿也不累，很顺利。
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11" fill="#6ee7b7">
+        Yìdiǎnr yě bù lèi, hěn shùnlì.
+      </text>
+      <text x="14" y="62" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#94a3b8">
+        နည်းနည်းလေးမှ မပင်ပန်းပါဘူး၊ အရာရာ ချောမောအဆင်ပြေခဲ့ပါတယ်။
+      </text>
+    </g>
+
+    <!-- Phrase 3: 他问您好 & 麻烦您了 -->
+    <g transform="translate(18, 216)">
+      <rect width="369" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#f43f5e">
+        他问您好。(Tā wèn nín hǎo.)
+      </text>
+      <text x="14" y="46" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#fda4af">
+        သူက လူကြီးမင်းကို မေတ္တာပို့ နှုတ်ဆက်လိုက်ပါတယ် (Regards)
+      </text>
+    </g>
+
+    <!-- Phrase 4: 麻烦您了 -->
+    <g transform="translate(18, 288)">
+      <rect width="369" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#c084fc">
+        麻烦您了。(Máfàn nín le.)
+      </text>
+      <text x="14" y="46" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#e9d5ff">
+        လူကြီးမင်းကို အလုပ်ရှုပ်စေမိပါပြီ (ကျေးဇူးတင်နှုတ်ဆက်စကား)
+      </text>
+    </g>
+  </g>
+</svg>

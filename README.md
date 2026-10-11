@@ -40,3 +40,4 @@ An interactive, offline-ready Chinese learning course tailored specifically for 
 * **[Lesson 16: Have You Seen Beijing Opera? (မင်း ပေကျင်းဇာတ် ကြည့်ဖူးသလား / 你看过京剧吗)](Lesson_16_Complete_Course.html)**
 * **[Lesson 17: Going to the Zoo (တိရစ္ဆာန်ရုံသို့ သွားခြင်း / 去动物园)](Lesson_17_Complete_Course.html)**
 * **[Lesson 18: Did You Have a Tiring Trip? (လမ်းမှာ ပင်ပန်းခဲ့ပြီနော် / 路上辛苦了)](Lesson_18_Complete_Course.html)**
+* **[Lesson 19: You Are Welcome (ကြိုဆိုပါသည် / 欢迎你)](Lesson_19_Complete_Course.html)**
