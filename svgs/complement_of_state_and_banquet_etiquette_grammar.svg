@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad20_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad20_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow20_2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="540" fill="url(#bgGrad20_2)"/>
+
+  <!-- Top Title Header -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="840" height="65" rx="16" fill="url(#cardGrad20_2)" stroke="#ec4899" stroke-opacity="0.4" filter="url(#shadow20_2)"/>
+    <circle cx="45" cy="32" r="20" fill="#db2777" fill-opacity="0.2"/>
+    <text x="45" y="39" font-size="22" text-anchor="middle" fill="#f472b6">🎓</text>
+    <text x="80" y="30" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="19" fill="#f8fafc">
+      第二十课 核心语法：状态补语 (Complement of State with "得")
+    </text>
+    <text x="80" y="52" font-family="'Myanmar Text', sans-serif" font-size="12.5" fill="#94a3b8">
+      ကြိယာဆောင်ရွက်မှု၏ အခြေအနေ/ရလဒ် အကဲဖြတ်ပြပုဒ် "得" နှင့် ကံပုဒ်ပါရှိချိန် ကြိယာထပ်ခါရွတ်ဆိုရသည့် စည်းမျဉ်း
+    </text>
+  </g>
+
+  <!-- Left Column: Complement of State (状态补语: V + 得 + Adj) -->
+  <g transform="translate(60, 125)" filter="url(#shadow20_2)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad20_2)" stroke="#f59e0b" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#fbbf24">
+      ⭐ 1. 基本结构 (Basic Structure)
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">V + 得 + 形容词</text>
+
+    <!-- Formula -->
+    <g transform="translate(18, 60)">
+      <rect width="369" height="50" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.4"/>
+      <text x="184" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#fbbf24" text-anchor="middle">
+        Verb + 得 + Adjective / Complement
+      </text>
+      <text x="184" y="42" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+        ကြိယာ၏ လုပ်ဆောင်ချက် အခြေအနေ/အဆင့်အတန်းကို ဖော်ပြသည်
+      </text>
+    </g>
+
+    <!-- Examples & Negative form -->
+    <g transform="translate(18, 120)">
+      <!-- Affirmative -->
+      <rect width="369" height="56" rx="6" fill="#064e3b" fill-opacity="0.4" stroke="#059669"/>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#34d399">
+        肯定式: 这个鱼做得真好吃 / 玩儿得很愉快
+      </text>
+      <text x="14" y="42" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#a7f3d0">
+        ငါးချက်ထားတာ တကယ်အရသာရှိတယ် / အရမ်းပျော်ရွှင်စွာ ဆော့ကစားခဲ့ကြသည်
+      </text>
+
+      <!-- Negative -->
+      <rect y="64" width="369" height="60" rx="6" fill="#4c0519" fill-opacity="0.4" stroke="#e11d48"/>
+      <text x="14" y="86" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#f87171">
+        否定式: V + 得 + 不 + Adj (做菜做得不好)
+      </text>
+      <text x="14" y="106" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#fca5a5">
+        ⚠️ "不" ကို ကြိယာရှေ့ မထားရပါ! ဖြည့်စွက်ပုဒ်ရှေ့တွင်သာ ထားရပါသည်
+      </text>
+
+      <!-- Affir-Neg Question -->
+      <rect y="132" width="369" height="60" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="154" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#38bdf8">
+        疑问式: V + 得 + Adj + 不 + Adj?
+      </text>
+      <text x="14" y="174" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#cbd5e1">
+        你休息得好不好？ / 鱼做得好吃不好吃？
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Column: Verb-Object Repetition Rule (动宾重复规则) -->
+  <g transform="translate(495, 125)" filter="url(#shadow20_2)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad20_2)" stroke="#ec4899" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#f472b6">
+      🔄 2. 动宾重复规则 (Verb Repetition Rule)
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">V + O + V + 得</text>
+
+    <!-- Formula -->
+    <g transform="translate(18, 60)">
+      <rect width="369" height="55" rx="8" fill="#0f172a" stroke="#ec4899" stroke-opacity="0.4"/>
+      <text x="184" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="13.5" fill="#f472b6" text-anchor="middle">
+        Verb + Object + [Verb] + 得 + Complement
+      </text>
+      <text x="184" y="44" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+        ကြိယာနောက်တွင် ကံပုဒ်ပါရှိပါက ကြိယာကို တစ်ခါထပ်မံရွတ်ဆိုရသည်
+      </text>
+    </g>
+
+    <!-- Contrast Examples -->
+    <g transform="translate(18, 125)">
+      <!-- Example 1 -->
+      <rect width="369" height="52" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="20" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#e2e8f0">
+        • 他说汉语[说]得很好。
+      </text>
+      <text x="14" y="38" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+        သူ တရုတ်စကား ပြောတာ အရမ်းတော်တယ် (说汉语 + 说得很好)
+      </text>
+
+      <!-- Example 2 -->
+      <rect y="58" width="369" height="52" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="78" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#e2e8f0">
+        • 他洗衣服[洗]得很干净。
+      </text>
+      <text x="14" y="96" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+        သူ အဝတ်လျှော်တာ အရမ်းသန့်ရှင်းတယ် (洗衣服 + 洗得很干净)
+      </text>
+
+      <!-- Example 3 -->
+      <rect y="116" width="369" height="52" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="136" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#e2e8f0">
+        • 我写汉字[写]得不太好。
+      </text>
+      <text x="14" y="154" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+        ကျွန်တော် တရုတ်စာ ရေးတာ သိပ်မကောင်းလှပါ (写汉字 + 写得不太好)
+      </text>
+
+      <!-- Golden Rule Summary -->
+      <rect y="174" width="369" height="45" rx="6" fill="#1e1b4b" stroke="#8b5cf6"/>
+      <text x="184" y="196" font-family="system-ui, sans-serif" font-weight="700" font-size="11.5" fill="#c084fc" text-anchor="middle">
+        💡 ရွှေစည်းမျဉ်း: ကံပုဒ်နှင့် "得" ကြားတွင် ကြိယာကို အမြဲထပ်ရွတ်ပါ!
+      </text>
+    </g>
+  </g>
+</svg>

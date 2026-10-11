@@ -1,0 +1,151 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad20" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#311042"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad20" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="shadow20" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="540" fill="url(#bgGrad20)"/>
+
+  <!-- Top Title Header -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="840" height="65" rx="16" fill="url(#cardGrad20)" stroke="#f59e0b" stroke-opacity="0.4" filter="url(#shadow20)"/>
+    <circle cx="45" cy="32" r="20" fill="#d97706" fill-opacity="0.2"/>
+    <text x="45" y="39" font-size="22" text-anchor="middle" fill="#fbbf24">🥂</text>
+    <text x="80" y="30" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="19" fill="#f8fafc">
+      第二十课：为我们的友谊干杯 (A Toast to Our Friendship)
+    </text>
+    <text x="80" y="52" font-family="'Myanmar Text', sans-serif" font-size="12.5" fill="#94a3b8">
+      ချစ်ကြည်ရေးနှင့် ကျန်းမာရေးအတွက် ခွက်ဖလားမြှောက်ခြင်း • တရုတ်ဧည့်ခံကျွေးမွေးမှု ယဉ်ကျေးမှု • "像在家一样" နွေးထွေးသော ဧည့်ဝတ်ပြုမှု
+    </text>
+  </g>
+
+  <!-- Left Card: Toasting & Banquet Culture (သောက်တော်ခွက်မြှောက်ခြင်းနှင့် ဂုဏ်ပြုဆုတောင်းခြင်း) -->
+  <g transform="translate(60, 125)" filter="url(#shadow20)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad20)" stroke="#f59e0b" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#fbbf24">
+      🍷 宴席祝酒词 (Banquet Toasts)
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">干杯！</text>
+
+    <!-- Toast 1: Friendship -->
+    <g transform="translate(18, 62)">
+      <rect width="369" height="75" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.5"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="15" fill="#fde68a">
+        为我们的友谊干杯！
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="12" fill="#fcd34d">
+        Wèi wǒmen de yǒuyì gānbēi!
+      </text>
+      <text x="14" y="64" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#cbd5e1">
+        ကျွန်ုပ်တို့၏ ချစ်ကြည်ရင်းနှီးမှုအတွက် ခွက်ဖလားမြှောက်ကြစို့!
+      </text>
+    </g>
+
+    <!-- Toast 2: Health -->
+    <g transform="translate(18, 150)">
+      <rect width="369" height="75" rx="8" fill="#0f172a" stroke="#10b981" stroke-opacity="0.4"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="15" fill="#6ee7b7">
+        为大家的健康干杯！
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="12" fill="#a7f3d0">
+        Wèi dàjiā de jiànkāng gānbēi!
+      </text>
+      <text x="14" y="64" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#cbd5e1">
+        အားလုံး၏ ကျန်းမာပျော်ရွှင်မှုအတွက် ချကြစို့ (ခွက်ဖလားမြှောက်)!
+      </text>
+    </g>
+
+    <!-- Toast Rule Notice -->
+    <g transform="translate(18, 238)">
+      <rect width="369" height="115" rx="8" fill="#0f172a" stroke="#ec4899" stroke-opacity="0.4"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#f472b6">
+        💡 介词 "为" (Purpose / For):
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#fbcfe8">
+        为 + [ရည်ရွယ်ချက် / ဆုမွန်ကောင်း] + 干杯！
+      </text>
+      <text x="14" y="66" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#94a3b8">
+        တရုတ်လူမျိုးများသည် အရက်ခွက်မြှောက်ရာတွင် အကြောင်းရင်း သို့မဟုတ် ဆုမွန်ကောင်းကို "为" ဖြင့် စတင်ဖော်ပြလေ့ရှိသည်
+      </text>
+      <text x="14" y="94" font-family="system-ui, sans-serif" font-size="11" fill="#38bdf8">
+        🥂 "干杯" ဆိုသည်မှာ ခွက်ထဲရှိ သောက်စရာကို အကုန်မော့သောက်ခြင်း (Cheers) ဖြစ်သည်
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Card: Home Hospitality & Compliments (ဧည့်ဝတ်ပြုမှုနှင့် ယဉ်ကျေးပျူငှာမှု) -->
+  <g transform="translate(495, 125)" filter="url(#shadow20)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad20)" stroke="#ec4899" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#f472b6">
+      🥟 热情招待与客气回应 (Hospitality)
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">宾至如归</text>
+
+    <!-- Phrase 1: 像在家一样 -->
+    <g transform="translate(18, 62)">
+      <rect width="369" height="70" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#f8fafc">
+        你们别客气，像在家一样。
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11.5" fill="#f472b6">
+        Nǐmen bié kèqi, xiàng zài jiā yíyàng.
+      </text>
+      <text x="14" y="62" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#cbd5e1">
+        အားလုံး အားမနာကြပါနဲ့၊ ကိုယ့်အိမ်လိုပဲ သဘောထားကြပါနော်။
+      </text>
+    </g>
+
+    <!-- Phrase 2: 哪儿啊 (Modesty) -->
+    <g transform="translate(18, 144)">
+      <rect width="369" height="75" rx="8" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.4"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#c084fc">
+        哪儿啊，我做得不好。(Modesty)
+      </text>
+      <text x="14" y="44" font-family="system-ui, sans-serif" font-size="11.5" fill="#a78bfa">
+        Nǎra, wǒ zuò de bù hǎo.
+      </text>
+      <text x="14" y="64" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#94a3b8">
+        ဘယ်ဟုတ်ပါ့မလဲ၊ ကျွန်မ ချက်တာ သိပ်မကောင်းပါဘူး (ချီးကျူးမှုကို နှိမ့်ချတုံ့ပြန်ခြင်း)
+      </text>
+    </g>
+
+    <!-- Phrase 3: 你们慢慢吃 -->
+    <g transform="translate(18, 230)">
+      <rect width="369" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#38bdf8">
+        你们慢慢吃。(Nǐmen mànmàn chī.)
+      </text>
+      <text x="14" y="46" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#cbd5e1">
+        ဖြည်းဖြည်း သုံးဆောင်ကြပါနော် (မိမိစားပြီးသော်လည်း သူများစားမပြီးသေးပါက သုံးစကား)
+      </text>
+    </g>
+
+    <!-- Phrase 4: 过得很愉快 -->
+    <g transform="translate(18, 300)">
+      <rect width="369" height="52" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="22" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#34d399">
+        过得很愉快。(Guò de hěn yúkuài.)
+      </text>
+      <text x="14" y="42" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+        အချိန်တွေကို အလွန်ပျော်ရွှင်စွာ ဖြတ်သန်းခဲ့ရပါသည်
+      </text>
+    </g>
+  </g>
+</svg>

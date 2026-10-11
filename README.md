@@ -41,3 +41,4 @@ An interactive, offline-ready Chinese learning course tailored specifically for 
 * **[Lesson 17: Going to the Zoo (တိရစ္ဆာန်ရုံသို့ သွားခြင်း / 去动物园)](Lesson_17_Complete_Course.html)**
 * **[Lesson 18: Did You Have a Tiring Trip? (လမ်းမှာ ပင်ပန်းခဲ့ပြီနော် / 路上辛苦了)](Lesson_18_Complete_Course.html)**
 * **[Lesson 19: You Are Welcome (ကြိုဆိုပါသည် / 欢迎你)](Lesson_19_Complete_Course.html)**
+* **[Lesson 20: Let's Have a Toast to Our Friendship (ကျွန်ုပ်တို့၏ ချစ်ကြည်ရေးအတွက် ခွက်ဖလားမြှောက်ကြပါစို့ / 为我们的友谊干杯)](Lesson_20_Complete_Course.html)**
