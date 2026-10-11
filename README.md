@@ -35,3 +35,4 @@ An interactive, offline-ready Chinese learning course tailored specifically for 
 * **[Lesson 11: I Want To Buy Oranges (ကျွန်တော် လိမ္မော်သီး ဝယ်ချင်ပါတယ် / 我要买橘子)](Lesson_11_Complete_Course.html)**
 * **[Lesson 12: I Want To Buy A Sweater (ကျွန်တော် ဆွယ်တာအင်္ကျီ ဝယ်ချင်ပါတယ် / 我想买毛衣)](Lesson_12_Complete_Course.html)**
 * **[Lesson 13: You Have To Change Buses (ကားပြောင်းစီးရမည် / 要换车)](Lesson_13_Complete_Course.html)**
+* **[Lesson 14: I Am Going To Change Money (ကျွန်တော် ပိုက်ဆံ သွားလဲမလို့ပါ / 我要去换钱)](Lesson_14_Complete_Course.html)**

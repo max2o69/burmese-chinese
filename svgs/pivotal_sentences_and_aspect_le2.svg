@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <linearGradient id="pivotalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312e81" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="aspectGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4a044e" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#2a0845" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="950" height="560" rx="24" fill="url(#bgGrad2)"/>
+  <rect x="2" y="2" width="946" height="556" rx="22" fill="none" stroke="#818cf8" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Title & Subtitle -->
+  <g transform="translate(40, 45)">
+    <rect x="0" y="0" width="165" height="26" rx="13" fill="#6366f1" fill-opacity="0.3"/>
+    <text x="12" y="18" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#a5b4fc">第14课 核心语法双支柱</text>
+    <text x="0" y="55" font-family="'Noto Sans SC', sans-serif" font-size="24" font-weight="bold" fill="#ffffff">兼语句结构 与 语气助词“了”的发生态</text>
+    <text x="0" y="78" font-family="'Noto Sans Myanmar', sans-serif" font-size="14" fill="#c7d2fe">ကံပုဒ်/ကတ္တား ပူးတွဲခံဝါကျ (Pivotal Sentence) နှင့် ပြီးမြောက်/ဖြစ်ပွားမှုပြ "了" (Aspect Particle)</text>
+  </g>
+
+  <!-- Left Card: The Pivotal Sentence (兼语句) -->
+  <g transform="translate(40, 140)" filter="url(#shadow2)">
+    <rect width="425" height="380" rx="18" fill="url(#pivotalGrad)" stroke="#6366f1" stroke-width="1.5"/>
+    
+    <g transform="translate(25, 25)">
+      <rect x="0" y="0" width="95" height="24" rx="6" fill="#4f46e5"/>
+      <text x="10" y="16" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">语法一 · 兼语句</text>
+      
+      <text x="110" y="18" font-family="'Noto Sans Myanmar', sans-serif" font-size="13" font-weight="bold" fill="#a5b4fc">ပူးတွဲမဏ္ဍိုင်ဝါကျ (Pivotal Sentence)</text>
+      <text x="0" y="46" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#cbd5e1" width="375">
+        ပထမကြိယာ၏ ကံပုဒ်သည် ဒုတိယကြိယာ၏ ကတ္တားအဖြစ် တစ်ပြိုင်နက် လုပ်ဆောင်သော ဝါကျဖြစ်သည်:
+      </text>
+
+      <!-- Structure Diagram Box -->
+      <g transform="translate(0, 60)">
+        <rect width="375" height="65" rx="10" fill="#0f172a" stroke="#4338ca"/>
+        
+        <!-- Component 1: V1 (Causative) -->
+        <rect x="15" y="12" width="75" height="40" rx="6" fill="#312e81" stroke="#6366f1"/>
+        <text x="52" y="30" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">动词 1</text>
+        <text x="52" y="45" font-family="sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle">请 / 让 / 叫</text>
+
+        <!-- Plus -->
+        <text x="102" y="36" font-family="sans-serif" font-size="16" font-weight="bold" fill="#818cf8" text-anchor="middle">+</text>
+
+        <!-- Component 2: The Pivot (兼语) -->
+        <rect x="115" y="8" width="95" height="48" rx="8" fill="#4338ca" stroke="#fbbf24" stroke-width="1.5"/>
+        <text x="162" y="27" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#fef08a" text-anchor="middle">兼语 (Pivot)</text>
+        <text x="162" y="42" font-family="sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">宾语 兼 主语</text>
+
+        <!-- Plus -->
+        <text x="222" y="36" font-family="sans-serif" font-size="16" font-weight="bold" fill="#818cf8" text-anchor="middle">+</text>
+
+        <!-- Component 3: V2 -->
+        <rect x="235" y="12" width="125" height="40" rx="6" fill="#312e81" stroke="#6366f1"/>
+        <text x="297" y="30" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">动词 2 + 宾语</text>
+        <text x="297" y="45" font-family="sans-serif" font-size="10" fill="#a5b4fc" text-anchor="middle">写名字 / 吃饭</text>
+      </g>
+
+      <!-- Sentence Examples -->
+      <g transform="translate(0, 140)">
+        <!-- Ex 1 -->
+        <rect width="375" height="52" rx="8" fill="#1e1b4b" stroke="#3730a3"/>
+        <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">请 <tspan fill="#fef08a">您</tspan> 写一下儿名字。</text>
+        <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#c7d2fe">ကျေးဇူးပြုပြီး ခင်ဗျား နာမည်ရေးပေးပါ (您 = ကံပုဒ် + ကတ္တား)</text>
+
+        <!-- Ex 2 -->
+        <g transform="translate(0, 60)">
+          <rect width="375" height="52" rx="8" fill="#1e1b4b" stroke="#3730a3"/>
+          <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">请 <tspan fill="#fef08a">他</tspan> 吃饭。</text>
+          <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#c7d2fe">သူ့ကို ထမင်းကျွေးဖို့ ဖိတ်ခေါ်သည် (他 = ကံပုဒ် + ကတ္တား)</text>
+        </g>
+
+        <!-- Ex 3 -->
+        <g transform="translate(0, 120)">
+          <rect width="375" height="52" rx="8" fill="#1e1b4b" stroke="#3730a3"/>
+          <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff">这是他的信，请 <tspan fill="#fef08a">你</tspan> 给他。</text>
+          <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#c7d2fe">ဒါ သူ့စာပါ၊ ကျေးဇူးပြုပြီး မင်း သူ့ကို ပေးလိုက်ပါ</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Card: Modal Particle "Le" (语气助词“了” 2) -->
+  <g transform="translate(485, 140)" filter="url(#shadow2)">
+    <rect width="425" height="380" rx="18" fill="url(#aspectGrad)" stroke="#c026d3" stroke-width="1.5"/>
+    
+    <g transform="translate(25, 25)">
+      <rect x="0" y="0" width="115" height="24" rx="6" fill="#a21caf"/>
+      <text x="10" y="16" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">语法二 · “了”表发生</text>
+      
+      <text x="125" y="18" font-family="'Noto Sans Myanmar', sans-serif" font-size="13" font-weight="bold" fill="#f0abfc">ဖြစ်ပွား/ပြီးမြောက်မှုပြ "了" (2)</text>
+      <text x="0" y="46" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#cbd5e1" width="375">
+        ဖြစ်ရပ်တစ်ခုသည် ယခုအချိန်တွင် ဖြစ်ပျက်ပြီးကြောင်း ဖော်ပြသည် (Denoting Action Realization):
+      </text>
+
+      <!-- Comparison Matrix -->
+      <g transform="translate(0, 60)">
+        <rect width="375" height="95" rx="10" fill="#0f172a" stroke="#701a75"/>
+        
+        <!-- Future / Not happened -->
+        <rect x="12" y="12" width="170" height="70" rx="6" fill="#2e1065"/>
+        <text x="22" y="30" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#cbd5e1">未发生 (မဖြစ်သေး):</text>
+        <text x="22" y="50" font-family="'Noto Sans SC', sans-serif" font-size="13" fill="#ffffff">你去哪儿？我去商店。</text>
+        <text x="22" y="68" font-family="'Noto Sans Myanmar', sans-serif" font-size="10" fill="#a5b4fc">မသွားရသေး (အစီအစဉ်မျှသာ)</text>
+
+        <!-- Completed / Happened -->
+        <rect x="192" y="12" width="170" height="70" rx="6" fill="#4a044e" stroke="#e879f9" stroke-width="1"/>
+        <text x="202" y="30" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#f5d0fe">已发生 (ဖြစ်ပြီးပြီ):</text>
+        <text x="202" y="50" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff">你去哪儿<tspan fill="#f43f5e">了</tspan>？我去商店<tspan fill="#f43f5e">了</tspan>。</text>
+        <text x="202" y="68" font-family="'Noto Sans Myanmar', sans-serif" font-size="10" fill="#f5d0fe">သွားခဲ့ပြီးပြီ (ရောက်ခဲ့ပြီး)</text>
+      </g>
+
+      <!-- Negative & Question Rules -->
+      <g transform="translate(0, 170)">
+        <!-- Negative Rule -->
+        <rect width="375" height="68" rx="8" fill="#2a0845" stroke="#86198f"/>
+        <text x="12" y="24" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#f472b6">🚫 否定形式 (Negative Form):</text>
+        <text x="12" y="44" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">他 <tspan fill="#fb7185">没去</tspan> 商店。(ဝါကျအဆုံး "了" ဖြုတ်ရမည်!)</text>
+        <text x="12" y="60" font-family="'Noto Sans Myanmar', sans-serif" font-size="10" fill="#cbd5e1">"没" သုံးပါက အဆုံးတွင် "了" မထည့်ရပါ (他没去商店了 ❌)</text>
+
+        <!-- A-not-A Question Rule -->
+        <g transform="translate(0, 78)">
+          <rect width="375" height="68" rx="8" fill="#2a0845" stroke="#86198f"/>
+          <text x="12" y="24" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#38bdf8">❓ 正反疑问句 (Affirmative-Negative Qs):</text>
+          <text x="12" y="44" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">你吃饭<tspan fill="#38bdf8">了没有</tspan>？ / 你吃<tspan fill="#38bdf8">没</tspan>吃饭？</text>
+          <text x="12" y="60" font-family="'Noto Sans Myanmar', sans-serif" font-size="10" fill="#cbd5e1">ထမင်းစားပြီးပြီလား (စုံစမ်းမေးမြန်းခြင်း ပုံစံနှစ်မျိုး)</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

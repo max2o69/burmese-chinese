@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#022c22"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#134e4a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#022c22" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="950" height="560" rx="24" fill="url(#bgGrad)"/>
+  <rect x="2" y="2" width="946" height="556" rx="22" fill="none" stroke="#10b981" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Title & Subtitle -->
+  <g transform="translate(40, 45)">
+    <rect x="0" y="0" width="160" height="26" rx="13" fill="#059669" fill-opacity="0.3"/>
+    <text x="12" y="18" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#34d399">第14课 核心词汇与交易流程</text>
+    <text x="0" y="55" font-family="'Noto Sans SC', sans-serif" font-size="24" font-weight="bold" fill="#ffffff">外汇兑换与银行/饭店业务流程</text>
+    <text x="0" y="78" font-family="'Noto Sans Myanmar', sans-serif" font-size="14" fill="#a7f3d0">နိုင်ငံခြားငွေလဲလှယ်ခြင်းနှင့် ငွေပေးငွေယူ လုပ်ငန်းစဉ်အဆင့်ဆင့် (Currency Exchange &amp; Banking)</text>
+  </g>
+
+  <!-- Flow Steps Grid -->
+  <!-- Step 1: Inquire -->
+  <g transform="translate(40, 145)" filter="url(#shadow)">
+    <rect width="265" height="175" rx="16" fill="url(#cardGrad1)" stroke="#059669" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="14" fill="#10b981"/>
+    <text x="30" y="35" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">1</text>
+    <text x="55" y="35" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#34d399">询问可否兑换</text>
+    
+    <text x="20" y="70" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" fill="#ffffff">这儿能不能换钱？</text>
+    <text x="20" y="90" font-family="monospace" font-size="11" fill="#6ee7b7">Zhèr néng bu néng huàn qián?</text>
+    <text x="20" y="112" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#d1fae5">ဒီမှာ ပိုက်ဆံလဲလို့ ရပါသလားခင်ဗျာ။</text>
+    
+    <line x1="20" y1="125" x2="245" y2="125" stroke="#047857" stroke-width="1"/>
+    <text x="20" y="145" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#94a3b8">နေရာ: 饭店里 (ဟိုတယ်) / 银行 (ဘဏ်)</text>
+    <text x="20" y="162" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#a7f3d0">အဖြေ: 能 / 可以换钱</text>
+  </g>
+
+  <!-- Step 2: Currency & Rate -->
+  <g transform="translate(340, 145)" filter="url(#shadow)">
+    <rect width="270" height="175" rx="16" fill="url(#cardGrad1)" stroke="#059669" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="14" fill="#10b981"/>
+    <text x="30" y="35" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">2</text>
+    <text x="55" y="35" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#34d399">币种与汇率</text>
+    
+    <text x="20" y="70" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" fill="#ffffff">您带的什么钱？换多少？</text>
+    <text x="20" y="90" font-family="monospace" font-size="11" fill="#6ee7b7">Nín dài de shénme qián? Huàn duōshao?</text>
+    <text x="20" y="112" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#d1fae5">ဘယ်ငွေကြေး ယူဆောင်လာပြီး ဘယ်လောက်လဲမလဲ။</text>
+    
+    <line x1="20" y1="125" x2="250" y2="125" stroke="#047857" stroke-width="1"/>
+    <text x="20" y="145" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#fef08a">五百美元 (500 USD)</text>
+    <text x="20" y="162" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#6ee7b7">1 美元 = 6块1毛9 (ခြောက်ယွမ် တစ်မောင် ကိုးဖန်း)</text>
+  </g>
+
+  <!-- Step 3: Sign Form & Count -->
+  <g transform="translate(645, 145)" filter="url(#shadow)">
+    <rect width="265" height="175" rx="16" fill="url(#cardGrad1)" stroke="#059669" stroke-width="1.5"/>
+    <circle cx="30" cy="30" r="14" fill="#10b981"/>
+    <text x="30" y="35" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">3</text>
+    <text x="55" y="35" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#34d399">填单与点钞</text>
+    
+    <text x="20" y="70" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" fill="#ffffff">请写钱数、请数一数</text>
+    <text x="20" y="90" font-family="monospace" font-size="11" fill="#6ee7b7">Xiě qiánshù, qǐng shǔ yi shǔ.</text>
+    <text x="20" y="112" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#d1fae5">ငွေပမာဏ ရေးပေးပါ၊ ပြန်ရေတွက်ကြည့်ပါ။</text>
+    
+    <line x1="20" y1="125" x2="245" y2="125" stroke="#047857" stroke-width="1"/>
+    <text x="20" y="145" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#94a3b8">兼语句: 请您在这儿写一下儿名字</text>
+    <text x="20" y="162" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#a7f3d0">ကြိယာထပ်: 数一数 = 数数 (ရေတွက်ပါ)</text>
+  </g>
+
+  <!-- Lower Panel: Key Vocabulary & Terminology Comparison -->
+  <g transform="translate(40, 345)" filter="url(#shadow)">
+    <rect width="870" height="185" rx="18" fill="url(#cardGrad2)" stroke="#334155" stroke-width="1.5"/>
+    
+    <text x="25" y="32" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#38bdf8">💳 核心金融与数额词汇对照 (Key Financial &amp; Quantitative Terms)</text>
+    
+    <!-- Vocab Item 1: 花钱 -->
+    <g transform="translate(25, 52)">
+      <rect width="195" height="110" rx="12" fill="#0f172a" stroke="#0284c7" stroke-opacity="0.4"/>
+      <text x="15" y="28" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#38bdf8">花 (huā)</text>
+      <text x="15" y="48" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#e2e8f0">သုံးစွဲသည် (to spend)</text>
+      <text x="15" y="70" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">钱都花了 (ကုန်သွားပြီ)</text>
+      <text x="15" y="90" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#38bdf8">ပိုက်ဆံတွေ အကုန်သုံးလိုက်ပြီ</text>
+    </g>
+
+    <!-- Vocab Item 2: 美元 / 人民币 -->
+    <g transform="translate(235, 52)">
+      <rect width="200" height="110" rx="12" fill="#0f172a" stroke="#10b981" stroke-opacity="0.4"/>
+      <text x="15" y="28" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#34d399">美元 vs 人民币</text>
+      <text x="15" y="48" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#e2e8f0">ဒေါ်လာ နှင့် ယွမ်ငွေ</text>
+      <text x="15" y="70" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">Měiyuán / Rénmínbì</text>
+      <text x="15" y="90" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#34d399">အမေရိကန်ဒေါ်လာ / တရုတ်ငွေ</text>
+    </g>
+
+    <!-- Vocab Item 3: 百 / 数 -->
+    <g transform="translate(450, 52)">
+      <rect width="195" height="110" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.4"/>
+      <text x="15" y="28" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#fbbf24">百 (bǎi) / 数</text>
+      <text x="15" y="48" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#e2e8f0">ရာဂဏန်း / ပမာဏ (shù)</text>
+      <text x="15" y="70" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">五百 (500) / 钱数</text>
+      <text x="15" y="90" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#fbbf24">ငါးရာ / ငွေပမာဏ (အရေအတွက်)</text>
+    </g>
+
+    <!-- Vocab Item 4: 时间不早 / 快走 -->
+    <g transform="translate(660, 52)">
+      <rect width="185" height="110" rx="12" fill="#0f172a" stroke="#ec4899" stroke-opacity="0.4"/>
+      <text x="15" y="28" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#f472b6">时间 / 快走</text>
+      <text x="15" y="48" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#e2e8f0">အချိန် / အမြန်သွားမည်</text>
+      <text x="15" y="70" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#94a3b8">时间不早了，快走吧！</text>
+      <text x="15" y="90" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#f472b6">အချိန် မစောတော့ဘူး၊ သွားကြစို့</text>
+    </g>
+  </g>
+</svg>
