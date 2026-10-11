@@ -37,3 +37,4 @@ An interactive, offline-ready Chinese learning course tailored specifically for 
 * **[Lesson 13: You Have To Change Buses (ကားပြောင်းစီးရမည် / 要换车)](Lesson_13_Complete_Course.html)**
 * **[Lesson 14: I Am Going To Change Money (ကျွန်တော် ပိုက်ဆံ သွားလဲမလို့ပါ / 我要去换钱)](Lesson_14_Complete_Course.html)**
 * **[Lesson 15: I Want To Take A Picture (ကျွန်မ ဓာတ်ပုံတစ်ပုံ ရိုက်ချင်တယ် / 我要照张相)](Lesson_15_Complete_Course.html)**
+* **[Lesson 16: Have You Seen Beijing Opera? (မင်း ပေကျင်းဇာတ် ကြည့်ဖူးသလား / 你看过京剧吗)](Lesson_16_Complete_Course.html)**

@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" width="100%" height="100%">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="50%" stop-color="#1e1b4b" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="roseGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48" />
+      <stop offset="100%" stop-color="#be123c" />
+    </linearGradient>
+
+    <linearGradient id="indigoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="100%" stop-color="#4338ca" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5" />
+    </filter>
+  </defs>
+
+  <rect width="900" height="480" fill="url(#bgGrad)" rx="16" />
+
+  <!-- Outer Title -->
+  <text x="450" y="40" font-family="'Noto Sans SC', sans-serif" font-size="22" font-weight="bold" fill="#f8fafc" text-anchor="middle">
+    语法精要：动态助词“过”与无主句 (“Guò” Aspect &amp; Subjectless Sentences)
+  </text>
+  <text x="450" y="64" font-family="'Noto Sans Myanmar', sans-serif" font-size="13" fill="#94a3b8" text-anchor="middle">
+    အတွေ့အကြုံပြ ဝိဘတ် "过" (ဖူးသည်) စည်းမျဉ်းများ၊ "还没……呢" နှင့် ကတ္တားမပါသော ဝါကျများ (无主句)
+  </text>
+
+  <!-- Left Card: Dynamic Particle "过" (Timeline & Grammar) -->
+  <g transform="translate(40, 85)" filter="url(#shadow)">
+    <rect width="450" height="350" rx="16" fill="url(#cardGrad)" stroke="#f43f5e" stroke-opacity="0.4" stroke-width="2" />
+
+    <!-- Badge -->
+    <rect x="20" y="20" width="180" height="30" rx="15" fill="url(#roseGrad)" />
+    <text x="110" y="40" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      1. 动态助词“过” (Experience)
+    </text>
+
+    <!-- Experience Timeline Graphic -->
+    <g transform="translate(30, 75)">
+      <!-- Timeline axis -->
+      <line x1="20" y1="35" x2="370" y2="35" stroke="#475569" stroke-width="3" stroke-linecap="round" />
+      <!-- Arrowhead -->
+      <polygon points="370,30 385,35 370,40" fill="#94a3b8" />
+
+      <!-- Past Event Dot (Experience) -->
+      <circle cx="120" cy="35" r="9" fill="#f43f5e" />
+      <circle cx="120" cy="35" r="14" fill="none" stroke="#f43f5e" stroke-width="2" stroke-dasharray="3,3" />
+      <text x="120" y="18" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#fda4af" text-anchor="middle">
+        过去经历 (Past)
+      </text>
+      <text x="120" y="62" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#ffffff" text-anchor="middle">
+        V + 过 (ဖူးသည်)
+      </text>
+
+      <!-- Present Moment -->
+      <circle cx="330" cy="35" r="7" fill="#38bdf8" />
+      <text x="330" y="18" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#7dd3fc" text-anchor="middle">
+        现在 (Now)
+      </text>
+    </g>
+
+    <!-- 3 Formula Boxes -->
+    <g transform="translate(20, 160)">
+      <!-- Affirmative -->
+      <rect x="0" y="0" width="410" height="48" rx="8" fill="#1e293b" stroke="#334155" />
+      <text x="15" y="22" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#fda4af">
+        ✓ 肯定式: <tspan fill="#ffffff">主语 + 动词 + 过 (+ 宾语)</tspan>
+      </text>
+      <text x="15" y="40" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#cbd5e1">
+        例: 我<tspan fill="#f43f5e" font-weight="bold">去过</tspan>长城。 (ငါ မဟာရံတံတိုင်းကြီးကို သွားဖူးတယ်)
+      </text>
+
+      <!-- Negative -->
+      <rect x="0" y="56" width="410" height="54" rx="8" fill="#1e293b" stroke="#334155" />
+      <text x="15" y="78" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#fb7185">
+        ✗ 否定式: <tspan fill="#ffffff">主语 + 没(有) + 动词 + 过</tspan>
+      </text>
+      <text x="15" y="98" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#fecdd3">
+        例: 我<tspan fill="#f43f5e" font-weight="bold">没看过</tspan>京剧。 <tspan fill="#f87171">(⚠️ 不看过 ❌ လုံးဝ မသုံးရပါ!)</tspan>
+      </text>
+
+      <!-- Question -->
+      <rect x="0" y="118" width="410" height="48" rx="8" fill="#1e293b" stroke="#334155" />
+      <text x="15" y="140" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#f43f5e">
+        ❓ 疑问式: <tspan fill="#ffffff">……过 + 宾语 + 没有？</tspan>
+      </text>
+      <text x="15" y="158" font-family="'Noto Sans SC', sans-serif" font-size="12" fill="#cbd5e1">
+        例: 你去过美国<tspan fill="#fda4af" font-weight="bold">没有</tspan>？ / 你看过京剧吗？
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Card: Subjectless Sentences & Hai Mei...ne -->
+  <g transform="translate(510, 85)" filter="url(#shadow)">
+    <rect width="350" height="350" rx="16" fill="url(#cardGrad)" stroke="#6366f1" stroke-opacity="0.4" stroke-width="2" />
+
+    <!-- Badge -->
+    <rect x="20" y="20" width="180" height="30" rx="15" fill="url(#indigoGrad)" />
+    <text x="110" y="40" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff" text-anchor="middle">
+      2. 无主句与“还没……呢”
+    </text>
+
+    <!-- Part A: Subjectless Sentences -->
+    <g transform="translate(20, 68)">
+      <rect x="0" y="0" width="310" height="115" rx="10" fill="#1e293b" stroke="#4f46e5" stroke-opacity="0.5" />
+      <text x="15" y="24" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#a5b4fc">
+        📌 无主句 (Subjectless Sentence)
+      </text>
+      <text x="15" y="44" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#cbd5e1">
+        ကတ္တားမပါဘဲ ဖြစ်တည်မှု/ဖြစ်ပျက်မှုကို ဖော်ပြခြင်း:
+      </text>
+      
+      <!-- Examples -->
+      <g transform="translate(15, 55)">
+        <text x="0" y="18" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+          • 有人找你。
+        </text>
+        <text x="15" y="34" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#94a3b8">
+          (မင်းကို ရှာနေတဲ့သူ ရှိတယ်)
+        </text>
+
+        <text x="0" y="52" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+          • 有人请你看电影。
+        </text>
+      </g>
+    </g>
+
+    <!-- Part B: "还没(有)……呢" Structure -->
+    <g transform="translate(20, 195)">
+      <rect x="0" y="0" width="310" height="130" rx="10" fill="#1e293b" stroke="#818cf8" stroke-opacity="0.5" />
+      <text x="15" y="24" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#c7d2fe">
+        ⏳ “还没(有)……呢” (Not yet...)
+      </text>
+      <text x="15" y="44" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#cbd5e1">
+        ယခုအချိန်အထိ မဖြစ်ပျက်/မပြီးမြောက်သေးခြင်း:
+      </text>
+
+      <g transform="translate(15, 55)">
+        <text x="0" y="18" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+          • 我还没吃过北京烤鸭呢！
+        </text>
+        <text x="15" y="34" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#94a3b8">
+          (ငါ ပေကျင်းဘဲကင် မစားဖူးသေးပါဘူးနော်)
+        </text>
+
+        <text x="0" y="54" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff">
+          • 他还没来呢。
+        </text>
+        <text x="15" y="70" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#94a3b8">
+          (သူ မလာသေးပါဘူး)
+        </text>
+      </g>
+    </g>
+  </g>
+
+  <!-- Bottom Tip -->
+  <rect x="150" y="445" width="600" height="25" rx="6" fill="#1e293b" opacity="0.8" />
+  <text x="450" y="462" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+    💡 သတိပြုရန်: 连动句 (ဆင့်ကဲကြိယာဝါကျ) တွင် "过" ကို ဒုတိယကြိယာနောက်တွင် ထားရသည်: 我去那个饭店吃过饭。
+  </text>
+</svg>
