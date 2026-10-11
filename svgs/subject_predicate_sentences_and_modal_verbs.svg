@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL12_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL12_1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadowL12_1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL12_1)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 24)">
+    <text x="400" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      ကတ္တား+မဏ္ဍိုင်ဝါကျ နှင့် စိတ်ဆန္ဒပြကြိယာများ (Subject-Predicate Predicates &amp; Modal Verbs)
+    </text>
+    <text x="400" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      主谓谓语句 (Subject + [Sub-Subject + Predicate]) • 能愿动词 (想, 要, 可以, 会) • ငြင်းပယ်ပုံနှင့် မေးခွန်းပုံစံ
+    </text>
+  </g>
+
+  <!-- Left Column: 主谓谓语句 -->
+  <g transform="translate(40, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL12_1)" stroke="#0ea5e9" stroke-width="1.2" filter="url(#shadowL12_1)"/>
+    
+    <text x="20" y="30" fill="#38bdf8" font-family="sans-serif" font-size="15" font-weight="bold">
+      🏗️ ၁။ ကတ္တား+မဏ္ဍိုင်ဝါကျ (主谓谓语句)
+    </text>
+
+    <!-- Structural formula box -->
+    <g transform="translate(20, 48)">
+      <rect width="345" height="75" rx="8" fill="#0f172a" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="15" y="24" fill="#cbd5e1" font-family="sans-serif" font-size="11">ဝါကျတစ်ခုလုံး၏ မဏ္ဍိုင် (Predicate) နေရာတွင် နောက်ထပ် ကတ္တား+ကြိယာ တွဲလျက် ပါဝင်သည်:</text>
+      <rect x="15" y="36" width="315" height="28" rx="6" fill="#1e293b"/>
+      <text x="172" y="55" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+        ပင်မကတ္တား + [ကတ္တားငယ် + ကြိယာ/နာမဝိသေသန]
+      </text>
+    </g>
+
+    <!-- Examples Box -->
+    <g transform="translate(20, 138)">
+      <!-- Example 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="345" height="68" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="15" y="24" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">
+          他 <tspan fill="#38bdf8">[身体 很好]</tspan>。
+        </text>
+        <text x="15" y="42" fill="#94a3b8" font-family="sans-serif" font-size="11">Tā [shēntǐ hěn hǎo].</text>
+        <text x="15" y="58" fill="#cbd5e1" font-family="sans-serif" font-size="11">သူသည် [ကျန်းမာရေး ကောင်းမွန်သည်]။</text>
+      </g>
+
+      <!-- Example 2 -->
+      <g transform="translate(0, 78)">
+        <rect width="345" height="68" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="15" y="24" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">
+          我 <tspan fill="#38bdf8">[工作 很忙]</tspan>。
+        </text>
+        <text x="15" y="42" fill="#94a3b8" font-family="sans-serif" font-size="11">Wǒ [gōngzuò hěn máng].</text>
+        <text x="15" y="58" fill="#cbd5e1" font-family="sans-serif" font-size="11">ကျွန်တော်သည် [အလုပ် အရမ်းများနေသည်]။</text>
+      </g>
+
+      <!-- Example 3 -->
+      <g transform="translate(0, 156)">
+        <rect width="345" height="68" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="15" y="24" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">
+          星期天 <tspan fill="#38bdf8">[人 太多]</tspan>。
+        </text>
+        <text x="15" y="42" fill="#94a3b8" font-family="sans-serif" font-size="11">Xīngqītiān [rén tài duō].</text>
+        <text x="15" y="58" fill="#cbd5e1" font-family="sans-serif" font-size="11">တနင်္ဂနွေနေ့တွင် [လူ အရမ်းများလွန်းသည်]။</text>
+      </g>
+    </g>
+
+    <!-- Comparison note -->
+    <g transform="translate(20, 385)">
+      <rect width="345" height="115" rx="8" fill="#1e293b" stroke="#475569"/>
+      <text x="15" y="22" fill="#f59e0b" font-family="sans-serif" font-size="12" font-weight="bold">🇲🇲 မြန်မာသဒ္ဒါနှင့် နှိုင်းယှဉ်ချက် (Key Insight):</text>
+      <text x="15" y="44" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • ဤဝါကျပုံစံသည် မြန်မာစကားပြောနှင့် ၁၀၀% တူညီသည်:
+      </text>
+      <text x="15" y="64" fill="#38bdf8" font-family="sans-serif" font-size="11">
+        "သူ ကျန်းမာရေး ကောင်းတယ်" ➔ 他 身体 很好。
+      </text>
+      <text x="15" y="84" fill="#38bdf8" font-family="sans-serif" font-size="11">
+        "ကျွန်တော် အလုပ် ရှုပ်တယ်" ➔ 我 工作 很忙。
+      </text>
+      <text x="15" y="102" fill="#94a3b8" font-family="sans-serif" font-size="10">
+        အလယ်တွင် "的" (၏) ထည့်စရာမလိုဘဲ တိုက်ရိုက်ပြောဆိုနိုင်သည်။
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Column: 能愿动词 (Modal Verbs) -->
+  <g transform="translate(455, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL12_1)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL12_1)"/>
+    
+    <text x="20" y="30" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="bold">
+      🎯 ၂။ စိတ်ဆန္ဒ/စွမ်းရည်ပြ ကြိယာများ (能愿动词)
+    </text>
+
+    <!-- Modal Verbs Grid -->
+    <g transform="translate(20, 48)">
+      <!-- Verb 1: 想 -->
+      <g transform="translate(0, 0)">
+        <rect width="165" height="68" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="bold">想 (Xiǎng)</text>
+        <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11">ဆန္ဒရှိသည် / လိုချင်သည်</text>
+        <text x="12" y="58" fill="#94a3b8" font-family="sans-serif" font-size="10">ဥပမာ: 我想买毛衣。</text>
+      </g>
+      <!-- Verb 2: 要 -->
+      <g transform="translate(180, 0)">
+        <rect width="165" height="68" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="bold">要 (Yào)</text>
+        <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11">ယူမည် / ပြုလုပ်မည်</text>
+        <text x="12" y="58" fill="#94a3b8" font-family="sans-serif" font-size="10">ဥပမာ: 我要苹果。</text>
+      </g>
+      <!-- Verb 3: 可以 -->
+      <g transform="translate(0, 78)">
+        <rect width="165" height="68" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">可以 (Kěyǐ)</text>
+        <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11">ခွင့်ပြုသည် / ရသည်</text>
+        <text x="12" y="58" fill="#94a3b8" font-family="sans-serif" font-size="10">ဥပမာ: 我可以试试吗？</text>
+      </g>
+      <!-- Verb 4: 会 -->
+      <g transform="translate(180, 78)">
+        <rect width="165" height="68" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">会 (Huì)</text>
+        <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11">တတ်ကျွမ်းသည် (သင်ယူ)</text>
+        <text x="12" y="58" fill="#94a3b8" font-family="sans-serif" font-size="10">ဥပမာ: 我会说汉语。</text>
+      </g>
+    </g>
+
+    <!-- Golden Negation Rule -->
+    <g transform="translate(20, 215)">
+      <rect width="345" height="115" rx="8" fill="#0f172a" stroke="#ef4444" stroke-width="1"/>
+      <text x="15" y="22" fill="#f87171" font-family="sans-serif" font-size="12" font-weight="bold">⚠️ ရွှေစည်းမျဉ်း: "要" ၏ ငြင်းပယ်စကားမှာ "不想" ဖြစ်သည်</text>
+      <text x="15" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • အလိုမရှိကြောင်း ယဉ်ကျေးစွာ ငြင်းပယ်ရာတွင် "不要" ထက် "不想" ကို သုံးသည်:
+      </text>
+      <rect x="15" y="52" width="315" height="48" rx="6" fill="#1e293b"/>
+      <text x="25" y="70" fill="#f8fafc" font-family="sans-serif" font-size="11">A: 你要喝水吗？ (ရေသောက်ချင်သလား)</text>
+      <text x="25" y="90" fill="#34d399" font-family="sans-serif" font-size="11">B: 我现在<tspan fill="#fbbf24" font-weight="bold">不想</tspan>喝。 (အခု မသောက်ချင်သေးပါ)</text>
+    </g>
+
+    <!-- A-not-A Question Pattern -->
+    <g transform="translate(20, 345)">
+      <rect width="345" height="155" rx="8" fill="#1e293b" stroke="#475569"/>
+      <text x="15" y="22" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">❓ ဟုတ်/မဟုတ် မေးခွန်းပုံစံ (A-not-A Question):</text>
+      <text x="15" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        Modal Verb တွင် "V + 不 + V" ပုံစံဖြင့် မေးမြန်းနိုင်သည်:
+      </text>
+      
+      <g transform="translate(15, 52)">
+        <rect width="315" height="34" rx="5" fill="#0f172a"/>
+        <text x="15" y="22" fill="#f8fafc" font-family="sans-serif" font-size="11">
+          • <tspan fill="#34d399">你想不想</tspan>去长城？ (မဟာရံတံတိုင်း သွားချင်သလား)
+        </text>
+      </g>
+      <g transform="translate(15, 94)">
+        <rect width="315" height="34" rx="5" fill="#0f172a"/>
+        <text x="15" y="22" fill="#f8fafc" font-family="sans-serif" font-size="11">
+          • <tspan fill="#38bdf8">你会不会</tspan>说汉语？ (တရုတ်စကား ပြောတတ်သလား)
+        </text>
+      </g>
+      <text x="15" y="145" fill="#f87171" font-family="sans-serif" font-size="10">
+        * သတိပြုရန်: ဤမေးခွန်းများတွင် အဆုံး၌ "吗" (လား) ထပ်မထည့်ရပါ!
+      </text>
+    </g>
+  </g>
+</svg>

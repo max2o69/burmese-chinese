@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL12_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL12_2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadowL12_2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL12_2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 24)">
+    <text x="400" y="24" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      အဝတ်အထည် ဈေးဝယ်စကားပြော၊ အတိုင်းအထွာနှင့် နာမဝိသေသနများ (Clothing, Sizing &amp; Complements)
+    </text>
+    <text x="400" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      ရေတွက်ပြပုဒ် "件" • အတိုင်းတော် "不大也不小" • အလွန်အမင်းပြ အဖြည့်ပုဒ် "...极了" • စမ်းသပ်ဝတ်ဆင်ခြင်း အဆင့်ဆင့်
+    </text>
+  </g>
+
+  <!-- Left Column: Measure Word & Complement 极了 -->
+  <g transform="translate(40, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL12_2)" stroke="#f59e0b" stroke-width="1.2" filter="url(#shadowL12_2)"/>
+    
+    <text x="20" y="30" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">
+      👕 ၁။ အဝတ်အထည် ရေတွက်ပြပုဒ် "件" နှင့် "一" ချန်လှပ်ပုံ
+    </text>
+
+    <!-- Measure Word Box -->
+    <g transform="translate(20, 48)">
+      <rect width="345" height="115" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+      <text x="15" y="24" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">
+        量词 "件" (Jiàn) - အင်္ကျီ/အဝတ်အထည် ရေတွက်ပြပုဒ်
+      </text>
+      <text x="15" y="46" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        ဆွယ်တာ၊ အင်္ကျီ၊ ကုတ်အင်္ကျီများကို ရေတွက်ရာတွင် "件" ကို သုံးသည်။
+      </text>
+      
+      <rect x="15" y="58" width="315" height="44" rx="6" fill="#1e293b"/>
+      <text x="25" y="76" fill="#38bdf8" font-family="sans-serif" font-size="11">
+        • "一" (တစ်) သည် ဝါကျအစတွင် မဟုတ်ပါက ချန်လှပ်ပြောဆိုနိုင်သည်:
+      </text>
+      <text x="25" y="93" fill="#fbbf24" font-family="sans-serif" font-size="12" font-weight="bold">
+        买一件毛衣 ➔ <tspan fill="#34d399">买件毛衣</tspan> (ဆွယ်တာတစ်ထည် ဝယ်သည်)
+      </text>
+    </g>
+
+    <!-- Superlative Complement Box -->
+    <g transform="translate(20, 180)">
+      <text x="0" y="16" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="bold">
+        🌟 ၂။ အဆင့်အမြင့်ဆုံးပြ အဖြည့်ပုဒ် "...极了" (Exceedingly)
+      </text>
+      <text x="0" y="34" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        နာမဝိသေသနနောက်တွင် "极了" (jí le) ကပ်လိုက်ပါက "အလွန်/အရမ်း" ဖြစ်သွားသည်:
+      </text>
+
+      <g transform="translate(0, 44)">
+        <grid class="space-y-2">
+          <!-- Card 1 -->
+          <g transform="translate(0, 0)">
+            <rect width="165" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+            <text x="12" y="24" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">好极了！</text>
+            <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="10">Hǎo jí le (အလွန်ကောင်းတယ်)</text>
+          </g>
+          <!-- Card 2 -->
+          <g transform="translate(180, 0)">
+            <rect width="165" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+            <text x="12" y="24" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">累极了！</text>
+            <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="10">Lèi jí le (အရမ်းပင်ပန်းတယ်)</text>
+          </g>
+          <!-- Card 3 -->
+          <g transform="translate(0, 68)">
+            <rect width="165" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+            <text x="12" y="24" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">高兴极了！</text>
+            <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="10">Gāoxìng jí le (အရမ်းဝမ်းသာ)</text>
+          </g>
+          <!-- Card 4 -->
+          <g transform="translate(180, 68)">
+            <rect width="165" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+            <text x="12" y="24" fill="#f43f5e" font-family="sans-serif" font-size="13" font-weight="bold">喜欢极了！</text>
+            <text x="12" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="10">Xǐhuan jí le (အရမ်းကြိုက်တယ်)</text>
+          </g>
+        </grid>
+      </g>
+    </g>
+
+    <!-- Tip -->
+    <g transform="translate(20, 395)">
+      <rect width="345" height="105" rx="8" fill="#1e293b" stroke="#475569"/>
+      <text x="15" y="22" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">💡 အဆင့်အတန်း ကွာခြားချက် (Degree Comparison):</text>
+      <text x="15" y="44" fill="#cbd5e1" font-family="sans-serif" font-size="11">很好 (ကောင်းသည်) &lt; 太好了 (အရမ်းကောင်းသည်)</text>
+      <text x="15" y="64" fill="#34d399" font-family="sans-serif" font-size="11">&lt; <tspan font-weight="bold">好极了</tspan> (အလွန်အမင်း အကောင်းဆုံး အဆင့်)</text>
+      <text x="15" y="86" fill="#94a3b8" font-family="sans-serif" font-size="10">"极" သည် "အစွန်းရောက် / အထွတ်အထိပ်" ဟု အဓိပ္ပာယ်ရသည်။</text>
+    </g>
+  </g>
+
+  <!-- Right Column: Sizing & Fitting Dialogue Flow -->
+  <g transform="translate(455, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL12_2)" stroke="#38bdf8" stroke-width="1.2" filter="url(#shadowL12_2)"/>
+    
+    <text x="20" y="30" fill="#38bdf8" font-family="sans-serif" font-size="15" font-weight="bold">
+      📐 ၃။ ဆိုဒ်အတိုင်းအထွာ နှင့် အံကိုက်ဖြစ်ပုံ ဖော်ပြချက်
+    </text>
+
+    <!-- Sizing Comparison Table -->
+    <g transform="translate(20, 48)">
+      <rect width="345" height="135" rx="8" fill="#0f172a" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="15" y="22" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">
+        "不...也不..." (ဒါလည်း မဟုတ်၊ ဟိုဒါလည်း မဟုတ် / အနေတော်)
+      </text>
+
+      <g transform="translate(15, 34)">
+        <rect width="315" height="40" rx="6" fill="#1e293b"/>
+        <text x="12" y="25" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">不大也不小</text>
+        <text x="125" y="25" fill="#f8fafc" font-family="sans-serif" font-size="11">bú dà yě bù xiǎo (မကြီးမသေး / အတိုင်းတော်)</text>
+      </g>
+      <g transform="translate(15, 80)">
+        <rect width="315" height="40" rx="6" fill="#1e293b"/>
+        <text x="12" y="25" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">不长也不短</text>
+        <text x="125" y="25" fill="#f8fafc" font-family="sans-serif" font-size="11">bù cháng yě bù duǎn (မရှည်မတို / အနေတော်)</text>
+      </g>
+    </g>
+
+    <!-- Fitting Dialogue Flow Steps -->
+    <g transform="translate(20, 200)">
+      <text x="0" y="16" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">
+        🛍️ ၄။ အဝတ်ဝတ်စမ်းခြင်း အဆင့်ဆင့် စကားပြော (Fitting Flow)
+      </text>
+
+      <g transform="translate(0, 26)">
+        <!-- Step 1 -->
+        <g transform="translate(0, 0)">
+          <rect width="345" height="48" rx="6" fill="#0f172a" stroke="#334155"/>
+          <text x="12" y="20" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold">အဆင့် ၁ (ကြည့်ရှုလိုခြင်း):</text>
+          <text x="12" y="38" fill="#f8fafc" font-family="sans-serif" font-size="11">小姐，我看看那件毛衣。 (ဆွယ်တာ ကြည့်ပါရစေ)</text>
+        </g>
+        <!-- Step 2 -->
+        <g transform="translate(0, 54)">
+          <rect width="345" height="48" rx="6" fill="#0f172a" stroke="#334155"/>
+          <text x="12" y="20" fill="#fbbf24" font-family="sans-serif" font-size="11" font-weight="bold">အဆင့် ၂ (ဝတ်စမ်းခွင့်တောင်းခြင်း):</text>
+          <text x="12" y="38" fill="#f8fafc" font-family="sans-serif" font-size="11">我可以试试吗？ ➔ 您试一下儿吧。 (ဝတ်စမ်းကြည့်ပါ)</text>
+        </g>
+        <!-- Step 3 -->
+        <g transform="translate(0, 108)">
+          <rect width="345" height="48" rx="6" fill="#0f172a" stroke="#334155"/>
+          <text x="12" y="20" fill="#f87171" font-family="sans-serif" font-size="11" font-weight="bold">အဆင့် ၃ (မတော်ပါက လဲလှယ်ခြင်း):</text>
+          <text x="12" y="38" fill="#f8fafc" font-family="sans-serif" font-size="11">这件太短了。 ➔ 您试试那件。 / 我再试一下儿。</text>
+        </g>
+        <!-- Step 4 -->
+        <g transform="translate(0, 162)">
+          <rect width="345" height="48" rx="6" fill="#0f172a" stroke="#10b981"/>
+          <text x="12" y="20" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold">အဆင့် ၄ (အံကိုက်ဖြစ်၍ ဝယ်ယူခြင်း):</text>
+          <text x="12" y="38" fill="#f8fafc" font-family="sans-serif" font-size="11">不大也不小，好极了，我就买这件！</text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

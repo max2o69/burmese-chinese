@@ -33,3 +33,4 @@ An interactive, offline-ready Chinese learning course tailored specifically for 
 * **[Lesson 09: Where Do You Live? (မင်း ဘယ်မှာ နေသလဲ / 你住在哪儿)](Lesson_09_Complete_Course.html)**
 * **[Lesson 10: Where Is The Post Office? (စာတိုက် ဘယ်မှာလဲ / 邮局在哪儿)](Lesson_10_Complete_Course.html)**
 * **[Lesson 11: I Want To Buy Oranges (ကျွန်တော် လိမ္မော်သီး ဝယ်ချင်ပါတယ် / 我要买橘子)](Lesson_11_Complete_Course.html)**
+* **[Lesson 12: I Want To Buy A Sweater (ကျွန်တော် ဆွယ်တာအင်္ကျီ ဝယ်ချင်ပါတယ် / 我想买毛衣)](Lesson_12_Complete_Course.html)**
