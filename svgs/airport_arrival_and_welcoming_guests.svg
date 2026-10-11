@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="cardGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="amberGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <linearGradient id="skyGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0ea5e9"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="roseGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fb7185"/>
+    </linearGradient>
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="540" fill="url(#bgGrad)"/>
+
+  <!-- Top Title Header -->
+  <g transform="translate(60, 45)">
+    <rect x="0" y="0" width="840" height="70" rx="16" fill="url(#cardGrad1)" stroke="#38bdf8" stroke-opacity="0.3" filter="url(#shadow)"/>
+    <circle cx="45" cy="35" r="22" fill="#0284c7" fill-opacity="0.2"/>
+    <text x="45" y="42" font-size="24" text-anchor="middle" fill="#38bdf8">✈️</text>
+    <text x="85" y="32" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="20" fill="#f8fafc">
+      第十八课：机场迎接与问候 (Airport Arrival &amp; Welcoming Guests)
+    </text>
+    <text x="85" y="54" font-family="'Myanmar Text', sans-serif" font-size="13" fill="#94a3b8">
+      လေဆိပ်တွင် ဧည့်သည်ကြိုဆိုခြင်း • ပျံသန်းမှုအခြေအနေ စုံစမ်းခြင်း • "路上辛苦了" ခရီးပန်းနွမ်းနယ်မှု နှုတ်ခွန်းဆက်ခြင်း
+    </text>
+  </g>
+
+  <!-- Left Card: Airport Flight Status Board (လေယာဉ်အချိန်ဇယား ဘုတ်ပြား) -->
+  <g transform="translate(60, 135)" filter="url(#shadow)">
+    <rect width="400" height="360" rx="16" fill="url(#cardGrad1)" stroke="#f59e0b" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="400" height="48" rx="16" fill="#1e293b"/>
+    <text x="24" y="31" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#fbbf24">
+      📋 航班信息屏 (Flight Status Display)
+    </text>
+    <text x="375" y="31" font-size="14" text-anchor="end" fill="#94a3b8">PEK 机场</text>
+
+    <!-- Flight Row 1 -->
+    <g transform="translate(20, 65)">
+      <rect width="360" height="60" rx="10" fill="#0f172a" stroke="#334155"/>
+      <text x="16" y="26" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#e2e8f0">CA926 东京 → 北京</text>
+      <text x="16" y="46" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">တိုကျိုမှ ပေကျင်းသို့</text>
+      <rect x="260" y="15" width="85" height="28" rx="6" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444"/>
+      <text x="302" y="34" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#f87171" text-anchor="middle">晚点 Delayed</text>
+    </g>
+
+    <!-- Flight Row 2 (Dialogue 1 State) -->
+    <g transform="translate(20, 135)">
+      <rect width="360" height="75" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.5"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#fbbf24">当前状态 (Current Status):</text>
+      <text x="16" y="44" font-family="system-ui, sans-serif" font-weight="600" font-size="13" fill="#e2e8f0">在上海 • 快要起飞了</text>
+      <text x="16" y="64" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#cbd5e1">ရှန်ဟိုင်းတွင်ရှိ • မကြာမီ ပျံတက်တော့မည်</text>
+      <text x="345" y="45" font-family="system-ui, sans-serif" font-weight="800" font-size="16" fill="#38bdf8" text-anchor="end">~15:30 预计</text>
+    </g>
+
+    <!-- Coffee Break Strategy -->
+    <g transform="translate(20, 220)">
+      <rect width="360" height="115" rx="10" fill="#0f172a" stroke="#0ea5e9" stroke-opacity="0.4"/>
+      <circle cx="35" cy="35" r="16" fill="#0284c7" fill-opacity="0.2"/>
+      <text x="35" y="42" font-size="16" text-anchor="middle">☕</text>
+      <text x="65" y="28" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#38bdf8">
+        先……，一会儿再…… (Sequential Plan)
+      </text>
+      <text x="65" y="48" font-family="system-ui, sans-serif" font-size="13" fill="#f8fafc">
+        我们先去喝点儿咖啡，一会儿再来这儿吧。
+      </text>
+      <text x="65" y="70" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#94a3b8">
+        ကော်ဖီအရင်သွားသောက်ပြီးမှ ခဏနေ ဒီကို ပြန်လာကြစို့။
+      </text>
+      <text x="65" y="96" font-family="system-ui, sans-serif" font-size="11" fill="#a7f3d0">
+        💡 Pattern: 先 (First) + Action A + 一会儿再 (Later) + Action B
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Card: Welcoming Etiquette & Expressions (နှုတ်ခွန်းဆက် အသုံးအနှုန်းများ) -->
+  <g transform="translate(500, 135)" filter="url(#shadow)">
+    <rect width="400" height="360" rx="16" fill="url(#cardGrad1)" stroke="#10b981" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="400" height="48" rx="16" fill="#1e293b"/>
+    <text x="24" y="31" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#34d399">
+      🤝 迎接与礼貌用语 (Welcoming Etiquette)
+    </text>
+    <text x="375" y="31" font-size="14" text-anchor="end" fill="#94a3b8">礼貌 100%</text>
+
+    <!-- Key Greeting 1: 路上辛苦了 -->
+    <g transform="translate(20, 65)">
+      <rect width="360" height="85" rx="10" fill="#0f172a" stroke="#10b981" stroke-opacity="0.5"/>
+      <rect x="15" y="14" width="60" height="22" rx="4" fill="#059669" fill-opacity="0.3"/>
+      <text x="45" y="29" font-family="system-ui, sans-serif" font-weight="700" font-size="11" fill="#34d399" text-anchor="middle">မဖြစ်မနေ</text>
+      <text x="85" y="30" font-family="system-ui, sans-serif" font-weight="800" font-size="16" fill="#f8fafc">路上辛苦了！</text>
+      <text x="16" y="54" font-family="system-ui, sans-serif" font-size="12" fill="#a7f3d0">Lùshang xīnkǔ le! (You must have had a tiring trip!)</text>
+      <text x="16" y="74" font-family="'Myanmar Text', sans-serif" font-size="12" fill="#cbd5e1">
+        လမ်းမှာ ပင်ပန်းခဲ့ပြီနော် (ခရီးဝေးမှ လာရောက်သူအား နွေးထွေးစွာ နှုတ်ဆက်စကား)
+      </text>
+    </g>
+
+    <!-- Key Expression 2: 感谢你们来接我 -->
+    <g transform="translate(20, 160)">
+      <rect width="360" height="80" rx="10" fill="#0f172a" stroke="#f43f5e" stroke-opacity="0.4"/>
+      <text x="16" y="25" font-family="system-ui, sans-serif" font-weight="800" font-size="15" fill="#fda4af">感谢你们来接我。</text>
+      <text x="16" y="47" font-family="system-ui, sans-serif" font-size="12" fill="#cbd5e1">Gǎnxiè nǐmen lái jiē wǒ. (Thank you for coming to meet me.)</text>
+      <text x="16" y="68" font-family="'Myanmar Text', sans-serif" font-size="12" fill="#94a3b8">
+        ငါ့ကို လာကြိုပေးကြတဲ့အတွက် အထူးကျေးဇူးတင်ပါတယ်။
+      </text>
+    </g>
+
+    <!-- Key Expression 3: 是和子告诉我的 -->
+    <g transform="translate(20, 250)">
+      <rect width="360" height="90" rx="10" fill="#0f172a" stroke="#8b5cf6" stroke-opacity="0.4"/>
+      <text x="16" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="14" fill="#c084fc">
+        是和子告诉我的。(It was Kazuko who told me.)
+      </text>
+      <text x="16" y="44" font-family="'Myanmar Text', sans-serif" font-size="12" fill="#cbd5e1">
+        ဟဲကျစ်က ငါ့ကို ပြောပြခဲ့တာပါ (ကတ္တား/ပြုလုပ်သူကို အလေးပေးဖော်ပြ)
+      </text>
+      <text x="16" y="72" font-family="system-ui, sans-serif" font-size="11.5" fill="#e9d5ff">
+        ⚡ 强调句 (Emphatic): 是 [Person] 告诉我的
+      </text>
+    </g>
+  </g>
+</svg>

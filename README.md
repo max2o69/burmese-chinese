@@ -39,3 +39,4 @@ An interactive, offline-ready Chinese learning course tailored specifically for 
 * **[Lesson 15: I Want To Take A Picture (ကျွန်မ ဓာတ်ပုံတစ်ပုံ ရိုက်ချင်တယ် / 我要照张相)](Lesson_15_Complete_Course.html)**
 * **[Lesson 16: Have You Seen Beijing Opera? (မင်း ပေကျင်းဇာတ် ကြည့်ဖူးသလား / 你看过京剧吗)](Lesson_16_Complete_Course.html)**
 * **[Lesson 17: Going to the Zoo (တိရစ္ဆာန်ရုံသို့ သွားခြင်း / 去动物园)](Lesson_17_Complete_Course.html)**
+* **[Lesson 18: Did You Have a Tiring Trip? (လမ်းမှာ ပင်ပန်းခဲ့ပြီနော် / 路上辛苦了)](Lesson_18_Complete_Course.html)**

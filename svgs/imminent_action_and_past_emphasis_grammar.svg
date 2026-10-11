@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0b1120"/>
+    </linearGradient>
+    <linearGradient id="cardGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadow2" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="540" fill="url(#bgGrad2)"/>
+
+  <!-- Top Title Header -->
+  <g transform="translate(60, 40)">
+    <rect x="0" y="0" width="840" height="65" rx="16" fill="url(#cardGrad2)" stroke="#a855f7" stroke-opacity="0.4" filter="url(#shadow2)"/>
+    <circle cx="45" cy="32" r="20" fill="#9333ea" fill-opacity="0.2"/>
+    <text x="45" y="39" font-size="22" text-anchor="middle" fill="#c084fc">⚡</text>
+    <text x="80" y="30" font-family="system-ui, -apple-system, sans-serif" font-weight="800" font-size="19" fill="#f8fafc">
+      第十八课 核心语法：即行态 (快要…了) 与 强调结构 (是…的)
+    </text>
+    <text x="80" y="52" font-family="'Myanmar Text', sans-serif" font-size="12.5" fill="#94a3b8">
+      မကြာမီဖြစ်ပျက်တော့မည့် အခြေအနေပြစနစ် (Imminent Action) နှင့် ပြီးစီးခဲ့ပြီးသောအရာကို အလေးပေးဖော်ပြနည်း (Past Emphasis)
+    </text>
+  </g>
+
+  <!-- Left Column: Imminent Action (快要 / 就要 / 要……了) -->
+  <g transform="translate(60, 125)" filter="url(#shadow2)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad2)" stroke="#f59e0b" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#fbbf24">
+      ⏱️ 1. 即行态：快要 / 就要……了
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">~တော့မည်</text>
+
+    <!-- Formula Block -->
+    <g transform="translate(18, 60)">
+      <rect width="369" height="50" rx="8" fill="#0f172a" stroke="#f59e0b" stroke-opacity="0.4"/>
+      <text x="184" y="25" font-family="system-ui, sans-serif" font-weight="800" font-size="14" fill="#fbbf24" text-anchor="middle">
+        (快/就) 要 + Verb / Adj + 了
+      </text>
+      <text x="184" y="42" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+        မကြာမီ ဖြစ်ပျက်တော့မည့် အခြေအနေကို ဖော်ပြသည်
+      </text>
+    </g>
+
+    <!-- Examples & Time Adverbial Contrast -->
+    <g transform="translate(18, 122)">
+      <!-- Example 1 -->
+      <rect width="369" height="60" rx="8" fill="#0f172a" stroke="#334155"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#e2e8f0">火车要开了 / 飞机快要起飞了。</text>
+      <text x="14" y="44" font-family="'Myanmar Text', sans-serif" font-size="11.5" fill="#94a3b8">ရထား ထွက်တော့မည် / လေယာဉ် ပျံတက်တော့မည်။</text>
+    </g>
+
+    <!-- Critical Difference Notice -->
+    <g transform="translate(18, 194)">
+      <rect width="369" height="150" rx="8" fill="#451a03" fill-opacity="0.4" stroke="#d97706" stroke-opacity="0.5"/>
+      <text x="14" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#fbbf24">
+        ⚠️ အရေးကြီးသော ကွဲပြားချက် (Time Adverbial Rule):
+      </text>
+      
+      <!-- Right with jiu yao -->
+      <rect x="14" y="36" width="341" height="46" rx="6" fill="#064e3b" fill-opacity="0.4" stroke="#059669"/>
+      <text x="24" y="55" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#34d399">
+        ✓ 他明天就要走了。(အချိန်ပါနိုင်သည်)
+      </text>
+      <text x="24" y="73" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#a7f3d0">
+        သူ မနက်ဖြန် ထွက်ခွာတော့မည် (就要...了 ရှေ့တွင် အချိန်ပြပုဒ် ထည့်နိုင်)
+      </text>
+
+      <!-- Wrong with kuai yao -->
+      <rect x="14" y="90" width="341" height="46" rx="6" fill="#4c0519" fill-opacity="0.4" stroke="#e11d48"/>
+      <text x="24" y="109" font-family="system-ui, sans-serif" font-weight="700" font-size="12" fill="#f87171">
+        ✗ 他明天快要走了。(အချိန်ပါ၍ မရပါ!)
+      </text>
+      <text x="24" y="127" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#fca5a5">
+        快要...了 ၏ ရှေ့တွင် တိကျသော အချိန်ပြပုဒ် ထည့်သွင်းသုံးစွဲခွင့် မရှိပါ
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Column: Past Emphasis (是……的) -->
+  <g transform="translate(495, 125)" filter="url(#shadow2)">
+    <rect width="405" height="375" rx="16" fill="url(#cardGrad2)" stroke="#38bdf8" stroke-opacity="0.4"/>
+    <rect x="0" y="0" width="405" height="46" rx="16" fill="#1e293b"/>
+    <text x="20" y="30" font-family="system-ui, sans-serif" font-weight="700" font-size="15" fill="#38bdf8">
+      🎯 2. 强调句：是……的 (Emphasis)
+    </text>
+    <text x="385" y="30" font-size="12" text-anchor="end" fill="#94a3b8">ဖြစ်ပြီးသောအရာ</text>
+
+    <!-- Explanation Box -->
+    <g transform="translate(18, 60)">
+      <rect width="369" height="50" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-opacity="0.4"/>
+      <text x="184" y="24" font-family="system-ui, sans-serif" font-weight="700" font-size="13" fill="#7dd3fc" text-anchor="middle">
+        Subject + (是) [အလေးပေးလိုသည့်အပိုင်း] + Verb + 的
+      </text>
+      <text x="184" y="42" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">
+        ဖြစ်ပျက်ခဲ့ပြီးသော အချိန်၊ နေရာ၊ နည်းလမ်း၊ ပြုလုပ်သူကို အထူးပြုသည်
+      </text>
+    </g>
+
+    <!-- 4 Aspects of Emphasis -->
+    <g transform="translate(18, 122)">
+      <!-- Manner (နည်းလမ်း) -->
+      <g transform="translate(0, 0)">
+        <rect width="369" height="52" rx="6" fill="#0f172a" stroke="#334155"/>
+        <text x="14" y="20" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#38bdf8">
+          🚗 နည်းလမ်း (Manner): 我（是）坐飞机来的。
+        </text>
+        <text x="14" y="38" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+          ကျွန်တော် လေယာဉ်စီးပြီး လာခဲ့တာပါ (လေယာဉ်စီးလာခြင်းကို အလေးပေး)
+        </text>
+      </g>
+
+      <!-- Time (အချိန်) -->
+      <g transform="translate(0, 58)">
+        <rect width="369" height="52" rx="6" fill="#0f172a" stroke="#334155"/>
+        <text x="14" y="20" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#a78bfa">
+          📅 အချိန် (Time): 我（是）昨天晚上给他打的。
+        </text>
+        <text x="14" y="38" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+          မနေ့ညကမှ သူ့ဆီ ဖုန်းဆက်ခဲ့တာပါ (မနေ့ညကို အလေးပေး)
+        </text>
+      </g>
+
+      <!-- Agent / Person (ပြုလုပ်သူ) -->
+      <g transform="translate(0, 116)">
+        <rect width="369" height="52" rx="6" fill="#0f172a" stroke="#334155"/>
+        <text x="14" y="20" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#34d399">
+          👤 ပြုလုပ်သူ (Agent): 是和子告诉我的。
+        </text>
+        <text x="14" y="38" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+          ဟဲကျစ်က ငါ့ကို ပြောပြခဲ့တာပါ (ဟဲကျစ်ကို အလေးပေး)
+        </text>
+      </g>
+
+      <!-- Place (နေရာ) -->
+      <g transform="translate(0, 174)">
+        <rect width="369" height="48" rx="6" fill="#0f172a" stroke="#334155"/>
+        <text x="14" y="19" font-family="system-ui, sans-serif" font-weight="700" font-size="12.5" fill="#f43f5e">
+          📍 နေရာ (Place): 是在旁边的商店买的。
+        </text>
+        <text x="14" y="36" font-family="'Myanmar Text', sans-serif" font-size="11" fill="#94a3b8">
+          ဘေးနားက စတိုးဆိုင်မှာ ဝယ်ခဲ့တာပါ (ဆိုင်ကို အလေးပေး)
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
