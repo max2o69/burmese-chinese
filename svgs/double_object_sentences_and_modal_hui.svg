@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL13_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL13_2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadowL13_2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL13_2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 24)">
+    <text x="400" y="24" fill="#a855f7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      ကံပုဒ်နှစ်ခုပါဝါကျ နှင့် "会" ၏ အဓိပ္ပာယ် ၂ မျိုး (Double Objects &amp; Modal Verb "Huì")
+    </text>
+    <text x="400" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      双宾句: ကြိယာ + လူ(သွယ်ဝိုက်ကံ) + ပစ္စည်း(တိုက်ရိုက်ကံ) • 能愿动词 "会" (တတ်ကျွမ်းမှု vs ဖြစ်နိုင်ချေ)
+    </text>
+  </g>
+
+  <!-- Left Column: Double Object Sentences -->
+  <g transform="translate(40, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL13_2)" stroke="#a855f7" stroke-width="1.2" filter="url(#shadowL13_2)"/>
+    
+    <text x="20" y="30" fill="#c084fc" font-family="sans-serif" font-size="15" font-weight="bold">
+      🎁 ၁။ ကံပုဒ်နှစ်ခုပါဝါကျ (双宾句 - Ditransitive)
+    </text>
+
+    <!-- Formula Box -->
+    <g transform="translate(20, 48)">
+      <rect width="345" height="85" rx="8" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
+      <text x="15" y="24" fill="#cbd5e1" font-family="sans-serif" font-size="11">တရုတ်ဘာသာတွင် ကြိယာတစ်ခုတည်းက ကံပုဒ် ၂ ခုကို တိုက်ရိုက်တွဲယူနိုင်သည်:</text>
+      
+      <rect x="15" y="36" width="315" height="36" rx="6" fill="#1e293b"/>
+      <text x="157" y="59" fill="#c084fc" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">
+        ကတ္တား + [ကြိယာ] + <tspan fill="#38bdf8">လူ (ကံပုဒ် ၁)</tspan> + <tspan fill="#34d399">ပစ္စည်း/ငွေ (ကံပုဒ် ၂)</tspan>
+      </text>
+    </g>
+
+    <!-- Examples Box -->
+    <g transform="translate(20, 148)">
+      <!-- Example 1 -->
+      <g transform="translate(0, 0)">
+        <rect width="345" height="74" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="15" y="24" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">
+          我 <tspan fill="#c084fc">给</tspan> <tspan fill="#38bdf8">你</tspan> <tspan fill="#34d399">一本书</tspan>。
+        </text>
+        <text x="15" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11">Wǒ gěi nǐ yì běn shū.</text>
+        <text x="15" y="62" fill="#cbd5e1" font-family="sans-serif" font-size="11">ငါသည် [မင်းကို] [စာအုပ်တစ်အုပ်] ပေးသည်။</text>
+      </g>
+
+      <!-- Example 2 -->
+      <g transform="translate(0, 84)">
+        <rect width="345" height="74" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="15" y="24" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">
+          他 <tspan fill="#c084fc">找</tspan> <tspan fill="#38bdf8">我</tspan> <tspan fill="#34d399">八毛钱</tspan>。
+        </text>
+        <text x="15" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11">Tā zhǎo wǒ bā máo qián.</text>
+        <text x="15" y="62" fill="#cbd5e1" font-family="sans-serif" font-size="11">သူသည် [ငါ့ကို] [၈ မောင် (ပြား ၈၀)] ပြန်အမ်းသည်။</text>
+      </g>
+
+      <!-- Example 3 & 4 (Bus transactions) -->
+      <g transform="translate(0, 168)">
+        <rect width="345" height="88" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="15" y="22" fill="#fbbf24" font-family="sans-serif" font-size="12" font-weight="bold">လက်တွေ့ ဈေးဝယ်/ကားစီးစကားဝိုင်းများ:</text>
+        <text x="15" y="44" fill="#f8fafc" font-family="sans-serif" font-size="12">
+          • <tspan fill="#c084fc">给</tspan> <tspan fill="#38bdf8">你</tspan> <tspan fill="#34d399">五块钱</tspan>。 (ခင်ဗျားကို ၅ ယွမ် ပေးပါတယ်)
+        </text>
+        <text x="15" y="68" fill="#f8fafc" font-family="sans-serif" font-size="12">
+          • <tspan fill="#c084fc">找</tspan> <tspan fill="#38bdf8">你</tspan> <tspan fill="#34d399">一块</tspan>。 (ခင်ဗျားကို ၁ ယွမ် ပြန်အမ်းပါတယ်)
+        </text>
+      </g>
+    </g>
+
+    <!-- Notice -->
+    <g transform="translate(20, 420)">
+      <rect width="345" height="80" rx="8" fill="#1e293b" stroke="#475569"/>
+      <text x="15" y="22" fill="#f59e0b" font-family="sans-serif" font-size="11" font-weight="bold">💡 မြန်မာသဒ္ဒါ ခြားနားချက် (Notice):</text>
+      <text x="15" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        မြန်မာစကားတွင် "မင်း<tspan fill="#38bdf8">ကို</tspan> စာအုပ်<tspan fill="#34d399">ကို</tspan> ပေးသည်" ဟု ဝိဘတ်များထည့်သော်လည်း
+      </text>
+      <text x="15" y="62" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        တရုတ်တွင် ကြိယာနောက် လူနှင့် ပစ္စည်းကို တိုက်ရိုက်ကပ်၍ ပြောဆိုရသည်။
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Column: Dual Functions of Modal Verb 会 -->
+  <g transform="translate(455, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL13_2)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL13_2)"/>
+    
+    <text x="20" y="30" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="bold">
+      🧠 ၂။ စိတ်ဆန္ဒပြကြိယာ "会" (Huì) ၏ အဓိပ္ပာယ် ၂ မျိုး
+    </text>
+
+    <!-- Function 1: Learned Skill -->
+    <g transform="translate(20, 48)">
+      <rect width="345" height="150" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <text x="15" y="24" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">
+        လုပ်ဆောင်ချက် (၁) : လေ့လာသင်ယူမှုကြောင့် တတ်ကျွမ်းခြင်း (Skill)
+      </text>
+      <text x="15" y="46" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        လေ့ကျင့်သင်ယူထား၍ တတ်မြောက်သော ပညာ/ဘာသာစကားများတွင် သုံးသည်:
+      </text>
+
+      <g transform="translate(15, 58)">
+        <rect width="315" height="34" rx="5" fill="#1e293b"/>
+        <text x="15" y="22" fill="#f8fafc" font-family="sans-serif" font-size="12">
+          • 他<tspan fill="#34d399" font-weight="bold">会</tspan>说汉语。 (သူ တရုတ်စကား ပြောတတ်သည်)
+        </text>
+      </g>
+      <g transform="translate(15, 100)">
+        <rect width="315" height="34" rx="5" fill="#1e293b"/>
+        <text x="15" y="22" fill="#f8fafc" font-family="sans-serif" font-size="12">
+          • 我<tspan fill="#ef4444" font-weight="bold">不会</tspan>做中国饭。 (ကျွန်တော် တရုတ်ဟင်း မချက်တတ်ပါ)
+        </text>
+      </g>
+    </g>
+
+    <!-- Function 2: Possibility / Prediction -->
+    <g transform="translate(20, 215)">
+      <rect width="345" height="160" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+      <text x="15" y="24" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">
+        လုပ်ဆောင်ချက် (၂) : အနာဂတ် ဖြစ်နိုင်ချေရှိခြင်း (Possibility)
+      </text>
+      <text x="15" y="46" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        အခြေအနေတစ်ခုခု ဖြစ်ပျက်လာနိုင်ခြေ (Will / Might happen) ကို ပြသည်:
+      </text>
+
+      <g transform="translate(15, 58)">
+        <rect width="315" height="34" rx="5" fill="#1e293b"/>
+        <text x="15" y="22" fill="#f8fafc" font-family="sans-serif" font-size="12">
+          • 他<tspan fill="#38bdf8" font-weight="bold">会</tspan>来吗？ (သူ လာပါ့မလား / လာနိုင်မလား)
+        </text>
+      </g>
+      <g transform="translate(15, 100)">
+        <rect width="315" height="46" rx="5" fill="#1e293b"/>
+        <text x="15" y="20" fill="#f8fafc" font-family="sans-serif" font-size="11">
+          • 现在九点半了，他<tspan fill="#ef4444" font-weight="bold">不会</tspan>来了。
+        </text>
+        <text x="15" y="38" fill="#94a3b8" font-family="sans-serif" font-size="10">
+          (အခု ၉ နာရီခွဲပြီမို့ သူ လာတော့မှာ မဟုတ်ပါဘူး)
+        </text>
+      </g>
+    </g>
+
+    <!-- A-not-A question -->
+    <g transform="translate(20, 390)">
+      <rect width="345" height="110" rx="8" fill="#1e293b" stroke="#475569"/>
+      <text x="15" y="22" fill="#fbbf24" font-family="sans-serif" font-size="12" font-weight="bold">
+        ❓ ဟုတ်/မဟုတ် မေးခွန်း: 会不会 (Huì bu huì)
+      </text>
+      <text x="15" y="44" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • 你<tspan fill="#34d399" font-weight="bold">会不会</tspan>说英语？ (မင်း အင်္ဂလိပ်စကား ပြောတတ်သလား)
+      </text>
+      <text x="15" y="66" fill="#38bdf8" font-family="sans-serif" font-size="11">
+        ➔ 会说一点儿。 (နည်းနည်း ပြောတတ်ပါတယ်)
+      </text>
+      <text x="15" y="90" fill="#f87171" font-family="sans-serif" font-size="10">
+        * သတိပြုရန်: "会不会" သုံးထားပါက အဆုံးတွင် "吗" မထည့်ရပါ။
+      </text>
+    </g>
+  </g>
+</svg>
