@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL11_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL11_2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <filter id="shadowL11_2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL11_2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 24)">
+    <text x="400" y="24" fill="#34d399" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်အလေးချိန် "ဂျင်း" (斤) နှင့် ဈေးဝယ်စကားပြောပုံစံများ (Chinese Weight &amp; Shopping Patterns)
+    </text>
+    <text x="400" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      ၁ 斤 = ၅၀၀ ဂရမ် • ဈေးနှုန်းမေးနည်း • အရည်အသွေးရွေးချယ်ခြင်း • အဆုံးသတ်ဝယ်ယူမှု စကားဝိုင်း
+    </text>
+  </g>
+
+  <!-- Section: Left Column (Weight System 斤 vs 公斤) -->
+  <g transform="translate(40, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL11_2)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL11_2)"/>
+    
+    <text x="20" y="30" fill="#34d399" font-family="sans-serif" font-size="15" font-weight="bold">
+      ⚖️ ၁။ တရုတ်အလေးချိန် ယူနစ် "斤" (Jīn) စနစ်
+    </text>
+
+    <!-- Explanation Box -->
+    <g transform="translate(20, 50)">
+      <rect width="345" height="130" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <text x="15" y="25" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">
+        ၁ 斤 (Yì Jīn) = ၅၀၀ ဂရမ် (0.5 kg)
+      </text>
+      <text x="15" y="48" fill="#cbd5e1" font-family="sans-serif" font-size="12">
+        တရုတ်နိုင်ငံ ဈေးဆိုင်များနှင့် စူပါမားကတ်များတွင် သစ်သီး၊ ဟင်းသီးဟင်းရွက်နှင့်
+      </text>
+      <text x="15" y="68" fill="#cbd5e1" font-family="sans-serif" font-size="12">
+        အသားများကို ကီလို (kg) ထက် "ဂျင်း" (斤) ဖြင့် ဈေးနှုန်းသတ်မှတ်ရောင်းချသည်။
+      </text>
+
+      <g transform="translate(15, 82)">
+        <rect width="315" height="34" rx="6" fill="#1e293b"/>
+        <text x="157" y="22" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">
+          ၁ 公斤 (ကီလိုဂရမ်) = ၂ 斤 (ဂျင်း)
+        </text>
+      </g>
+    </g>
+
+    <!-- Weight Breakdown Cards -->
+    <g transform="translate(20, 195)">
+      <!-- Card 1: 1 Jin -->
+      <g transform="translate(0, 0)">
+        <rect width="165" height="75" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">一斤 (Yì jīn)</text>
+        <text x="12" y="44" fill="#f1f5f9" font-family="sans-serif" font-size="12">၅၀၀ ဂရမ်</text>
+        <text x="12" y="62" fill="#94a3b8" font-family="sans-serif" font-size="10">၁ ဂျင်းတိတိ</text>
+      </g>
+      <!-- Card 2: Liang Jin -->
+      <g transform="translate(180, 0)">
+        <rect width="165" height="75" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">两斤 (Liǎng jīn)</text>
+        <text x="12" y="44" fill="#f1f5f9" font-family="sans-serif" font-size="12">၁,၀၀၀ ဂရမ် (၁ kg)</text>
+        <text x="12" y="62" fill="#94a3b8" font-family="sans-serif" font-size="10">၂ ဂျင်း (၁ ကီလို)</text>
+      </g>
+      <!-- Card 3: Yi Jin Ban -->
+      <g transform="translate(0, 85)">
+        <rect width="165" height="75" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">一斤半 (Yì jīn bàn)</text>
+        <text x="12" y="44" fill="#f1f5f9" font-family="sans-serif" font-size="12">၇၅၀ ဂရမ်</text>
+        <text x="12" y="62" fill="#94a3b8" font-family="sans-serif" font-size="10">၁ ဂျင်းခွဲ</text>
+      </g>
+      <!-- Card 4: Ban Jin -->
+      <g transform="translate(180, 85)">
+        <rect width="165" height="75" rx="8" fill="#0f172a" stroke="#334155"/>
+        <text x="12" y="24" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">半斤 (Bàn jīn)</text>
+        <text x="12" y="44" fill="#f1f5f9" font-family="sans-serif" font-size="12">၂၅၀ ဂရမ်</text>
+        <text x="12" y="62" fill="#94a3b8" font-family="sans-serif" font-size="10">ဂျင်းဝက်</text>
+      </g>
+    </g>
+
+    <!-- Essential Tip Box -->
+    <g transform="translate(20, 370)">
+      <rect width="345" height="130" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="15" y="25" fill="#f59e0b" font-family="sans-serif" font-size="13" font-weight="bold">💡 မှတ်သားရန် အဓိကအချက် (Tip):</text>
+      <text x="15" y="48" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • အလေးချိန် ၂ ဂျင်းကို ပြောလျှင် <tspan fill="#34d399" font-weight="bold">两斤 (Liǎng jīn)</tspan> ဟု သုံးရမည်။
+      </text>
+      <text x="15" y="68" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • စကားပြောတွင် အရေအတွက်ဖြင့် ဝယ်ယူလျှင်လည်း <tspan fill="#38bdf8">四个 (၄ လုံး)</tspan> ဟု
+      </text>
+      <text x="15" y="86" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        ပြောပြီး ဆိုင်ရှင်က ချိန်ခွင်ပေါ်တင်ကာ ဂျင်းဖြင့် တွက်ချက်ပေးသည်။
+      </text>
+      <text x="15" y="106" fill="#94a3b8" font-family="sans-serif" font-size="10">
+        ဥပမာ: "我要四个。" ➔ "这是一斤半，八块五毛。"
+      </text>
+    </g>
+  </g>
+
+  <!-- Section: Right Column (Shopping Flow Patterns) -->
+  <g transform="translate(455, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL11_2)" stroke="#38bdf8" stroke-width="1.2" filter="url(#shadowL11_2)"/>
+    
+    <text x="20" y="30" fill="#38bdf8" font-family="sans-serif" font-size="15" font-weight="bold">
+      🛒 ၂။ ဈေးဝယ်စကားပြော အဆင့်ဆင့် (Shopping Dialog Flow)
+    </text>
+
+    <!-- Step 1: Asking Price -->
+    <g transform="translate(20, 48)">
+      <rect width="345" height="100" rx="10" fill="#0f172a" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="15" y="22" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">အဆင့် (၁) : ဈေးနှုန်းမေးမြန်းခြင်း (Asking Price)</text>
+      
+      <rect x="15" y="32" width="315" height="28" rx="5" fill="#1e293b"/>
+      <text x="25" y="51" fill="#f8fafc" font-family="sans-serif" font-size="12">ပုံစံ က: <tspan fill="#fbbf24">苹果多少钱一斤？</tspan> (ပန်းသီး တစ်ကျင်း ဘယ်လောက်လဲ)</text>
+
+      <rect x="15" y="64" width="315" height="28" rx="5" fill="#1e293b"/>
+      <text x="25" y="83" fill="#f8fafc" font-family="sans-serif" font-size="12">ပုံစံ ခ: <tspan fill="#fbbf24">（橘子）一斤多少钱？</tspan> (လိမ္မော်သီး တစ်ကျင်း ဘယ်လောက်လဲ)</text>
+    </g>
+
+    <!-- Step 2: Quality & Bargaining / Reduplication -->
+    <g transform="translate(20, 160)">
+      <rect width="345" height="110" rx="10" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
+      <text x="15" y="22" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="bold">အဆင့် (၂) : အရည်အသွေးရွေးချယ်ခြင်းနှင့် မြည်းစမ်းခြင်း</text>
+      
+      <text x="15" y="44" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • ဈေးကြီးလွန်းလျှင်: <tspan fill="#ef4444" font-weight="bold">太贵了！</tspan> (ဈေးအရမ်းကြီးတယ်)
+      </text>
+      <text x="15" y="64" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • သက်သာသော အမျိုးအစား: <tspan fill="#34d399">那种便宜。</tspan> (ဟိုအမျိုးအစား ဈေးသက်သာတယ်)
+      </text>
+      <text x="15" y="84" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • ကောင်းမကောင်းမေးခြင်း: <tspan fill="#38bdf8">那种好不好？</tspan>
+      </text>
+      <text x="15" y="102" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • မြည်းစမ်းကြည့်ပါ: <tspan fill="#fbbf24" font-weight="bold">您尝尝 (Nín chángchang)。</tspan> (ကြိယာထပ် AA ပုံစံ)
+      </text>
+    </g>
+
+    <!-- Step 3: Determining Quantity -->
+    <g transform="translate(20, 282)">
+      <rect width="345" height="100" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <text x="15" y="22" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">အဆင့် (၃) : ပမာဏ သတ်မှတ်ရွေးချယ်ခြင်း</text>
+      
+      <text x="15" y="44" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • ဆိုင်ရှင်မေး: <tspan fill="#38bdf8">您要多少？</tspan> (ဘယ်လောက် ယူမလဲ ခင်ဗျာ)
+      </text>
+      <text x="15" y="66" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • ဝယ်သူဖြေ: <tspan fill="#fbbf24">要这种吧，两斤。</tspan> (ဒီအမျိုးအစားပဲ ယူမယ်၊ ၂ ဂျင်း)
+      </text>
+      <text x="15" y="88" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • လုံးရေဖြင့်ပြော: <tspan fill="#fbbf24">好，我要四个。</tspan> (ကောင်းပြီ၊ ၄ လုံး ယူမယ်)
+      </text>
+    </g>
+
+    <!-- Step 4: Wrapping Up Purchase -->
+    <g transform="translate(20, 394)">
+      <rect width="345" height="105" rx="10" fill="#0f172a" stroke="#f59e0b" stroke-width="1"/>
+      <text x="15" y="22" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">အဆင့် (၄) : အရောင်းအဝယ် အဆုံးသတ်ခြင်း</text>
+      
+      <text x="15" y="44" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • ထပ်မံမေးမြန်း: <tspan fill="#38bdf8">还要别的吗？</tspan> (တခြား ဘာလိုချင်သေးလဲ ခင်ဗျာ)
+      </text>
+      <text x="15" y="66" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+        • တော်ပြီဟုငြင်းပယ်: <tspan fill="#ef4444" font-weight="bold">不要了 (Bú yào le)。</tspan> (မလိုတော့ပါဘူး / တော်ပါပြီ)
+      </text>
+      <text x="15" y="88" fill="#94a3b8" font-family="sans-serif" font-size="10">
+        * "了" သည် အခြေအနေပြောင်းလဲမှု (Change of State) ကို ပြသည် - ယခင်လိုချင်သော်လည်း ယခု မလိုတော့ပါ။
+      </text>
+    </g>
+  </g>
+</svg>

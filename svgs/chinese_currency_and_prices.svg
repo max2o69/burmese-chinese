@@ -1,0 +1,174 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL11_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL11_1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#0284c7"/>
+    </linearGradient>
+    <filter id="shadowL11_1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL11_1)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 24)">
+    <text x="400" y="24" fill="#fbbf24" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်ငွေကြေးစနစ်နှင့် ဈေးနှုန်းဖတ်နည်း (Chinese Currency &amp; Price Reading)
+    </text>
+    <text x="400" y="48" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      ကျမ်းစာသုံး (元 / 角 / 分) vs စကားပြော (块 / 毛 / 分) • ဆယ်လီစနစ်နှင့် အဆုံးယူနစ်ချန်လှပ်ပုံ
+    </text>
+  </g>
+
+  <!-- Section: Left Column (Currency Units & Breakdown) -->
+  <g transform="translate(40, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL11_1)" stroke="#f59e0b" stroke-width="1.2" filter="url(#shadowL11_1)"/>
+    
+    <text x="20" y="30" fill="#fbbf24" font-family="sans-serif" font-size="15" font-weight="bold">
+      💰 ၁။ တရုတ်ငွေကြေး ယူနစ် ၃ မျိုး (Currency Hierarchy)
+    </text>
+
+    <!-- Unit 1: Yuan / Kuai -->
+    <g transform="translate(20, 50)">
+      <rect width="345" height="85" rx="10" fill="#0f172a" stroke="#fbbf24" stroke-width="1"/>
+      <circle cx="36" cy="42" r="22" fill="#d97706" opacity="0.2"/>
+      <text x="36" y="49" fill="#fbbf24" font-family="sans-serif" font-size="20" font-weight="bold" text-anchor="middle">¥</text>
+      
+      <text x="75" y="30" fill="#f8fafc" font-family="sans-serif" font-size="16" font-weight="bold">块 (Kuài) / 元 (Yuán)</text>
+      <text x="75" y="52" fill="#cbd5e1" font-family="sans-serif" font-size="12">အဓိကငွေယူနစ် (ဒေါ်လာ/ကျပ် ကဲ့သို့ အခြေခံယူနစ်)</text>
+      <text x="75" y="70" fill="#38bdf8" font-family="sans-serif" font-size="11">စကားပြော: 块 (Kuài) | စာအရေးအသား: 元 (Yuán)</text>
+    </g>
+
+    <!-- Unit 2: Mao / Jiao -->
+    <g transform="translate(20, 148)">
+      <rect width="345" height="85" rx="10" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+      <circle cx="36" cy="42" r="22" fill="#0284c7" opacity="0.2"/>
+      <text x="36" y="48" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">10¢</text>
+      
+      <text x="75" y="30" fill="#f8fafc" font-family="sans-serif" font-size="16" font-weight="bold">毛 (Máo) / 角 (Jiǎo)</text>
+      <text x="75" y="52" fill="#cbd5e1" font-family="sans-serif" font-size="12">၁၀ ပြား ယူနစ် (၀.၁ ယွမ် နှင့် ညီမျှသည်)</text>
+      <text x="75" y="70" fill="#38bdf8" font-family="sans-serif" font-size="11">စကားပြော: 毛 (Máo) | စာအရေးအသား: 角 (Jiǎo)</text>
+    </g>
+
+    <!-- Unit 3: Fen -->
+    <g transform="translate(20, 246)">
+      <rect width="345" height="85" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <circle cx="36" cy="42" r="22" fill="#059669" opacity="0.2"/>
+      <text x="36" y="48" fill="#10b981" font-family="sans-serif" font-size="16" font-weight="bold" text-anchor="middle">1¢</text>
+      
+      <text x="75" y="30" fill="#f8fafc" font-family="sans-serif" font-size="16" font-weight="bold">分 (Fēn)</text>
+      <text x="75" y="52" fill="#cbd5e1" font-family="sans-serif" font-size="12">၁ ပြား ယူနစ် (၀.၀၁ ယွမ် နှင့် ညီမျှသည်)</text>
+      <text x="75" y="70" fill="#10b981" font-family="sans-serif" font-size="11">စကားပြောရော စာအရေးအသားပါ: 分 (Fēn)</text>
+    </g>
+
+    <!-- Conversion Formula Box -->
+    <g transform="translate(20, 345)">
+      <rect width="345" height="155" rx="10" fill="#1e293b" stroke="#475569" stroke-width="1"/>
+      <text x="20" y="26" fill="#f59e0b" font-family="sans-serif" font-size="13" font-weight="bold">🔄 တန်ဖိုးလဲလှယ်မှု ညီမျှခြင်း (Conversion Formula):</text>
+      
+      <g transform="translate(20, 42)">
+        <rect width="305" height="40" rx="6" fill="#0f172a" stroke="#334155"/>
+        <text x="152" y="25" fill="#38bdf8" font-family="sans-serif" font-size="15" font-weight="bold" text-anchor="middle">
+          1 元 (块) = 10 角 (毛) = 100 分
+        </text>
+      </g>
+
+      <text x="20" y="105" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        • အားလုံးသည် ၁၀ လီစနစ် (Decimal System) ဖြစ်သည်။
+      </text>
+      <text x="20" y="125" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        • မျက်မှောက်ခေတ်တွင် 分 (ပြား) ကို ငွေစက္ကူအဖြစ် သိပ်မသုံးတော့သော်လည်း
+      </text>
+      <text x="20" y="142" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        စူပါမားကတ်များနှင့် ဈေးနှုန်းတွက်ချက်မှုတွင် ဆက်လက်အသုံးပြုဆဲဖြစ်သည်။
+      </text>
+    </g>
+  </g>
+
+  <!-- Section: Right Column (Colloquial Rules & Examples) -->
+  <g transform="translate(455, 85)">
+    <rect width="385" height="525" rx="14" fill="url(#cardGradL11_1)" stroke="#0ea5e9" stroke-width="1.2" filter="url(#shadowL11_1)"/>
+    
+    <text x="20" y="30" fill="#38bdf8" font-family="sans-serif" font-size="15" font-weight="bold">
+      🏷️ ၂။ စကားပြောဈေးနှုန်းဖတ်နည်း စည်းမျဉ်း ၃ ချက်
+    </text>
+
+    <!-- Rule 1: Omission of last unit -->
+    <g transform="translate(20, 48)">
+      <rect width="345" height="100" rx="10" fill="#0f172a" stroke="#0ea5e9" stroke-width="1"/>
+      <text x="15" y="22" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">စည်းမျဉ်း (၁) : နောက်ဆုံး 毛 ကို ဖြုတ်၍ ဖတ်ခြင်း</text>
+      <text x="15" y="42" fill="#94a3b8" font-family="sans-serif" font-size="11">အဆုံးတွင် 毛 ပါဝင်ပါက အဆိုပါစကားလုံးကို မထည့်ဘဲ ဖတ်လေ့ရှိသည်:</text>
+      
+      <rect x="15" y="52" width="150" height="36" rx="6" fill="#1e293b"/>
+      <text x="25" y="75" fill="#f8fafc" font-family="sans-serif" font-size="12">7.50 元 ➔ <tspan fill="#fbbf24" font-weight="bold">七块五</tspan></text>
+      
+      <rect x="180" y="52" width="150" height="36" rx="6" fill="#1e293b"/>
+      <text x="190" y="75" fill="#f8fafc" font-family="sans-serif" font-size="12">9.30 元 ➔ <tspan fill="#fbbf24" font-weight="bold">九块三</tspan></text>
+    </g>
+
+    <!-- Rule 2: Reading '两' instead of '二' -->
+    <g transform="translate(20, 160)">
+      <rect width="345" height="92" rx="10" fill="#0f172a" stroke="#a855f7" stroke-width="1"/>
+      <text x="15" y="22" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="bold">စည်းမျဉ်း (၂) : ၂ ယွမ်အတွက် "两" သုံးခြင်း</text>
+      <text x="15" y="42" fill="#94a3b8" font-family="sans-serif" font-size="11">ငွေပမာဏ ၂ ယွမ်ကို ပြောသောအခါ 二块 ဟု မပြောဘဲ 两块 ဟုသာ ဖတ်သည်:</text>
+      <rect x="15" y="50" width="315" height="32" rx="6" fill="#1e293b"/>
+      <text x="25" y="71" fill="#f8fafc" font-family="sans-serif" font-size="12">2.30 元 ➔ <tspan fill="#34d399" font-weight="bold">两块三</tspan> (Liǎng kuài sān) <tspan fill="#ef4444">(❌ 二块三 မဟုတ်)</tspan></text>
+    </g>
+
+    <!-- Rule 3: Zero decimal place reading -->
+    <g transform="translate(20, 264)">
+      <rect width="345" height="92" rx="10" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <text x="15" y="22" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">စည်းမျဉ်း (၃) : အလယ် သုည (0) ပါက "零" ထည့်ဖတ်ခြင်း</text>
+      <text x="15" y="42" fill="#94a3b8" font-family="sans-serif" font-size="11">မောင် (၀.၁) နေရာတွင် သုည ဖြစ်နေပါက "零" ကို မဖြစ်မနေ ထည့်ဖတ်ရသည်:</text>
+      <rect x="15" y="50" width="315" height="32" rx="6" fill="#1e293b"/>
+      <text x="25" y="71" fill="#f8fafc" font-family="sans-serif" font-size="12">10.05 元 ➔ <tspan fill="#fbbf24" font-weight="bold">十块零五分</tspan> (Shí kuài líng wǔ fēn)</text>
+    </g>
+
+    <!-- Practical Price Showcase Cards -->
+    <g transform="translate(20, 368)">
+      <text x="0" y="16" fill="#cbd5e1" font-family="sans-serif" font-size="13" font-weight="bold">
+        🛒 လက်တွေ့လေ့ကျင့်ခန်း ဈေးနှုန်းကတ်ပြားများ (Practical Examples):
+      </text>
+      
+      <!-- Example 1 -->
+      <g transform="translate(0, 26)">
+        <rect width="165" height="52" rx="8" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="22" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">¥6.54</text>
+        <text x="12" y="40" fill="#f1f5f9" font-family="sans-serif" font-size="11">六块五毛四</text>
+      </g>
+      <!-- Example 2 -->
+      <g transform="translate(180, 26)">
+        <rect width="165" height="52" rx="8" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="22" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">¥42.52</text>
+        <text x="12" y="40" fill="#f1f5f9" font-family="sans-serif" font-size="11">四十二块五毛二</text>
+      </g>
+      <!-- Example 3 -->
+      <g transform="translate(0, 88)">
+        <rect width="165" height="52" rx="8" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="22" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">¥57.04</text>
+        <text x="12" y="40" fill="#f1f5f9" font-family="sans-serif" font-size="11">五十七块零四分</text>
+      </g>
+      <!-- Example 4 -->
+      <g transform="translate(180, 88)">
+        <rect width="165" height="52" rx="8" fill="#1e293b" stroke="#334155"/>
+        <text x="12" y="22" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">¥100.00</text>
+        <text x="12" y="40" fill="#f1f5f9" font-family="sans-serif" font-size="11">一百块 (Yìbǎi kuài)</text>
+      </g>
+    </g>
+  </g>
+</svg>
