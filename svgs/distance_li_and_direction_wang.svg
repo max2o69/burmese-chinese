@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL10_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cardGradL10_2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadowL10_2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL10_2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 22)">
+    <text x="400" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      အကွာအဝေးပြ "离" (Lí) နှင့် ဦးတည်လမ်းညွှန် "往...走" (Wǎng) သဒ္ဒါစနစ်
+    </text>
+    <text x="400" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      A 离 B (အကွာအဝေး) • 往 + မျက်နှာ + 走 (လမ်းညွှန်) • 正反疑问句 (ဟုတ်/မဟုတ် မေးခွန်းများ)
+    </text>
+  </g>
+
+  <!-- Section 1: "离" (Distance Preposition) - Upper Card -->
+  <g transform="translate(40, 80)">
+    <rect width="800" height="240" rx="14" fill="url(#cardGradL10_2)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL10_2)"/>
+    
+    <text x="24" y="26" fill="#10b981" font-family="sans-serif" font-size="14" font-weight="bold">
+      📏 ၁။ "离" (lí) အကွာအဝေးပြ စည်းမျဉ်း : A 離 B (A သည် B မှ/နှင့်)
+    </text>
+    <text x="24" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11.5">
+      နေရာ (၂) ခုအကြား အကွာအဝေးကို ဖော်ပြရာတွင် သုံးသည်: [နေရာ A] + 离 + [နေရာ B] + [နီး/ဝေး/အကွာအဝေး]
+    </text>
+
+    <!-- Visual Distance Slider -->
+    <g transform="translate(20, 56)">
+      <!-- Point A -->
+      <circle cx="50" cy="35" r="24" fill="#0284c7" stroke="#38bdf8" stroke-width="2"/>
+      <text x="50" y="39" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">邮局</text>
+      <text x="50" y="74" fill="#7dd3fc" font-family="sans-serif" font-size="11" text-anchor="middle">စာတိုက် (A)</text>
+
+      <!-- Connecting line with "离" -->
+      <line x1="80" y1="35" x2="350" y2="35" stroke="#10b981" stroke-width="3" stroke-dasharray="6 4"/>
+      <rect x="185" y="20" width="60" height="30" rx="6" fill="#064e3b" stroke="#10b981" stroke-width="1.2"/>
+      <text x="215" y="40" fill="#6ee7b7" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">离 (lí)</text>
+
+      <!-- Point B -->
+      <circle cx="380" cy="35" r="24" fill="#7c3aed" stroke="#c084fc" stroke-width="2"/>
+      <text x="380" y="39" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">这儿</text>
+      <text x="380" y="74" fill="#e9d5ff" font-family="sans-serif" font-size="11" text-anchor="middle">ဒီနေရာ (B)</text>
+
+      <!-- Arrow to Results -->
+      <text x="420" y="42" fill="#94a3b8" font-size="20">➔</text>
+
+      <!-- Three Result Options -->
+      <g transform="translate(450, 0)">
+        <!-- Option 1: Question -->
+        <rect x="0" y="0" width="290" height="34" rx="6" fill="#1e1b4b" stroke="#818cf8" stroke-width="1"/>
+        <text x="12" y="22" fill="#facc15" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">
+          ? 远不远？ <tspan fill="#e0e7ff" font-family="sans-serif" font-size="10.5 font-weight-normal">(ဝေးသလား / မဝေးဘူးလား)</tspan>
+        </text>
+
+        <!-- Option 2: Far / Near -->
+        <rect x="0" y="40" width="290" height="34" rx="6" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+        <text x="12" y="62" fill="#6ee7b7" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">
+          ✓ 很近 / 不太远 <tspan fill="#d1fae5" font-family="sans-serif" font-size="10.5 font-weight-normal">(အရမ်းနီး / သိပ်မဝေးပါ)</tspan>
+        </text>
+      </g>
+    </g>
+
+    <!-- Examples Box -->
+    <g transform="translate(20, 150)">
+      <rect width="760" height="74" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <text x="16" y="24" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold">
+        လက်တွေ့ဝါကျများ (Practical Examples):
+      </text>
+      <text x="16" y="44" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+        1. 邮局 <tspan fill="#34d399" font-weight="bold">离</tspan> 这儿远不远？ ➔ 不太远。(စာတိုက်က ဒီကနေ ဝေးလား? ➔ သိပ်မဝေးပါဘူး)
+      </text>
+      <text x="16" y="64" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+        2. 那个商店 <tspan fill="#34d399" font-weight="bold">离</tspan> 他家很近。(အဲဒီစတိုးဆိုင်က သူ့အိမ်နဲ့ အရမ်းနီးတယ်)
+      </text>
+    </g>
+  </g>
+
+  <!-- Section 2: Direction "往...走" & A-not-A Questions (Lower Half) -->
+  <g transform="translate(40, 335)">
+    <!-- Left Card: 往...走 (Direction Formula) -->
+    <g transform="translate(0, 0)">
+      <rect width="390" height="280" rx="14" fill="url(#cardGradL10_2)" stroke="#f59e0b" stroke-width="1.2" filter="url(#shadowL10_2)"/>
+      <text x="20" y="26" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="bold">
+        🚶‍♀️ ၂။ "往...走" လမ်းညွှန် ဖော်မြူလာ
+      </text>
+      <text x="20" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        往 (ဆီသို့) + [အရပ်မျက်နှာ] + 走 (သွားပါ) ➔ 就是 (ဒါပါပဲ/ရောက်ပါပြီ):
+      </text>
+
+      <g transform="translate(16, 56)">
+        <rect width="358" height="66" rx="8" fill="#451a03" stroke="#d97706" stroke-width="1"/>
+        <text x="14" y="24" fill="#fef3c7" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold">
+          往前走 ➔ 就是邮局。
+        </text>
+        <text x="14" y="44" fill="#fde68a" font-family="sans-serif" font-size="11.5">
+          (တည့်တည့်ရှေ့ကို လျှောက်သွားလိုက်ရင် စာတိုက်ပါပဲ)
+        </text>
+        <text x="14" y="58" fill="#cbd5e1" font-family="sans-serif" font-size="10.5">
+          • 就 (jiù) သည် အတည်ပြုချက်ကို အားဖြည့်ပေးသော ကြိယာဝိသေသန
+        </text>
+      </g>
+
+      <g transform="translate(16, 134)">
+        <rect width="358" height="130" rx="8" fill="#0f172a" stroke="#475569" stroke-width="1"/>
+        <text x="14" y="22" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">
+          အခြား အရပ်မျက်နှာ လမ်းညွှန်များ:
+        </text>
+        <text x="14" y="44" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • <tspan fill="#facc15" font-weight="bold">往东走</tspan> (wǎng dōng zǒu) = အရှေ့ဘက်ကို သွားပါ
+        </text>
+        <text x="14" y="68" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • <tspan fill="#facc15" font-weight="bold">往西走</tspan> (wǎng xī zǒu) = အနောက်ဘက်ကို သွားပါ
+        </text>
+        <text x="14" y="92" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • <tspan fill="#facc15" font-weight="bold">去八号楼怎么走？</tspan> = တိုက် ၈ ကို ဘယ်လိုသွားရမလဲ
+        </text>
+        <text x="14" y="116" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="12">
+          • 就在银行前边。 = ဘဏ်အရှေ့မှာ ကွက်တိပါပဲ
+        </text>
+      </g>
+    </g>
+
+    <!-- Right Card: 正反疑问句 (Affirmative-Negative Questions) -->
+    <g transform="translate(410, 0)">
+      <rect width="390" height="280" rx="14" fill="url(#cardGradL10_2)" stroke="#ec4899" stroke-width="1.2" filter="url(#shadowL10_2)"/>
+      <text x="20" y="26" fill="#f472b6" font-family="sans-serif" font-size="14" font-weight="bold">
+        ❓ ၃။ 正反疑问句 (ဟုတ်/မဟုတ် မေးခွန်းပုံစံ)
+      </text>
+      <text x="20" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        ကြိယာ/နာမဝိသေသန ၏ ဟုတ်ဝန်ခံ + ငြင်းပယ် (A + 不 + A) ပုံစံ:
+      </text>
+
+      <g transform="translate(16, 56)">
+        <rect width="358" height="85" rx="8" fill="#500724" stroke="#db2777" stroke-width="1"/>
+        <text x="14" y="22" fill="#fbcfe8" font-family="sans-serif" font-size="12" font-weight="bold">
+          ပုံစံ : [ကြိယာ / နာမဝိသေသန] + 不 + [ထိုစကားလုံး]
+        </text>
+        <text x="14" y="44" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • 远 ➔ <tspan fill="#facc15" font-weight="bold">远不远？</tspan> (ဝေးသလား / မဝေးဘူးလား)
+        </text>
+        <text x="14" y="64" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • 来 ➔ <tspan fill="#facc15" font-weight="bold">来不来？</tspan> (လာမှာလား / မလာဘူးလား)
+        </text>
+        <text x="14" y="80" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • 好 ➔ <tspan fill="#facc15" font-weight="bold">好不好？</tspan> | 是 ➔ <tspan fill="#facc15" font-weight="bold">是不是？</tspan>
+        </text>
+      </g>
+
+      <!-- Warning Box: NEVER ADD 吗 -->
+      <g transform="translate(16, 154)">
+        <rect width="358" height="110" rx="8" fill="#450a0a" stroke="#dc2626" stroke-width="1.2"/>
+        <text x="14" y="24" fill="#fca5a5" font-family="sans-serif" font-size="12" font-weight="bold">
+          ⚠️ အလွန်အရေးကြီးသော ရွှေစည်းမျဉ်း :
+        </text>
+        <text x="14" y="46" fill="#fef2f2" font-family="sans-serif" font-size="12" font-weight="bold">
+          正反疑问句 (A-not-A) နောက်တွင် "吗" လုံးဝ မထည့်ရပါ!
+        </text>
+        <text x="14" y="68" fill="#f87171" font-family="'Noto Sans SC', sans-serif" font-size="12">
+          ❌ 远不远吗？ (မှားယွင်းသည်)
+        </text>
+        <text x="14" y="88" fill="#86efac" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">
+          ✓ 远不远？ (သို့မဟုတ်) ✓ 远吗？ (မှန်ကန်သည်)
+        </text>
+        <text x="14" y="104" fill="#fecaca" font-family="sans-serif" font-size="10.5">
+          "A-not-A" ပုံစံကိုယ်တိုင်က မေးခွန်းဖြစ်ပြီးသား ဖြစ်ပါသည်!
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

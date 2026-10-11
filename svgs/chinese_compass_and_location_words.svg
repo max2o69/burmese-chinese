@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL10_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL10_1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="compassNorth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ef4444"/>
+      <stop offset="100%" stop-color="#b91c1c"/>
+    </linearGradient>
+    <linearGradient id="compassSouth" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#1d4ed8"/>
+    </linearGradient>
+    <filter id="shadowL10_1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL10_1)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 22)">
+    <text x="400" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်အရပ်မျက်နှာများနှင့် တည်နေရာပြ စကားလုံးများ (Chinese Compass Directions &amp; Location Words)
+    </text>
+    <text x="400" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      方位词 (Fāngwèicí) : အရှေ့/တောင်/အနောက်/မြောက် • အရှေ့/အနောက်/ဘယ်/ညာ • နေရာပြစကားလုံး တည်ဆောက်ပုံ
+    </text>
+  </g>
+
+  <!-- Section 1: The Compass Rose Visual Grid (Left: 420px, Right: 380px) -->
+  <g transform="translate(40, 80)">
+    <!-- Left Card: Interactive Compass & 8 Orientations -->
+    <g transform="translate(0, 0)">
+      <rect width="400" height="530" rx="14" fill="url(#cardGradL10_1)" stroke="#0ea5e9" stroke-width="1.2" filter="url(#shadowL10_1)"/>
+      <text x="20" y="26" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">
+        🧭 ၁။ အဓိက အရပ်မျက်နှာ ၄ မျက်နှာနှင့် ဦးတည်ချက်များ
+      </text>
+
+      <!-- Center Compass Dial -->
+      <g transform="translate(200, 180)">
+        <!-- Outer circles -->
+        <circle r="120" fill="#0f172a" stroke="#334155" stroke-width="2"/>
+        <circle r="95" fill="#1e293b" stroke="#475569" stroke-width="1.5" stroke-dasharray="4 3"/>
+        <circle r="20" fill="#0f172a" stroke="#0ea5e9" stroke-width="2"/>
+
+        <!-- North Needle -->
+        <polygon points="0,-95 -12,0 12,0" fill="url(#compassNorth)"/>
+        <!-- South Needle -->
+        <polygon points="0,95 -12,0 12,0" fill="url(#compassSouth)"/>
+        <!-- East Needle -->
+        <polygon points="95,0 0,-12 0,12" fill="#10b981"/>
+        <!-- West Needle -->
+        <polygon points="-95,0 0,-12 0,12" fill="#f59e0b"/>
+
+        <!-- Center Pin -->
+        <circle r="6" fill="#f8fafc"/>
+
+        <!-- North Label (北) -->
+        <text x="0" y="-105" fill="#f87171" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" text-anchor="middle">北 (běi)</text>
+        <text x="0" y="-124" fill="#fca5a5" font-family="sans-serif" font-size="11" text-anchor="middle">မြောက်</text>
+
+        <!-- South Label (南) -->
+        <text x="0" y="118" fill="#60a5fa" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" text-anchor="middle">南 (nán)</text>
+        <text x="0" y="134" fill="#93c5fd" font-family="sans-serif" font-size="11" text-anchor="middle">တောင်</text>
+
+        <!-- East Label (东) -->
+        <text x="110" y="5" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" text-anchor="start">东 (dōng)</text>
+        <text x="110" y="20" fill="#a7f3d0" font-family="sans-serif" font-size="11" text-anchor="start">အရှေ့</text>
+
+        <!-- West Label (西) -->
+        <text x="-110" y="5" fill="#fbbf24" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" text-anchor="end">西 (xī)</text>
+        <text x="-110" y="20" fill="#fde68a" font-family="sans-serif" font-size="11" text-anchor="end">အနောက်</text>
+      </g>
+
+      <!-- Relative Directions (Body-centric: 前后左右) -->
+      <g transform="translate(16, 350)">
+        <rect width="368" height="160" rx="10" fill="#0b1329" stroke="#1e293b" stroke-width="1"/>
+        <text x="14" y="22" fill="#facc15" font-family="sans-serif" font-size="12" font-weight="bold">
+          🚶‍♂️ လူဗဟိုပြု တည်နေရာများ (Relative Directions):
+        </text>
+
+        <g transform="translate(14, 34)">
+          <!-- 前 -->
+          <rect x="0" y="0" width="80" height="50" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1"/>
+          <text x="40" y="20" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">前 (qián)</text>
+          <text x="40" y="38" fill="#e2e8f0" font-family="sans-serif" font-size="10.5" text-anchor="middle">အရှေ့/ရှေ့</text>
+
+          <!-- 后 -->
+          <rect x="90" y="0" width="80" height="50" rx="6" fill="#1e293b" stroke="#a855f7" stroke-width="1"/>
+          <text x="130" y="20" fill="#c084fc" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">后 (hòu)</text>
+          <text x="130" y="38" fill="#e2e8f0" font-family="sans-serif" font-size="10.5" text-anchor="middle">အနောက်/နောက်</text>
+
+          <!-- 左 -->
+          <rect x="180" y="0" width="75" height="50" rx="6" fill="#1e293b" stroke="#34d399" stroke-width="1"/>
+          <text x="217" y="20" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">左 (zuǒ)</text>
+          <text x="217" y="38" fill="#e2e8f0" font-family="sans-serif" font-size="10.5" text-anchor="middle">ဘယ်ဘက်</text>
+
+          <!-- 右 -->
+          <rect x="265" y="0" width="75" height="50" rx="6" fill="#1e293b" stroke="#f472b6" stroke-width="1"/>
+          <text x="302" y="20" fill="#f472b6" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">右 (yòu)</text>
+          <text x="302" y="38" fill="#e2e8f0" font-family="sans-serif" font-size="10.5" text-anchor="middle">ညာဘက်</text>
+        </g>
+
+        <!-- 旁 & 中 -->
+        <g transform="translate(14, 96)">
+          <rect x="0" y="0" width="165" height="50" rx="6" fill="#1e293b" stroke="#fbbf24" stroke-width="1"/>
+          <text x="82" y="20" fill="#facc15" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">旁边 (pángbiān)</text>
+          <text x="82" y="38" fill="#fef08a" font-family="sans-serif" font-size="10.5" text-anchor="middle">ဘေးနား / ဘေးဘက်</text>
+
+          <rect x="175" y="0" width="165" height="50" rx="6" fill="#1e293b" stroke="#60a5fa" stroke-width="1"/>
+          <text x="257" y="20" fill="#60a5fa" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" text-anchor="middle">中间 (zhōngjiān)</text>
+          <text x="257" y="38" fill="#bfdbfe" font-family="sans-serif" font-size="10.5" text-anchor="middle">အလယ် / အလယ်ခေါင်</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- Right Card: Word Formations & Syntax Formulas -->
+    <g transform="translate(420, 0)">
+      <rect width="380" height="530" rx="14" fill="url(#cardGradL10_1)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL10_1)"/>
+      <text x="20" y="26" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="bold">
+        📐 ၂။ နေရာပြ ဝေါဟာရ တွဲစပ်ပုံနှင့် သဒ္ဒါစည်းမျဉ်း
+      </text>
+
+      <!-- Rule 1: Suffix ~边 / ~面 -->
+      <g transform="translate(16, 42)">
+        <rect width="348" height="110" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+        <text x="14" y="22" fill="#6ee7b7" font-family="sans-serif" font-size="12" font-weight="bold">
+          (က) နောက်ဆက်တွဲ စကားလုံး "~边" (biān) ပေါင်းစပ်ခြင်း
+        </text>
+        <text x="14" y="44" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • 东 ➔ <tspan fill="#facc15" font-weight="bold">东边</tspan> (dōngbian - အရှေ့ဘက်)
+        </text>
+        <text x="14" y="64" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • 西 ➔ <tspan fill="#facc15" font-weight="bold">西边</tspan> (xībian - အနောက်ဘက်)
+        </text>
+        <text x="14" y="84" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • 前 ➔ <tspan fill="#facc15" font-weight="bold">前边</tspan> (qiánbian - အရှေ့ဘက်)
+        </text>
+        <text x="14" y="102" fill="#a7f3d0" font-family="sans-serif" font-size="10.5">
+          💡 ~面 (miàn) ကိုလည်း တူညီစွာ သုံးနိုင်သည် (前面, 后面, 旁边)
+        </text>
+      </g>
+
+      <!-- Rule 2: Formula: [Place] + [Direction] -->
+      <g transform="translate(16, 164)">
+        <rect width="348" height="155" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+        <text x="14" y="22" fill="#c7d2fe" font-family="sans-serif" font-size="12" font-weight="bold">
+          (ခ) တည်နေရာပြ ဖော်မြူလာ: [ရည်ညွှန်းနေရာ] + [အရပ်မျက်နှာ]
+        </text>
+        <text x="14" y="42" fill="#94a3b8" font-family="sans-serif" font-size="11">
+          မြန်မာစကားနှင့် ၁၀၀% ထပ်တူကျသည် (ဘဏ် + အရှေ့ဘက် = 银行 + 前边):
+        </text>
+
+        <!-- Examples -->
+        <g transform="translate(10, 52)">
+          <rect width="328" height="28" rx="4" fill="#0f172a"/>
+          <text x="10" y="19" fill="#facc15" font-family="'Noto Sans SC', sans-serif" font-size="11.5" font-weight="bold">
+            银行 + 前边 ➔ 银行前边 (ဘဏ် အရှေ့ဘက်)
+          </text>
+        </g>
+        <g transform="translate(10, 84)">
+          <rect width="328" height="28" rx="4" fill="#0f172a"/>
+          <text x="10" y="19" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="11.5" font-weight="bold">
+            邮局 + 旁边 ➔ 邮局旁边 (စာတိုက် ဘေးနား)
+          </text>
+        </g>
+        <g transform="translate(10, 116)">
+          <rect width="328" height="28" rx="4" fill="#0f172a"/>
+          <text x="10" y="19" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="11.5" font-weight="bold">
+            操场 + 东边 ➔ 操场东边 (အားကစားကွင်း အရှေ့ဘက်)
+          </text>
+        </g>
+      </g>
+
+      <!-- Rule 3: As Attributive (的) -->
+      <g transform="translate(16, 330)">
+        <rect width="348" height="180" rx="8" fill="#1c1917" stroke="#78716c" stroke-width="1"/>
+        <text x="14" y="22" fill="#fbbf24" font-family="sans-serif" font-size="12" font-weight="bold">
+          (ဂ) နာမ်ကို အထူးပြုခြင်း (Attributive with "的")
+        </text>
+        <text x="14" y="44" fill="#cbd5e1" font-family="sans-serif" font-size="11">
+          အရပ်မျက်နှာသည် နာမ်၏အရှေ့မှ အထူးပြုပါက "的" (de) ခံရသည်:
+        </text>
+
+        <text x="14" y="70" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          • <tspan fill="#facc15">东边的</tspan> 房间 (dōngbian de fángjiān)
+        </text>
+        <text x="14" y="88" fill="#94a3b8" font-family="sans-serif" font-size="10.5">
+          = အရှေ့ဘက်ရှိ အခန်း (The room on the east side)
+        </text>
+
+        <text x="14" y="114" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          • <tspan fill="#38bdf8">前边的</tspan> 商店 (qiánbian de shāngdiàn)
+        </text>
+        <text x="14" y="132" fill="#94a3b8" font-family="sans-serif" font-size="10.5">
+          = အရှေ့ဘက်ရှိ စတိုးဆိုင် (The shop in front)
+        </text>
+
+        <text x="14" y="158" fill="#f472b6" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold">
+          • 那个楼就是八号楼。 (ဟောဒီတိုက်သည် တိုက် ၈ ပါပဲ)
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>
