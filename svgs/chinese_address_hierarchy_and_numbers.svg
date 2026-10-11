@@ -1,0 +1,221 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL9_1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cardGradL9_1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="pyr1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#2563eb"/>
+    </linearGradient>
+    <linearGradient id="pyr2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#06b6d4"/>
+      <stop offset="100%" stop-color="#0891b2"/>
+    </linearGradient>
+    <linearGradient id="pyr3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="pyr4" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="pyr5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <filter id="shadowL9_1" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL9_1)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 22)">
+    <text x="400" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      တရုတ်လိပ်စာစနစ်နှင့် အဆောက်အအုံ/အခန်းနံပါတ် (Address &amp; Room Numbering System)
+    </text>
+    <text x="400" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      အကြီးဆုံးမှ အသေးဆုံးသို့ စီစဉ်ပုံ (Macro ➔ Micro) • "几" နှင့် "多少" ကွာခြားချက် • အခန်းနံပါတ် ဖတ်ရှုနည်း
+    </text>
+  </g>
+
+  <!-- Section 1: Macro-to-Micro Hierarchy Flow -->
+  <g transform="translate(40, 80)">
+    <rect width="800" height="230" rx="14" fill="url(#cardGradL9_1)" stroke="#0ea5e9" stroke-width="1.2" filter="url(#shadowL9_1)"/>
+    
+    <text x="24" y="26" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">
+      🗺️ ၁။ တရုတ်လိပ်စာ ရွှေစည်းမျဉ်း : အကြီးဆုံး ➔ အလယ်အလတ် ➔ အသေးဆုံး (Macro ➔ Micro)
+    </text>
+    <text x="24" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11.5">
+      မြန်မာ/အနောက်တိုင်းမှာ "အခန်း ➔ တိုက် ➔ လမ်း ➔ မြို့" စီစဉ်သော်လည်း တရုတ်တွင် ပြောင်းပြန်ဖြစ်သည်:
+    </text>
+
+    <!-- Flow Steps -->
+    <g transform="translate(20, 56)">
+      <!-- Step 1: City -->
+      <rect x="0" y="0" width="135" height="74" rx="8" fill="url(#pyr1)" opacity="0.95"/>
+      <text x="67" y="22" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">北京 / 上海</text>
+      <text x="67" y="38" fill="#dbeafe" font-family="sans-serif" font-size="11" text-anchor="middle">Běijīng / Shànghǎi</text>
+      <text x="67" y="58" fill="#fef08a" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">၁။ မြို့ (City)</text>
+
+      <!-- Arrow 1 -->
+      <text x="146" y="42" fill="#38bdf8" font-size="18" font-weight="bold">➔</text>
+
+      <!-- Step 2: Road & Street No -->
+      <rect x="160" y="0" width="145" height="74" rx="8" fill="url(#pyr2)" opacity="0.95"/>
+      <text x="232" y="22" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">学院路 25号</text>
+      <text x="232" y="38" fill="#cffafe" font-family="sans-serif" font-size="11" text-anchor="middle">Xuéyuàn Lù èrshíwǔ hào</text>
+      <text x="232" y="58" fill="#fef08a" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">၂။ လမ်း + အမှတ်</text>
+
+      <!-- Arrow 2 -->
+      <text x="316" y="42" fill="#06b6d4" font-size="18" font-weight="bold">➔</text>
+
+      <!-- Step 3: Building -->
+      <rect x="330" y="0" width="130" height="74" rx="8" fill="url(#pyr3)" opacity="0.95"/>
+      <text x="395" y="22" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">9号楼 / 宿舍</text>
+      <text x="395" y="38" fill="#d1fae5" font-family="sans-serif" font-size="11" text-anchor="middle">jiǔ hào lóu / sùshè</text>
+      <text x="395" y="58" fill="#fef08a" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">၃။ တိုက်အမှတ်</text>
+
+      <!-- Arrow 3 -->
+      <text x="471" y="42" fill="#10b981" font-size="18" font-weight="bold">➔</text>
+
+      <!-- Step 4: Floor -->
+      <rect x="485" y="0" width="125" height="74" rx="8" fill="url(#pyr4)" opacity="0.95"/>
+      <text x="547" y="22" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">3层 / 2层</text>
+      <text x="547" y="38" fill="#fef3c7" font-family="sans-serif" font-size="11" text-anchor="middle">sān céng / èr céng</text>
+      <text x="547" y="58" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">၄။ အထပ် (Floor)</text>
+
+      <!-- Arrow 4 -->
+      <text x="621" y="42" fill="#f59e0b" font-size="18" font-weight="bold">➔</text>
+
+      <!-- Step 5: Room -->
+      <rect x="635" y="0" width="125" height="74" rx="8" fill="url(#pyr5)" opacity="0.95"/>
+      <text x="697" y="22" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">308 房间</text>
+      <text x="697" y="38" fill="#fce7f3" font-family="sans-serif" font-size="11" text-anchor="middle">sān líng bā fángjiān</text>
+      <text x="697" y="58" fill="#fef08a" font-family="sans-serif" font-size="11" font-weight="bold" text-anchor="middle">၅။ အခန်းအမှတ်</text>
+    </g>
+
+    <!-- Complete Example Banner -->
+    <g transform="translate(20, 145)">
+      <rect width="760" height="65" rx="8" fill="#0f172a" stroke="#38bdf8" stroke-width="1"/>
+      <text x="16" y="24" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold">
+        လက်တွေ့ဥပမာ (Full Address): <tspan fill="#facc15">北京学院路25号 9号楼 308房间</tspan>
+      </text>
+      <text x="16" y="44" fill="#e2e8f0" font-family="sans-serif" font-size="12">
+        မြန်မာပြန်: ပေကျင်းမြို့၊ ရှုယ်ယွမ်လမ်း၊ အမှတ် ၂၅၊ အဆောက်အအုံအမှတ် ၉၊ အခန်းအမှတ် ၃၀၈။
+      </text>
+      <text x="16" y="57" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        💡 သတိပြုရန်: နေထိုင်သည်ကို ဖော်ပြရာတွင် "在...住" (သို့မဟုတ်) "住在..." ပုံစံနှစ်မျိုးလုံး သုံးနိုင်သည်!
+      </text>
+    </g>
+  </g>
+
+  <!-- Section 2: "几" vs "多少" & Reading Numbers (အောက်ပိုင်း) -->
+  <g transform="translate(40, 325)">
+    <!-- Left Card: 几 vs 多少 -->
+    <g transform="translate(0, 0)">
+      <rect width="390" height="290" rx="14" fill="url(#cardGradL9_1)" stroke="#a855f7" stroke-width="1.2" filter="url(#shadowL9_1)"/>
+      <text x="20" y="26" fill="#c084fc" font-family="sans-serif" font-size="14" font-weight="bold">
+        🔢 ၂။ "几" နှင့် "多少" ကွာခြားချက် (Number Inquiry)
+      </text>
+
+      <!-- 几 Subcard -->
+      <g transform="translate(16, 42)">
+        <rect width="358" height="105" rx="8" fill="#3b0764" stroke="#9333ea" stroke-width="1"/>
+        <text x="14" y="22" fill="#e9d5ff" font-family="'Noto Sans SC', sans-serif" font-size="13.5" font-weight="bold">
+          幾 (jǐ) : ၁၀ အောက် ခန့်မှန်းသောအခါ
+        </text>
+        <text x="14" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11.5">
+          • အဆောက်အအုံ အမှတ်များသည် ပုံမှန်အားဖြင့် ၁၀ အောက် ဖြစ်လေ့ရှိ:
+        </text>
+        <text x="14" y="64" fill="#facc15" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold">
+          几号楼？ ➔ 九号楼 (jiǔ hào lóu)
+        </text>
+        <text x="14" y="85" fill="#f1f5f9" font-family="sans-serif" font-size="11">
+          (ဘယ်နှစ်နံပါတ် တိုက်လဲ? ➔ နံပါတ် ၉ တိုက်ပါ)
+        </text>
+        <text x="14" y="99" fill="#a855f7" font-family="sans-serif" font-size="10.5">
+          စည်းမျဉ်း: "几" နောက်တွင် အရေအတွက်ပြစကားလုံး (量词/号) အမြဲကပ်ရသည်
+        </text>
+      </g>
+
+      <!-- 多少 Subcard -->
+      <g transform="translate(16, 160)">
+        <rect width="358" height="115" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+        <text x="14" y="22" fill="#c7d2fe" font-family="'Noto Sans SC', sans-serif" font-size="13.5" font-weight="bold">
+          多少 (duōshao) : ၁၀ အထက် သို့မဟုတ် အများ
+        </text>
+        <text x="14" y="42" fill="#cbd5e1" font-family="sans-serif" font-size="11.5">
+          • အခန်းနံပါတ်များသည် ဆယ်ဂဏန်း၊ ရာဂဏန်း အထိ ရှိနိုင်:
+        </text>
+        <text x="14" y="64" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold">
+          多少号房间？ ➔ 308房间 (sān líng bā)
+        </text>
+        <text x="14" y="85" fill="#f1f5f9" font-family="sans-serif" font-size="11">
+          (အခန်းနံပါတ် ဘယ်လောက်လဲ? ➔ အခန်း ၃၀၈ ပါ)
+        </text>
+        <text x="14" y="103" fill="#818cf8" font-family="sans-serif" font-size="10.5">
+          စည်းမျဉ်း: "多少" နောက်တွင် classifier မပါဘဲလည်း သုံးနိုင်သည်
+        </text>
+      </g>
+    </g>
+
+    <!-- Right Card: Room & Building Reading Rules -->
+    <g transform="translate(410, 0)">
+      <rect width="390" height="290" rx="14" fill="url(#cardGradL9_1)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL9_1)"/>
+      <text x="20" y="26" fill="#34d399" font-family="sans-serif" font-size="14" font-weight="bold">
+        🚪 ၃။ အခန်းနံပါတ် ဖတ်ရှုခြင်း အထူးစည်းမျဉ်းများ
+      </text>
+
+      <g transform="translate(16, 42)">
+        <!-- Rule 1: Single Digits -->
+        <rect width="358" height="74" rx="8" fill="#064e3b" stroke="#059669" stroke-width="1"/>
+        <text x="14" y="20" fill="#6ee7b7" font-family="sans-serif" font-size="12" font-weight="bold">
+          (က) ဂဏန်းတစ်လုံးချင်း စီဖတ်ရသည် (Digit by Digit)
+        </text>
+        <text x="14" y="40" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold">
+          308 ➔ <tspan fill="#facc15">三零八</tspan> (sān líng bā)
+        </text>
+        <text x="14" y="58" fill="#d1fae5" font-family="sans-serif" font-size="11">
+          ❌ 三百零八 ဟု မဖတ်ရ! အခန်း/ဖုန်းနံပါတ်ကို တစ်လုံးချင်းစီ ခေါ်သည်!
+        </text>
+      </g>
+
+      <g transform="translate(16, 126)">
+        <!-- Rule 2: Omission of 号 -->
+        <rect width="358" height="74" rx="8" fill="#14532d" stroke="#16a34a" stroke-width="1"/>
+        <text x="14" y="20" fill="#86efac" font-family="sans-serif" font-size="12" font-weight="bold">
+          (ခ) ၃ လုံးနှင့်အထက် ဖြစ်ပါက "号" ဖြုတ်လေ့ရှိသည်
+        </text>
+        <text x="14" y="40" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • ဂဏန်း ၁~၂ လုံး: <tspan fill="#facc15" font-weight="bold">9号楼, 23号房间</tspan> ("号" မဖြုတ်ရ)
+        </text>
+        <text x="14" y="58" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5">
+          • ဂဏန်း ၃ လုံးနှင့်အထက်: <tspan fill="#38bdf8" font-weight="bold">308房间, 2032房间</tspan> ("号" ဖြုတ်နိုင်)
+        </text>
+      </g>
+
+      <g transform="translate(16, 210)">
+        <!-- Rule 3: 1 read as yāo -->
+        <rect width="358" height="66" rx="8" fill="#0f172a" stroke="#334155" stroke-width="1"/>
+        <text x="14" y="20" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">
+          (ဂ) "၁" ဂဏန်းကို အသံကွဲပြားစေရန် "yāo" ဟု ခေါ်ဆိုနိုင်
+        </text>
+        <text x="14" y="40" fill="#f8fafc" font-family="sans-serif" font-size="11.5">
+          ဥပမာ: 101 အခန်းကို <tspan fill="#facc15" font-weight="bold">yāo líng yāo (幺零幺)</tspan> ဟု အသံမမှားစေရန် ဖတ်သည်။
+        </text>
+        <text x="14" y="56" fill="#94a3b8" font-family="sans-serif" font-size="10.5">
+          (ဖုန်းနံပါတ်၊ အခန်းနံပါတ်၊ ဘတ်စ်ကားနံပါတ်များတွင် အသုံးများ)
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

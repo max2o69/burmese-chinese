@@ -1,0 +1,188 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGradL9_2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1e38"/>
+    </linearGradient>
+    <linearGradient id="cardGradL9_2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <filter id="shadowL9_2" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="880" height="640" rx="18" fill="url(#bgGradL9_2)" stroke="#334155" stroke-width="2"/>
+
+  <!-- Header Section -->
+  <g transform="translate(40, 22)">
+    <text x="400" y="24" fill="#38bdf8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">
+      ဆင့်ကဲကြိယာ ဝါကျဖွဲ့စည်းပုံ (Serial Verb Constructions - 连动句)
+    </text>
+    <text x="400" y="46" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" text-anchor="middle">
+      ကတ္တားတစ်ခုတည်းက ကြိယာ (၂) ခု ဆင့်ကဲလုပ်ဆောင်ခြင်း • ကြိယာအရှေ့ အထူးပြုစကားလုံး (状语 - Adverbial Adjuncts)
+    </text>
+  </g>
+
+  <!-- Section 1: The Core Formula Architecture -->
+  <g transform="translate(40, 80)">
+    <rect width="800" height="235" rx="14" fill="url(#cardGradL9_2)" stroke="#10b981" stroke-width="1.2" filter="url(#shadowL9_2)"/>
+    
+    <text x="24" y="26" fill="#10b981" font-family="sans-serif" font-size="14" font-weight="bold">
+      ⚡ ၁။ 连动句 (Liándòngjù) အခြေခံ ဖွဲ့စည်းမှု ဖော်မြူလာ
+    </text>
+    <text x="24" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11.5">
+      ပထမကြိယာ (V1) သည် ရွေ့လျားသွားလာခြင်း သို့မဟုတ် နည်းလမ်းဖြစ်ပြီး၊ ဒုတိယကြိယာ (V2) သည် ရည်ရွယ်ချက် ဖြစ်သည်:
+    </text>
+
+    <!-- Formula Visual Blocks -->
+    <g transform="translate(20, 56)">
+      <!-- Subject Block -->
+      <rect x="0" y="0" width="130" height="72" rx="8" fill="#1e293b" stroke="#64748b" stroke-width="1"/>
+      <text x="65" y="24" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold" text-anchor="middle">主语 (Subject)</text>
+      <text x="65" y="44" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">我 / 大卫</text>
+      <text x="65" y="62" fill="#94a3b8" font-family="sans-serif" font-size="10.5" text-anchor="middle">ကတ္တား</text>
+
+      <text x="142" y="42" fill="#64748b" font-size="20" font-weight="bold">+</text>
+
+      <!-- Verb 1 Block -->
+      <rect x="160" y="0" width="220" height="72" rx="8" fill="#064e3b" stroke="#10b981" stroke-width="1.2"/>
+      <text x="270" y="22" fill="#6ee7b7" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">动词 1 (Verb 1 + နေရာ/ပစ္စည်း)</text>
+      <text x="270" y="44" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">去邮局 / 来我家</text>
+      <text x="270" y="62" fill="#a7f3d0" font-family="sans-serif" font-size="10.5" text-anchor="middle">အဆင့် (၁) : သွားသည် / လာသည်</text>
+
+      <text x="392" y="42" fill="#10b981" font-size="20" font-weight="bold">+</text>
+
+      <!-- Verb 2 Block -->
+      <rect x="410" y="0" width="220" height="72" rx="8" fill="#431407" stroke="#f97316" stroke-width="1.2"/>
+      <text x="520" y="22" fill="#fdba74" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">动词 2 (Verb 2 + ရည်ရွယ်ချက်)</text>
+      <text x="520" y="44" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" text-anchor="middle">买邮票 / 玩儿</text>
+      <text x="520" y="62" fill="#fed7aa" font-family="sans-serif" font-size="10.5" text-anchor="middle">အဆင့် (၂) : ရည်ရွယ်ချက် လုပ်ဆောင်မှု</text>
+
+      <text x="642" y="42" fill="#f97316" font-size="20" font-weight="bold">=</text>
+
+      <!-- Meaning Block -->
+      <rect x="660" y="0" width="100" height="72" rx="8" fill="#1e1b4b" stroke="#818cf8" stroke-width="1"/>
+      <text x="710" y="24" fill="#c7d2fe" font-family="sans-serif" font-size="11.5" font-weight="bold" text-anchor="middle">မြန်မာပြန်</text>
+      <text x="710" y="45" fill="#facc15" font-family="sans-serif" font-size="12" font-weight="bold" text-anchor="middle">...ပြီး...</text>
+      <text x="710" y="62" fill="#e0e7ff" font-family="sans-serif" font-size="10" text-anchor="middle">တိုက်ရိုက်တူညီ</text>
+    </g>
+
+    <!-- Burmese Comparison Banner -->
+    <g transform="translate(20, 142)">
+      <rect width="760" height="74" rx="8" fill="#0f172a" stroke="#10b981" stroke-width="1"/>
+      <text x="16" y="22" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="13.5" font-weight="bold">
+        🇲🇲 မြန်မာသဒ္ဒါနှင့် ၁၀၀% ထပ်တူကျပုံ နှိုင်းယှဉ်ချက်:
+      </text>
+      <text x="16" y="42" fill="#f8fafc" font-family="'Noto Sans SC', sans-serif" font-size="13">
+        🇨🇳 တရုတ်: 我 <tspan fill="#6ee7b7" font-weight="bold">去邮局</tspan> <tspan fill="#fdba74" font-weight="bold">买邮票</tspan>。 (Wǒ qù yóujú mǎi yóupiào.)
+      </text>
+      <text x="16" y="62" fill="#e2e8f0" font-family="sans-serif" font-size="12">
+        🇲🇲 မြန်မာ: ငါ <tspan fill="#6ee7b7" font-weight="bold">စာတိုက်ကိုသွားပြီး</tspan> <tspan fill="#fdba74" font-weight="bold">တံဆိပ်ခေါင်းဝယ်မယ်</tspan>။ (အစီအစဉ် တိကျစွာ ထပ်တူကျပါသည်!)
+      </text>
+    </g>
+  </g>
+
+  <!-- Section 2: Adverbial Adjuncts (状语) & Key Examples -->
+  <g transform="translate(40, 330)">
+    <!-- Left Card: 状语 (Adverbial Placement) -->
+    <g transform="translate(0, 0)">
+      <rect width="390" height="285" rx="14" fill="url(#cardGradL9_2)" stroke="#ec4899" stroke-width="1.2" filter="url(#shadowL9_2)"/>
+      <text x="20" y="26" fill="#f472b6" font-family="sans-serif" font-size="14" font-weight="bold">
+        🎯 ၂။ 状语 (ကြိယာအရှေ့ အထူးပြု စကားလုံးများ)
+      </text>
+      <text x="20" y="44" fill="#94a3b8" font-family="sans-serif" font-size="11">
+        တရုတ်ဘာသာတွင် ကြိယာကို အထူးပြုသောစကားလုံး အားလုံးသည် ကြိယာအရှေ့တွင် ရှိရသည်:
+      </text>
+
+      <!-- Subcard 1: Frequency & Manner (常, 一起) -->
+      <g transform="translate(16, 56)">
+        <rect width="358" height="66" rx="8" fill="#500724" stroke="#db2777" stroke-width="1"/>
+        <text x="14" y="20" fill="#fbcfe8" font-family="sans-serif" font-size="12" font-weight="bold">
+          (က) အကြိမ်အရေအတွက် / အတူတကွ (常, 一起)
+        </text>
+        <text x="14" y="40" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          她 <tspan fill="#facc15">常</tspan> 去我家玩儿。 | 我们 <tspan fill="#facc15">一起</tspan> 去吧。
+        </text>
+        <text x="14" y="56" fill="#fce7f3" font-family="sans-serif" font-size="10.5">
+          (သူမ မကြာခဏ လာလည်တယ် / ငါတို့ အတူတူ သွားကြစို့)
+        </text>
+      </g>
+
+      <!-- Subcard 2: Place & Preposition (在...) -->
+      <g transform="translate(16, 130)">
+        <rect width="358" height="66" rx="8" fill="#311042" stroke="#a21caf" stroke-width="1"/>
+        <text x="14" y="20" fill="#f0abfc" font-family="sans-serif" font-size="12" font-weight="bold">
+          (ခ) နေရာပြ ဝိဘတ်တွဲ (在 + နေရာ)
+        </text>
+        <text x="14" y="40" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          他姐姐 <tspan fill="#38bdf8">在银行</tspan> 工作。
+        </text>
+        <text x="14" y="56" fill="#fdf4ff" font-family="sans-serif" font-size="10.5">
+          (သူ့အစ်မသည် ဘဏ်တွင် အလုပ်လုပ်သည်)
+        </text>
+      </g>
+
+      <!-- Subcard 3: Speed & Manner (快) -->
+      <g transform="translate(16, 204)">
+        <rect width="358" height="66" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="1"/>
+        <text x="14" y="20" fill="#c7d2fe" font-family="sans-serif" font-size="12" font-weight="bold">
+          (ဂ) မြန်မြန်ဆန်ဆန် / အချိန် (快, 上午)
+        </text>
+        <text x="14" y="40" fill="#ffffff" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          你们 <tspan fill="#fbbf24">快</tspan> 来！ | 我们 <tspan fill="#fbbf24">上午</tspan> 去。
+        </text>
+        <text x="14" y="56" fill="#e0e7ff" font-family="sans-serif" font-size="10.5">
+          (မင်းတို့ အမြန်လာကြ / ငါတို့ မနက်ပိုင်း သွားမယ်)
+        </text>
+      </g>
+    </g>
+
+    <!-- Right Card: 4 Classic Case Examples -->
+    <g transform="translate(410, 0)">
+      <rect width="390" height="285" rx="14" fill="url(#cardGradL9_2)" stroke="#f59e0b" stroke-width="1.2" filter="url(#shadowL9_2)"/>
+      <text x="20" y="26" fill="#fbbf24" font-family="sans-serif" font-size="14" font-weight="bold">
+        🌟 ၃။ သင်ခန်းစာ (၉) အသုံးအများဆုံး စံပြဝါကျများ
+      </text>
+
+      <g transform="translate(16, 42)">
+        <!-- Ex 1 -->
+        <rect width="358" height="52" rx="6" fill="#1c1917" stroke="#78716c" stroke-width="0.8"/>
+        <text x="12" y="20" fill="#facc15" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          1. 欢迎你去玩儿。
+        </text>
+        <text x="12" y="36" fill="#94a3b8" font-family="sans-serif" font-size="10.5">Huānyíng nǐ qù wánr. (လာလည်ဖို့ ကြိုဆိုပါတယ်)</text>
+      </g>
+
+      <g transform="translate(16, 100)">
+        <!-- Ex 2 -->
+        <rect width="358" height="52" rx="6" fill="#1c1917" stroke="#78716c" stroke-width="0.8"/>
+        <text x="12" y="20" fill="#38bdf8" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          2. 明天我去她家看她。
+        </text>
+        <text x="12" y="36" fill="#94a3b8" font-family="sans-serif" font-size="10.5">Míngtiān wǒ qù tā jiā kàn tā. (မနက်ဖြန် သူ့အိမ်သွားကြည့်မယ်)</text>
+      </g>
+
+      <g transform="translate(16, 158)">
+        <!-- Ex 3 -->
+        <rect width="358" height="52" rx="6" fill="#1c1917" stroke="#78716c" stroke-width="0.8"/>
+        <text x="12" y="20" fill="#34d399" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          3. 星期天大卫来我家玩儿。
+        </text>
+        <text x="12" y="36" fill="#94a3b8" font-family="sans-serif" font-size="10.5">Xīngqītiān Dàwèi lái wǒ jiā wánr. (တနင်္ဂနွေနေ့ ဒေးဗစ် အိမ်လာလည်မယ်)</text>
+      </g>
+
+      <g transform="translate(16, 216)">
+        <!-- Ex 4 -->
+        <rect width="358" height="52" rx="6" fill="#1c1917" stroke="#78716c" stroke-width="0.8"/>
+        <text x="12" y="20" fill="#f472b6" font-family="'Noto Sans SC', sans-serif" font-size="12.5" font-weight="bold">
+          4. 你不认识路，我们一起去吧。
+        </text>
+        <text x="12" y="36" fill="#94a3b8" font-family="sans-serif" font-size="10.5">Nǐ bú rènshi lù, wǒmen yìqǐ qù ba. (မင်းလမ်းမသိဘူး အတူသွားကြစို့)</text>
+      </g>
+    </g>
+  </g>
+</svg>
