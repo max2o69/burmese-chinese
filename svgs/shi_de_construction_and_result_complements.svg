@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad15Gram" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2e1065"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#034e7b"/>
+    </linearGradient>
+    <linearGradient id="cardGradShiDe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardGradComp" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#082f49" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow15Gram" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="950" height="560" rx="24" fill="url(#bgGrad15Gram)"/>
+  <rect x="2" y="2" width="946" height="556" rx="22" fill="none" stroke="#a855f7" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Header -->
+  <g transform="translate(40, 45)">
+    <rect x="0" y="0" width="170" height="26" rx="13" fill="#a855f7" fill-opacity="0.3"/>
+    <text x="12" y="18" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#d8b4fe">第15课 核心语法双引擎</text>
+    <text x="0" y="55" font-family="'Noto Sans SC', sans-serif" font-size="24" font-weight="bold" fill="#ffffff">“是……的”结构 与 结果补语全解</text>
+    <text x="0" y="78" font-family="'Noto Sans Myanmar', sans-serif" font-size="14" fill="#e9d5ff">ပိုင်ဆိုင်မှု/ဂုဏ်သတ္တိပြ "的" ဝါကျဖွဲ့စည်းပုံ နှင့် အကျိုးရလဒ်ပြ အဖြည့်ပုဒ် (Result Complement)</text>
+  </g>
+
+  <!-- Left Card: "是……的" Structure -->
+  <g transform="translate(40, 140)" filter="url(#shadow15Gram)">
+    <rect width="425" height="380" rx="18" fill="url(#cardGradShiDe)" stroke="#a855f7" stroke-width="1.5"/>
+    
+    <g transform="translate(25, 25)">
+      <rect x="0" y="0" width="125" height="24" rx="6" fill="#7e22ce"/>
+      <text x="10" y="16" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">语法一 · “的”字结构</text>
+      
+      <text x="135" y="18" font-family="'Noto Sans Myanmar', sans-serif" font-size="13" font-weight="bold" fill="#d8b4fe">နာမ်အဖြစ် လွတ်လပ်စွာ ရပ်တည်ပုံ</text>
+      <text x="0" y="46" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#cbd5e1" width="375">
+        နာမ်/နာမ်စား/နာမဝိသေသန နောက်တွင် "的" ပေါင်းစပ်၍ နာမ်ဂုဏ်သတ္တိဆောင်သော စကားစု ဖြစ်လာသည်:
+      </text>
+
+      <!-- Diagram Formula -->
+      <g transform="translate(0, 60)">
+        <rect width="375" height="60" rx="10" fill="#0f172a" stroke="#6b21a8"/>
+        
+        <rect x="15" y="10" width="130" height="40" rx="6" fill="#4c1d95" stroke="#a855f7"/>
+        <text x="80" y="28" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">代词 / 形容词 / 名词</text>
+        <text x="80" y="42" font-family="sans-serif" font-size="10" fill="#d8b4fe" text-anchor="middle">我 / 新 / 玛丽</text>
+
+        <text x="165" y="35" font-family="sans-serif" font-size="16" font-weight="bold" fill="#c084fc" text-anchor="middle">+</text>
+
+        <rect x="185" y="10" width="55" height="40" rx="6" fill="#7e22ce" stroke="#fde047" stroke-width="1.5"/>
+        <text x="212" y="35" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#fef08a" text-anchor="middle">的</text>
+
+        <text x="255" y="35" font-family="sans-serif" font-size="16" font-weight="bold" fill="#c084fc" text-anchor="middle">=</text>
+
+        <rect x="275" y="10" width="85" height="40" rx="6" fill="#4c1d95" stroke="#a855f7"/>
+        <text x="317" y="28" font-family="'Noto Sans SC', sans-serif" font-size="11" font-weight="bold" fill="#ffffff" text-anchor="middle">名词性成分</text>
+        <text x="317" y="42" font-family="sans-serif" font-size="9" fill="#d8b4fe" text-anchor="middle">我的 / 新的</text>
+      </g>
+
+      <!-- Sentence Examples -->
+      <g transform="translate(0, 135)">
+        <!-- Ex 1 -->
+        <rect width="375" height="52" rx="8" fill="#1e1b4b" stroke="#581c87"/>
+        <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">这个本子是 <tspan fill="#fef08a">我的</tspan>。</text>
+        <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#e9d5ff">ဒီစာအုပ်က ကျွန်တော့်စာအုပ် (ကျွန်တော့်ဟာ) ဖြစ်သည် (ပိုင်ဆိုင်မှု)</text>
+
+        <!-- Ex 2 -->
+        <g transform="translate(0, 60)">
+          <rect width="375" height="52" rx="8" fill="#1e1b4b" stroke="#581c87"/>
+          <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">那套邮票是 <tspan fill="#fef08a">新的</tspan>。</text>
+          <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#e9d5ff">ဟိုတံဆိပ်ခေါင်းတစ်စုံက အသစ် ဖြစ်သည် (ဂုဏ်သတ္တိ)</text>
+        </g>
+
+        <!-- Ex 3 -->
+        <g transform="translate(0, 120)">
+          <rect width="375" height="52" rx="8" fill="#1e1b4b" stroke="#581c87"/>
+          <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="14" font-weight="bold" fill="#ffffff">这件毛衣 <tspan fill="#f43f5e">不是</tspan> 玛丽的。</text>
+          <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#e9d5ff">ဒီဆွယ်တာအင်္ကျီက မေရီ့ဟာ မဟုတ်ပါ (ငြင်းပယ်ဝါကျ)</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- Right Card: Complements of Result (结果补语) -->
+  <g transform="translate(485, 140)" filter="url(#shadow15Gram)">
+    <rect width="425" height="380" rx="18" fill="url(#cardGradComp)" stroke="#0284c7" stroke-width="1.5"/>
+    
+    <g transform="translate(25, 25)">
+      <rect x="0" y="0" width="125" height="24" rx="6" fill="#0369a1"/>
+      <text x="10" y="16" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#ffffff">语法二 · 结果补语</text>
+      
+      <text x="135" y="18" font-family="'Noto Sans Myanmar', sans-serif" font-size="13" font-weight="bold" fill="#7dd3fc">အကျိုးရလဒ်ပြ အဖြည့်ပုဒ်</text>
+      <text x="0" y="46" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#cbd5e1" width="375">
+        ကြိယာပြုလုပ်မှုကြောင့် ထွက်ပေါ်လာသော အကျိုးရလဒ်ကို ဖော်ပြသည် (V + Result):
+      </text>
+
+      <!-- Matrix of Complement Types -->
+      <g transform="translate(0, 60)">
+        <rect width="375" height="110" rx="10" fill="#0f172a" stroke="#075985"/>
+        
+        <!-- Type A: V + 通 / 完 -->
+        <g transform="translate(10, 10)">
+          <rect width="170" height="42" rx="6" fill="#0c4a6e"/>
+          <text x="10" y="20" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#38bdf8">打通 / 没打通</text>
+          <text x="10" y="34" font-family="'Noto Sans Myanmar', sans-serif" font-size="10" fill="#bae6fd">ဖုန်းပေါက်သည် / မပေါက်ပါ</text>
+        </g>
+        <g transform="translate(190, 10)">
+          <rect width="175" height="42" rx="6" fill="#0c4a6e"/>
+          <text x="10" y="20" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#38bdf8">花完 / 看完</text>
+          <text x="10" y="34" font-family="'Noto Sans Myanmar', sans-serif" font-size="10" fill="#bae6fd">သုံးစွဲပြီးသည် / ဖတ်ပြီးသည်</text>
+        </g>
+
+        <!-- Type B: V + 到 (4 Usages) -->
+        <g transform="translate(10, 58)">
+          <rect width="355" height="44" rx="6" fill="#0369a1" stroke="#38bdf8" stroke-width="1"/>
+          <text x="10" y="18" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#fef08a">动词 + 到 (နေရာ/အချိန်/ပမာဏ ရောက်ရှိခြင်း):</text>
+          <text x="10" y="34" font-family="'Noto Sans SC', sans-serif" font-size="11" fill="#ffffff">回到北京 · 学到第15课 · 工作到十点 · 买到书</text>
+        </g>
+      </g>
+
+      <!-- Negative Rule Box -->
+      <g transform="translate(0, 185)">
+        <rect width="375" height="85" rx="8" fill="#082f49" stroke="#0284c7"/>
+        <text x="12" y="24" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#fb7185">🚫 否定形式 (Negative Form): 没(有) + 动词 + 补语</text>
+        <text x="12" y="46" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#ffffff">我 <tspan fill="#f43f5e">没买到</tspan> 那本书。 / 大卫 <tspan fill="#f43f5e">没找到</tspan> 玛丽。</text>
+        <text x="12" y="66" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#7dd3fc">
+          စာအုပ် မဝယ်နိုင်ခဲ့ပါ / ဒေးဗစ် မေရီ့ကို ရှာမတွေ့ခဲ့ပါ (不 မသုံးရ၊ 没 သုံးရသည်)
+        </text>
+      </g>
+    </g>
+  </g>
+</svg>

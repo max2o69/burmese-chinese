@@ -1,0 +1,119 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 950 560" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad15" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0c4a6e"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="cardGradPost" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0369a1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#082f49" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardGradPhoto" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284c7" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0c4a6e" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="cardGradPhone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#1e1b4b" stop-opacity="0.9"/>
+    </linearGradient>
+    <filter id="shadow15" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="950" height="560" rx="24" fill="url(#bgGrad15)"/>
+  <rect x="2" y="2" width="946" height="556" rx="22" fill="none" stroke="#38bdf8" stroke-opacity="0.3" stroke-width="2"/>
+
+  <!-- Header -->
+  <g transform="translate(40, 45)">
+    <rect x="0" y="0" width="165" height="26" rx="13" fill="#0284c7" fill-opacity="0.3"/>
+    <text x="12" y="18" font-family="'Noto Sans SC', sans-serif" font-size="12" font-weight="bold" fill="#38bdf8">第15课 场景词汇与生活交际</text>
+    <text x="0" y="55" font-family="'Noto Sans SC', sans-serif" font-size="24" font-weight="bold" fill="#ffffff">邮政明信片、拍照摄影与手机通讯</text>
+    <text x="0" y="78" font-family="'Noto Sans Myanmar', sans-serif" font-size="14" fill="#bae6fd">ပို့စကတ်ဝယ်ခြင်း၊ ဓာတ်ပုံရိုက်ခြင်း နှင့် မိုဘိုင်းဖုန်း ဆက်သွယ်ရေး အသုံးအနှုန်းများ</text>
+  </g>
+
+  <!-- 3 Pillar Scenes -->
+  <!-- Scene 1: Post Office / Postcards -->
+  <g transform="translate(40, 140)" filter="url(#shadow15)">
+    <rect width="270" height="225" rx="16" fill="url(#cardGradPost)" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="32" cy="32" r="15" fill="#0284c7"/>
+    <text x="32" y="37" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">📮</text>
+    <text x="58" y="37" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#7dd3fc">邮政 · 明信片</text>
+    
+    <text x="20" y="75" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" fill="#ffffff">这是新出的明信片。</text>
+    <text x="20" y="94" font-family="monospace" font-size="11" fill="#bae6fd">Zhè shì xīn chū de míngxìnpiàn.</text>
+    <text x="20" y="115" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#e0f2fe">ဒါ အသစ်ထွက်တဲ့ ပို့စကတ် ဖြစ်ပါတယ်။</text>
+    
+    <line x1="20" y1="130" x2="250" y2="130" stroke="#0369a1" stroke-width="1"/>
+    <text x="20" y="152" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#bae6fd">ရွေးချယ်ခြင်း: 请帮我挑几种</text>
+    <text x="20" y="172" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#7dd3fc">ရေတွက်ပုံ: 一种买一套 (1 မျိုး 1 စုံ)</text>
+    <text x="20" y="195" font-family="'Noto Sans SC', sans-serif" font-size="11" fill="#fef08a">好看 (လှပသော) / 不错 (မဆိုးဘူး)</text>
+  </g>
+
+  <!-- Scene 2: Park & Photography -->
+  <g transform="translate(340, 140)" filter="url(#shadow15)">
+    <rect width="270" height="225" rx="16" fill="url(#cardGradPhoto)" stroke="#0ea5e9" stroke-width="1.5"/>
+    <circle cx="32" cy="32" r="15" fill="#0284c7"/>
+    <text x="32" y="37" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">📷</text>
+    <text x="58" y="37" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#38bdf8">公园 · 照相摄影</text>
+    
+    <text x="20" y="75" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" fill="#ffffff">我要照张相。</text>
+    <text x="20" y="94" font-family="monospace" font-size="11" fill="#bae6fd">Wǒ yào zhào zhāng xiàng.</text>
+    <text x="20" y="115" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#e0f2fe">ကျွန်မ ဓာတ်ပုံတစ်ပုံ ရိုက်ချင်တယ်ရှင့်။</text>
+    
+    <line x1="20" y1="130" x2="250" y2="130" stroke="#0284c7" stroke-width="1"/>
+    <text x="20" y="152" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#bae6fd">ကိရိယာ: 照相机 (zhàoxiàngjī - ကင်မရာ)</text>
+    <text x="20" y="172" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#38bdf8">ကြိယာခွဲ: 照张相 (照 + 张 + 相)</text>
+    <text x="20" y="195" font-family="'Noto Sans SC', sans-serif" font-size="11" fill="#fef08a">花儿真好看 (ပန်းလေးတွေ အရမ်းလှတယ်)</text>
+  </g>
+
+  <!-- Scene 3: Mobile Communications -->
+  <g transform="translate(640, 140)" filter="url(#shadow15)">
+    <rect width="270" height="225" rx="16" fill="url(#cardGradPhone)" stroke="#6366f1" stroke-width="1.5"/>
+    <circle cx="32" cy="32" r="15" fill="#4f46e5"/>
+    <text x="32" y="37" font-family="sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="middle">📱</text>
+    <text x="58" y="37" font-family="'Noto Sans SC', sans-serif" font-size="16" font-weight="bold" fill="#a5b4fc">手机 · 通讯状态</text>
+    
+    <text x="20" y="75" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" fill="#ffffff">打通 / 关机 / 没电</text>
+    <text x="20" y="94" font-family="monospace" font-size="11" fill="#c7d2fe">Dǎ tōng / Guān jī / Méi diàn</text>
+    <text x="20" y="115" font-family="'Noto Sans Myanmar', sans-serif" font-size="12" fill="#e0e7ff">ဖုန်းလိုင်းပေါက်ခြင်း၊ ဖုန်းပိတ်ထားခြင်း</text>
+    
+    <line x1="20" y1="130" x2="250" y2="130" stroke="#4338ca" stroke-width="1"/>
+    <text x="20" y="152" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#c7d2fe">မေးခွန်း: 你打通电话了吗？</text>
+    <text x="20" y="172" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#a5b4fc">အဖြေ: 没打通，她关机了。</text>
+    <text x="20" y="195" font-family="'Noto Sans SC', sans-serif" font-size="11" fill="#fb7185">手机没电了 (ဖုန်း ဘက်ထရီကုန်ပြီ)</text>
+  </g>
+
+  <!-- Lower Summary Matrix -->
+  <g transform="translate(40, 390)" filter="url(#shadow15)">
+    <rect width="870" height="135" rx="16" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    
+    <text x="25" y="28" font-family="'Noto Sans SC', sans-serif" font-size="15" font-weight="bold" fill="#38bdf8">💡 通讯与生活高频搭配手册 (Practical Collocations)</text>
+    
+    <!-- Mini Card 1: 结果补语 -->
+    <g transform="translate(25, 45)">
+      <rect width="260" height="72" rx="10" fill="#1e293b"/>
+      <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#38bdf8">打通 vs 没打通</text>
+      <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#e2e8f0">ဖုန်းလိုင်းချိတ်ဆက်မိသည် / မချိတ်မိပါ</text>
+      <text x="12" y="58" font-family="monospace" font-size="10" fill="#94a3b8">dǎ tōng / méi dǎ tōng</text>
+    </g>
+
+    <!-- Mini Card 2: 动作对象 介词“给” -->
+    <g transform="translate(305, 45)">
+      <rect width="260" height="72" rx="10" fill="#1e293b"/>
+      <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#a7f3d0">给 + 某人 + 打电话</text>
+      <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#e2e8f0">တစ်စုံတစ်ယောက်ထံသို့ ဖုန်းဆက်သည်</text>
+      <text x="12" y="58" font-family="monospace" font-size="10" fill="#94a3b8">gěi Mǎlì dǎ diànhuà</text>
+    </g>
+
+    <!-- Mini Card 3: 概数“几” -->
+    <g transform="translate(585, 45)">
+      <rect width="260" height="72" rx="10" fill="#1e293b"/>
+      <text x="12" y="22" font-family="'Noto Sans SC', sans-serif" font-size="13" font-weight="bold" fill="#fde047">这几种 (၁၀ အောက် အနည်းငယ်)</text>
+      <text x="12" y="40" font-family="'Noto Sans Myanmar', sans-serif" font-size="11" fill="#e2e8f0">ဒီအမျိုးအစား အနည်းငယ် (Approximation)</text>
+      <text x="12" y="58" font-family="monospace" font-size="10" fill="#94a3b8">zhè jǐ zhǒng / shí jǐ zhāng</text>
+    </g>
+  </g>
+</svg>
